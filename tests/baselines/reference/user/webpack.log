@@ -11,6 +11,7 @@ lib/cache/PackFileCacheStrategy.js(1234,46): error TS2345: Argument of type 'str
 lib/javascript/StartupHelpers.js(51,36): error TS2694: Namespace 'ChunkGraph' has no exported member 'EntryModuleWithChunkGroup'.
 lib/javascript/StartupHelpers.js(129,36): error TS2694: Namespace 'ChunkGraph' has no exported member 'EntryModuleWithChunkGroup'.
 lib/util/deterministicGrouping.js(501,14): error TS2314: Generic type 'GroupedItems' requires 1 type argument(s).
+node_modules/@types/node/globals.d.ts(347,13): error TS2403: Subsequent variable declarations must have the same type.  Variable 'AbortSignal' must be of type '{ new (): AbortSignal; prototype: AbortSignal; abort(): AbortSignal; }', but here has type '{ new (): AbortSignal; prototype: AbortSignal; }'.
 
 
 
