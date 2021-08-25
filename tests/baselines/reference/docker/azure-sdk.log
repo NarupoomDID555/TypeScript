@@ -5,7 +5,7 @@ Rush Multi-Project Build Tool 5.X.X - https://rushjs.io
 Node.js version is 16.7.0 (pre-LTS)
 Starting "rush rebuild"
 Executing a maximum of ?simultaneous processes...
-==[ @azure/dev-tool ]============================================[ 1 of 113 ]==
+==[ @azure/dev-tool ]============================================[ 1 of 114 ]==
 "@azure-rest/agrifood-farming" is blocked by "@azure/dev-tool".
 "@azure-rest/ai-document-translator" is blocked by "@azure/dev-tool".
 "@azure-rest/confidential-ledger" is blocked by "@azure/dev-tool".
@@ -51,6 +51,7 @@ Executing a maximum of ?simultaneous processes...
 "@azure/arm-locks" is blocked by "@azure/dev-tool".
 "@azure/arm-policy" is blocked by "@azure/dev-tool".
 "@azure/arm-resources-subscriptions" is blocked by "@azure/dev-tool".
+"@azure/arm-templatespecs" is blocked by "@azure/dev-tool".
 "@azure/attestation" is blocked by "@azure/dev-tool".
 "@azure/container-registry" is blocked by "@azure/dev-tool".
 "@azure/core-client" is blocked by "@azure/dev-tool".
@@ -116,9 +117,9 @@ Executing a maximum of ?simultaneous processes...
 "@azure/core-xml" is blocked by "@azure/dev-tool".
 "@azure/event-processor-host" is blocked by "@azure/dev-tool".
 "@azure/logger" is blocked by "@azure/dev-tool".
-==[ @azure/eslint-plugin-azure-sdk ]===========================[ 112 of 113 ]==
+==[ @azure/eslint-plugin-azure-sdk ]===========================[ 113 of 114 ]==
 "@azure/core-asynciterator-polyfill" is blocked by "@azure/eslint-plugin-azure-sdk".
-==[ BLOCKED: 111 projects ]====================================================
+==[ BLOCKED: 112 projects ]====================================================
 These projects were blocked by dependencies that failed:
   @azure-rest/agrifood-farming
   @azure-rest/ai-document-translator
@@ -163,6 +164,7 @@ These projects were blocked by dependencies that failed:
   @azure/arm-resources-subscriptions
   @azure/arm-sql
   @azure/arm-storage
+  @azure/arm-templatespecs
   @azure/arm-webpubsub
   @azure/attestation
   @azure/communication-chat
