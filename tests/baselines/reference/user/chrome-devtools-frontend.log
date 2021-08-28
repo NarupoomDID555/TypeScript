@@ -8046,7 +8046,6 @@ node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(180,25)
 node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(211,16): error TS2339: Property 'title' does not exist on type 'Element'.
 node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(213,16): error TS2339: Property 'title' does not exist on type 'Element'.
 node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(215,39): error TS2345: Argument of type 'TemplateStringsArray' is not assignable to parameter of type 'string[]'.
-node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(229,18): error TS2339: Property 'tabIndex' does not exist on type 'Element'.
 node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(254,19): error TS2339: Property 'key' does not exist on type 'Event'.
 node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(256,35): error TS2339: Property 'metaKey' does not exist on type 'Event'.
 node_modules/chrome-devtools-frontend/front_end/perf_ui/FilmStripView.js(263,35): error TS2339: Property 'metaKey' does not exist on type 'Event'.
@@ -13367,7 +13366,6 @@ node_modules/chrome-devtools-frontend/front_end/workspace/Workspace.js(180,15): 
 node_modules/chrome-devtools-frontend/front_end/workspace/Workspace.js(188,15): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
 node_modules/chrome-devtools-frontend/front_end/workspace/Workspace.js(199,15): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
 node_modules/chrome-devtools-frontend/front_end/workspace/Workspace.js(204,15): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
-node_modules/chrome-devtools-frontend/front_end/workspace/Workspace.js(243,32): error TS2352: Conversion of type 'this' to type 'Project' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
 node_modules/chrome-devtools-frontend/front_end/workspace/Workspace.js(243,32): error TS2352: Conversion of type 'this' to type 'Project' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
   Type 'ProjectStore' is missing the following properties from type 'Project': isServiceProject, requestMetadata, requestFileContent, canSetFileContent, and 14 more.
 node_modules/chrome-devtools-frontend/front_end/workspace/Workspace.js(432,27): error TS2339: Property 'valuesArray' does not exist on type 'Map<string, Project>'.
