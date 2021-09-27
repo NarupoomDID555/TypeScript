@@ -1,5 +1,6 @@
 Exit Code: 2
 Standard output:
+node_modules/@types/node/globals.d.ts(72,13): error TS2403: Subsequent variable declarations must have the same type.  Variable 'AbortSignal' must be of type '{ new (): AbortSignal; prototype: AbortSignal; abort(): AbortSignal; }', but here has type '{ new (): AbortSignal; prototype: AbortSignal; }'.
 node_modules/debug/src/browser.js(3,100): error TS2630: Cannot assign to '_typeof' because it is a function.
 node_modules/debug/src/browser.js(3,165): error TS2630: Cannot assign to '_typeof' because it is a function.
 node_modules/debug/src/browser.js(34,74): error TS2339: Property 'type' does not exist on type 'Process'.

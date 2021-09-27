@@ -213,6 +213,7 @@ node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(164,52): error TS2349: This 
   Type 'never' has no call signatures.
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(161,21): error TS2322: Type 'any' is not assignable to type 'never'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(159,13): error TS2339: Property 'extend' does not exist on type '(input: any, options: any) => void'.
+node_modules/@types/node/globals.d.ts(72,13): error TS2403: Subsequent variable declarations must have the same type.  Variable 'AbortSignal' must be of type '{ new (): AbortSignal; prototype: AbortSignal; abort(): AbortSignal; }', but here has type '{ new (): AbortSignal; prototype: AbortSignal; }'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(3,10): error TS2304: Cannot find name 'define'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(3,35): error TS2304: Cannot find name 'define'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(3,48): error TS2304: Cannot find name 'define'.
