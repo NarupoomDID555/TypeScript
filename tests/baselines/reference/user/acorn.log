@@ -1,5 +1,218 @@
 Exit Code: 2
 Standard output:
+node_modules/acorn/acorn/dist/acorn.mjs(4958,17): error TS2339: Property 'tokenizer' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(4951,17): error TS2339: Property 'parseExpressionAt' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(4943,17): error TS2339: Property 'parse' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(4913,8): error TS2339: Property 'acorn' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(4844,9): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(4759,16): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(4660,7): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(4647,9): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(4630,14): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(4615,29): error TS2532: Object is possibly 'undefined'.
+node_modules/acorn/acorn/dist/acorn.mjs(4613,9): error TS2532: Object is possibly 'undefined'.
+node_modules/acorn/acorn/dist/acorn.mjs(4612,12): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.mjs(4611,42): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.mjs(4610,28): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.mjs(4609,23): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.mjs(4592,5): error TS2322: Type 'RegExp' is not assignable to type 'null'.
+node_modules/acorn/acorn/dist/acorn.mjs(4314,43): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(3151,33): error TS2339: Property 'Script_Extensions' does not exist on type '{ General_Category: RegExp; Script: RegExp; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(3151,15): error TS2339: Property 'scx' does not exist on type '{ General_Category: RegExp; Script: RegExp; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(3150,15): error TS2339: Property 'sc' does not exist on type '{ General_Category: RegExp; Script: RegExp; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(3149,15): error TS2339: Property 'gc' does not exist on type '{ General_Category: RegExp; Script: RegExp; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(3147,15): error TS2339: Property 'Script_Extensions' does not exist on type '{ General_Category: RegExp; Script: RegExp; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(2987,11): error TS2554: Expected 5 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2986,11): error TS2554: Expected 5 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2985,11): error TS2554: Expected 5 arguments, but got 4.
+node_modules/acorn/acorn/dist/acorn.mjs(2984,11): error TS2554: Expected 5 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2983,11): error TS2554: Expected 5 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2982,11): error TS2554: Expected 5 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2981,11): error TS2554: Expected 5 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2980,11): error TS2554: Expected 5 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2928,18): error TS2554: Expected 3 arguments, but got 2.
+node_modules/acorn/acorn/dist/acorn.mjs(2820,37): error TS2339: Property 'raisedAt' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn/dist/acorn.mjs(2820,22): error TS2339: Property 'loc' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn/dist/acorn.mjs(2820,7): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn/dist/acorn.mjs(2724,15): error TS2345: Argument of type 'undefined' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(2716,9): error TS2322: Type 'null' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.mjs(2315,23): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(2311,23): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1768,17): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1761,17): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1755,17): error TS2345: Argument of type 'null' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1590,16): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1571,16): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1562,16): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1531,16): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(1353,16): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(1351,16): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(1344,19): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(846,29): error TS2531: Object is possibly 'null'.
+node_modules/acorn/acorn/dist/acorn.mjs(792,41): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(789,25): error TS2531: Object is possibly 'null'.
+node_modules/acorn/acorn/dist/acorn.mjs(762,25): error TS2531: Object is possibly 'null'.
+node_modules/acorn/acorn/dist/acorn.mjs(602,14): error TS2531: Object is possibly 'null'.
+node_modules/acorn/acorn/dist/acorn.mjs(594,14): error TS2531: Object is possibly 'null'.
+node_modules/acorn/acorn/dist/acorn.mjs(579,8): error TS2339: Property 'tokenizer' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(573,8): error TS2339: Property 'parseExpressionAt' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(569,8): error TS2339: Property 'parse' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(565,52): error TS2349: This expression is not callable.
+  Type 'never' has no call signatures.
+node_modules/acorn/acorn/dist/acorn.mjs(562,21): error TS2322: Type 'any' is not assignable to type 'never'.
+node_modules/acorn/acorn/dist/acorn.mjs(560,8): error TS2339: Property 'extend' does not exist on type '(options: any, input: any, startPos: any) => void'.
+node_modules/acorn/acorn/dist/acorn.mjs(555,40): error TS2339: Property 'get' does not exist on type '{ configurable: boolean; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(554,37): error TS2339: Property 'get' does not exist on type '{ configurable: boolean; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(553,31): error TS2339: Property 'get' does not exist on type '{ configurable: boolean; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(552,28): error TS2339: Property 'get' does not exist on type '{ configurable: boolean; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(551,32): error TS2339: Property 'get' does not exist on type '{ configurable: boolean; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(550,31): error TS2339: Property 'get' does not exist on type '{ configurable: boolean; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(432,17): error TS2339: Property 'range' does not exist on type '{ type: string; value: any; start: any; end: any; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(430,17): error TS2339: Property 'loc' does not exist on type '{ type: string; value: any; start: any; end: any; }'.
+node_modules/acorn/acorn/dist/acorn.mjs(416,56): error TS2339: Property 'onComment' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(416,15): error TS2339: Property 'onComment' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(415,23): error TS2339: Property 'onComment' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(413,13): error TS2339: Property 'onToken' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(412,26): error TS2339: Property 'onToken' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(411,23): error TS2339: Property 'onToken' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(409,39): error TS2339: Property 'ecmaVersion' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(409,15): error TS2339: Property 'allowReserved' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(408,15): error TS2339: Property 'allowReserved' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(406,15): error TS2339: Property 'ecmaVersion' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(405,15): error TS2339: Property 'ecmaVersion' does not exist on type '{}'.
+node_modules/acorn/acorn/dist/acorn.mjs(228,12): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(222,10): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(220,11): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(219,9): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(218,9): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(216,12): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(214,8): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(211,13): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(207,14): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(206,14): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(205,11): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(203,11): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(165,20): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(164,13): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(161,8): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(157,11): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(155,11): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(153,13): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(149,8): error TS2554: Expected 2 arguments, but got 1.
+node_modules/acorn/acorn/dist/acorn.mjs(36,32): error TS2322: Type 'null' is not assignable to type 'string'.
+node_modules/acorn/acorn/dist/acorn.mjs(36,1): error TS2322: Type 'null' is not assignable to type 'string'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(436,30): error TS2339: Property 'Property' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(436,6): error TS2339: Property 'MethodDefinition' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(428,6): error TS2339: Property 'ClassBody' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(423,6): error TS2339: Property 'Class' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(422,30): error TS2339: Property 'ClassExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(422,6): error TS2339: Property 'ClassDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(418,6): error TS2339: Property 'TaggedTemplateExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(416,109): error TS2339: Property 'Literal' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(416,91): error TS2339: Property 'Identifier' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(416,59): error TS2339: Property 'ImportNamespaceSpecifier' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(416,29): error TS2339: Property 'ImportDefaultSpecifier' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(416,6): error TS2339: Property 'ImportSpecifier' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(413,6): error TS2339: Property 'ImportExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(404,6): error TS2339: Property 'ImportDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(401,6): error TS2339: Property 'ExportAllDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(396,36): error TS2339: Property 'ExportDefaultDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(396,6): error TS2339: Property 'ExportNamedDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(392,6): error TS2339: Property 'MemberExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(382,27): error TS2339: Property 'CallExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(382,6): error TS2339: Property 'NewExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(377,6): error TS2339: Property 'ConditionalExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(373,34): error TS2339: Property 'AssignmentPattern' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(373,6): error TS2339: Property 'AssignmentExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(369,30): error TS2339: Property 'LogicalExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(369,6): error TS2339: Property 'BinaryExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(366,29): error TS2339: Property 'UpdateExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(366,6): error TS2339: Property 'UnaryExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(365,6): error TS2339: Property 'TemplateElement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(350,6): error TS2339: Property 'TemplateLiteral' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(342,6): error TS2339: Property 'SequenceExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(341,63): error TS2339: Property 'FunctionDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(341,32): error TS2339: Property 'ArrowFunctionExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(341,6): error TS2339: Property 'FunctionExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(333,6): error TS2339: Property 'ObjectExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(326,6): error TS2339: Property 'ArrayExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(325,41): error TS2339: Property 'MetaProperty' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(325,28): error TS2339: Property 'Super' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(325,6): error TS2339: Property 'ThisExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(324,6): error TS2339: Property 'Expression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(311,6): error TS2339: Property 'ObjectPattern' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(304,6): error TS2339: Property 'ArrayPattern' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(303,6): error TS2339: Property 'RestElement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(302,6): error TS2339: Property 'MemberPattern' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(301,6): error TS2339: Property 'VariablePattern' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(293,6): error TS2339: Property 'Pattern' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(282,6): error TS2339: Property 'Function' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(277,6): error TS2339: Property 'VariableDeclarator' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(269,6): error TS2339: Property 'VariableDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(268,6): error TS2339: Property 'FunctionDeclaration' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(266,6): error TS2339: Property 'DebuggerStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(262,6): error TS2339: Property 'ForInit' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(257,28): error TS2339: Property 'ForOfStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(257,6): error TS2339: Property 'ForInStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(251,6): error TS2339: Property 'ForStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(247,28): error TS2339: Property 'DoWhileStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(247,6): error TS2339: Property 'WhileStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(243,6): error TS2339: Property 'CatchClause' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(238,6): error TS2339: Property 'TryStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(236,28): error TS2339: Property 'SpreadElement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(236,6): error TS2339: Property 'ThrowStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(233,52): error TS2339: Property 'AwaitExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(233,29): error TS2339: Property 'YieldExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(233,6): error TS2339: Property 'ReturnStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(224,6): error TS2339: Property 'SwitchCase' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(210,6): error TS2339: Property 'SwitchStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(206,6): error TS2339: Property 'WithStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(205,28): error TS2339: Property 'ContinueStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(205,6): error TS2339: Property 'BreakStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(204,6): error TS2339: Property 'LabeledStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(199,6): error TS2339: Property 'IfStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(197,33): error TS2339: Property 'ParenthesizedExpression' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(197,6): error TS2339: Property 'ExpressionStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(196,6): error TS2339: Property 'EmptyStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(195,6): error TS2339: Property 'Statement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(187,21): error TS2339: Property 'BlockStatement' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(187,6): error TS2339: Property 'Program' does not exist on type '{}'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(85,33): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn-walk/dist/walk.mjs(37,33): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1360,22): error TS2339: Property 'parse' does not exist on type '(input: any, options: any) => void'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1357,16): error TS2339: Property 'tabSize' does not exist on type 'Options'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1334,17): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1326,17): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1239,94): error TS1313: The body of an 'if' statement cannot be the empty statement.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1150,7): error TS2322: Type 'false' is not assignable to type 'undefined'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1146,7): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1084,34): error TS2339: Property 'invalidTemplate' does not exist on type '{ num: TokenType; regexp: TokenType; string: TokenType; name: TokenType; eof: TokenType; bracketL: TokenType; bracketR: TokenType; ... 65 more ...; _delete: TokenType; }'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(742,15): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(720,17): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(702,15): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(585,7): error TS2322: Type 'false' is not assignable to type 'undefined'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(581,7): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(253,45): error TS2339: Property 'end' does not exist on type 'true'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(252,45): error TS2339: Property 'start' does not exist on type 'true'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(250,21): error TS2339: Property 'loc' does not exist on type 'true'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(247,31): error TS2322: Type '{ start: any; end: any; type: acorn.TokenType; value: string; }' is not assignable to type 'boolean'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(226,39): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(223,22): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(222,11): error TS2322: Type '{ start: any; end: any; type: acorn.TokenType; value: any; }' is not assignable to type 'boolean'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(220,31): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(220,11): error TS2322: Type '{ start: any; end: any; type: acorn.TokenType; value: any; }' is not assignable to type 'boolean'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(218,39): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(216,95): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(216,31): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(216,11): error TS2322: Type '{ start: any; end: any; type: acorn.TokenType; value: any; }' is not assignable to type 'boolean'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(214,30): error TS2339: Property 'pos' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(212,36): error TS2339: Property 'raisedAt' does not exist on type 'SyntaxError'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(173,13): error TS2339: Property 'BaseParser' does not exist on type '(input: any, options: any) => void'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(168,13): error TS2339: Property 'parse' does not exist on type '(input: any, options: any) => void'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(164,52): error TS2349: This expression is not callable.
+  Type 'never' has no call signatures.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(161,21): error TS2322: Type 'any' is not assignable to type 'never'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(159,13): error TS2339: Property 'extend' does not exist on type '(input: any, options: any) => void'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(3,10): error TS2304: Cannot find name 'define'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(3,35): error TS2304: Cannot find name 'define'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(3,48): error TS2304: Cannot find name 'define'.
@@ -42,6 +255,8 @@ node_modules/acorn/acorn-loose/dist/acorn-loose.js(296,10): error TS2339: Proper
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(297,22): error TS2339: Property 'tok' does not exist on type 'parseTopLevel'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(298,28): error TS2339: Property 'options' does not exist on type 'parseTopLevel'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(299,17): error TS2339: Property 'finishNode' does not exist on type 'parseTopLevel'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.js(585,9): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.js(589,9): error TS2322: Type 'false' is not assignable to type 'undefined'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(623,10): error TS2551: Property 'initFunction' does not exist on type 'parseFunction'. Did you mean 'inFunction'?
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(624,14): error TS2339: Property 'options' does not exist on type 'parseFunction'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(625,29): error TS2339: Property 'eat' does not exist on type 'parseFunction'.
@@ -53,6 +268,8 @@ node_modules/acorn/acorn-loose/dist/acorn-loose.js(634,24): error TS2339: Proper
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(635,22): error TS2339: Property 'parseBlock' does not exist on type 'parseFunction'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(636,10): error TS2339: Property 'toks' does not exist on type 'parseFunction'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(639,17): error TS2339: Property 'finishNode' does not exist on type 'parseFunction'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.js(1150,9): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/acorn-loose/dist/acorn-loose.js(1154,9): error TS2322: Type 'false' is not assignable to type 'undefined'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(1243,96): error TS1313: The body of an 'if' statement cannot be the empty statement.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(1288,21): error TS2339: Property 'startNode' does not exist on type 'parseMethod'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.js(1289,10): error TS2551: Property 'initFunction' does not exist on type 'parseMethod'. Did you mean 'inFunction'?
@@ -269,6 +486,7 @@ node_modules/acorn/acorn/dist/acorn.js(2671,24): error TS2339: Property 'parseBl
 node_modules/acorn/acorn/dist/acorn.js(2673,12): error TS2339: Property 'adaptDirectivePrologue' does not exist on type 'parseFunctionBody'.
 node_modules/acorn/acorn/dist/acorn.js(2676,10): error TS2339: Property 'exitScope' does not exist on type 'parseFunctionBody'.
 node_modules/acorn/acorn/dist/acorn.js(2679,40): error TS2339: Property 'checkLVal' does not exist on type 'parseFunctionBody'.
+node_modules/acorn/acorn/dist/acorn.js(2722,11): error TS2322: Type 'null' is not assignable to type 'undefined'.
 node_modules/acorn/acorn/dist/acorn.js(2761,21): error TS2339: Property 'startNode' does not exist on type 'parseIdent'.
 node_modules/acorn/acorn/dist/acorn.js(2762,14): error TS2339: Property 'type' does not exist on type 'parseIdent'.
 node_modules/acorn/acorn/dist/acorn.js(2763,24): error TS2339: Property 'value' does not exist on type 'parseIdent'.
@@ -351,11 +569,13 @@ node_modules/acorn/acorn/dist/acorn.js(4300,58): error TS2532: Object is possibl
 node_modules/acorn/acorn/dist/acorn.js(4301,28): error TS2339: Property 'raise' does not exist on type 'skipBlockComment'.
 node_modules/acorn/acorn/dist/acorn.js(4301,34): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/acorn/dist/acorn.js(4303,14): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
+node_modules/acorn/acorn/dist/acorn.js(4304,7): error TS2322: Type 'undefined' is not assignable to type 'number'.
 node_modules/acorn/acorn/dist/acorn.js(4306,44): error TS2339: Property 'input' does not exist on type 'skipBlockComment'.
 node_modules/acorn/acorn/dist/acorn.js(4307,16): error TS2339: Property 'curLine' does not exist on type 'skipBlockComment'.
 node_modules/acorn/acorn/dist/acorn.js(4311,14): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
 node_modules/acorn/acorn/dist/acorn.js(4312,14): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
 node_modules/acorn/acorn/dist/acorn.js(4312,43): error TS2339: Property 'input' does not exist on type 'skipBlockComment'.
+node_modules/acorn/acorn/dist/acorn.js(4312,55): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/acorn/dist/acorn.js(4313,45): error TS2339: Property 'curPosition' does not exist on type 'skipBlockComment'.
 node_modules/acorn/acorn/dist/acorn.js(4332,23): error TS2339: Property 'pos' does not exist on type 'skipSpace'.
 node_modules/acorn/acorn/dist/acorn.js(4332,34): error TS2339: Property 'input' does not exist on type 'skipSpace'.
@@ -396,6 +616,12 @@ node_modules/acorn/acorn/dist/acorn.js(4587,34): error TS2339: Property 'unexpec
 node_modules/acorn/acorn/dist/acorn.js(4592,10): error TS2339: Property 'validateRegExpFlags' does not exist on type 'readRegexp'.
 node_modules/acorn/acorn/dist/acorn.js(4593,10): error TS2339: Property 'validateRegExpPattern' does not exist on type 'readRegexp'.
 node_modules/acorn/acorn/dist/acorn.js(4604,17): error TS2339: Property 'finishToken' does not exist on type 'readRegexp'.
+node_modules/acorn/acorn/dist/acorn.js(4615,25): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.js(4616,30): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.js(4617,44): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.js(4618,14): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/acorn/dist/acorn.js(4619,11): error TS2532: Object is possibly 'undefined'.
+node_modules/acorn/acorn/dist/acorn.js(4621,31): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/acorn/dist/acorn.js(4723,12): error TS2339: Property 'readTmplToken' does not exist on type 'tryReadTemplateToken'.
 node_modules/acorn/acorn/dist/acorn.js(4726,14): error TS2339: Property 'readInvalidTemplateToken' does not exist on type 'tryReadTemplateToken'.
 node_modules/acorn/acorn/dist/acorn.js(4744,37): error TS2339: Property 'pos' does not exist on type 'readTmplToken'.
@@ -472,6 +698,8 @@ node_modules/acorn/acorn/dist/acorn.js(4893,27): error TS2339: Property 'pos' do
 node_modules/acorn/acorn/dist/acorn.js(4899,24): error TS2339: Property 'input' does not exist on type 'readWord1'.
 node_modules/acorn/acorn/dist/acorn.js(4899,53): error TS2339: Property 'pos' does not exist on type 'readWord1'.
 node_modules/acorn/acorn/dist/bin.js(46,27): error TS2339: Property 'getToken' does not exist on type 'Parser'.
+node_modules/acorn/acorn/dist/bin.js(51,46): error TS2571: Object is of type 'unknown'.
+node_modules/acorn/acorn/dist/bin.js(51,150): error TS2571: Object is of type 'unknown'.
 node_modules/acorn/acorn/dist/bin.js(54,30): error TS2769: No overload matches this call.
   Overload 1 of 2, '(value: any, replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined): string', gave the following error.
     Argument of type 'null' is not assignable to parameter of type '((this: any, key: string, value: any) => any) | undefined'.
@@ -479,26 +707,27 @@ node_modules/acorn/acorn/dist/bin.js(54,30): error TS2769: No overload matches t
     Argument of type '2 | null' is not assignable to parameter of type 'string | number | undefined'.
       Type 'null' is not assignable to type 'string | number | undefined'.
 node_modules/acorn/acorn/dist/bin.js(58,23): error TS2769: No overload matches this call.
-  Overload 1 of 3, '(path: number | PathLike, options?: { encoding?: null | undefined; flag?: string | undefined; } | null | undefined): Buffer', gave the following error.
-    Argument of type 'string | undefined' is not assignable to parameter of type 'number | PathLike'.
-      Type 'undefined' is not assignable to type 'number | PathLike'.
-  Overload 2 of 3, '(path: number | PathLike, options: { encoding: BufferEncoding; flag?: string | undefined; } | BufferEncoding): string', gave the following error.
-    Argument of type 'string | undefined' is not assignable to parameter of type 'number | PathLike'.
-  Overload 3 of 3, '(path: number | PathLike, options?: BufferEncoding | (BaseEncodingOptions & { flag?: string | undefined; }) | null | undefined): string | Buffer', gave the following error.
-    Argument of type 'string | undefined' is not assignable to parameter of type 'number | PathLike'.
+  Overload 1 of 3, '(path: PathOrFileDescriptor, options?: { encoding?: null | undefined; flag?: string | undefined; } | null | undefined): Buffer', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'PathOrFileDescriptor'.
+      Type 'undefined' is not assignable to type 'PathOrFileDescriptor'.
+  Overload 2 of 3, '(path: PathOrFileDescriptor, options: { encoding: BufferEncoding; flag?: string | undefined; } | BufferEncoding): string', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'PathOrFileDescriptor'.
+  Overload 3 of 3, '(path: PathOrFileDescriptor, options?: BufferEncoding | (ObjectEncodingOptions & { flag?: string | undefined; }) | null | undefined): string | Buffer', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'PathOrFileDescriptor'.
 node_modules/acorn/bin/_acorn.js(51,30): error TS2339: Property 'getToken' does not exist on type 'Parser'.
+node_modules/acorn/bin/_acorn.js(56,19): error TS2571: Object is of type 'unknown'.
 node_modules/acorn/bin/_acorn.js(59,30): error TS2769: No overload matches this call.
   Overload 1 of 2, '(value: any, replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined): string', gave the following error.
     Argument of type 'null' is not assignable to parameter of type '((this: any, key: string, value: any) => any) | undefined'.
   Overload 2 of 2, '(value: any, replacer?: (string | number)[] | null | undefined, space?: string | number | undefined): string', gave the following error.
     Argument of type '2 | null' is not assignable to parameter of type 'string | number | undefined'.
 node_modules/acorn/bin/_acorn.js(63,23): error TS2769: No overload matches this call.
-  Overload 1 of 3, '(path: number | PathLike, options?: { encoding?: null | undefined; flag?: string | undefined; } | null | undefined): Buffer', gave the following error.
-    Argument of type 'string | undefined' is not assignable to parameter of type 'number | PathLike'.
-  Overload 2 of 3, '(path: number | PathLike, options: { encoding: BufferEncoding; flag?: string | undefined; } | BufferEncoding): string', gave the following error.
-    Argument of type 'string | undefined' is not assignable to parameter of type 'number | PathLike'.
-  Overload 3 of 3, '(path: number | PathLike, options?: BufferEncoding | (BaseEncodingOptions & { flag?: string | undefined; }) | null | undefined): string | Buffer', gave the following error.
-    Argument of type 'string | undefined' is not assignable to parameter of type 'number | PathLike'.
+  Overload 1 of 3, '(path: PathOrFileDescriptor, options?: { encoding?: null | undefined; flag?: string | undefined; } | null | undefined): Buffer', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'PathOrFileDescriptor'.
+  Overload 2 of 3, '(path: PathOrFileDescriptor, options: { encoding: BufferEncoding; flag?: string | undefined; } | BufferEncoding): string', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'PathOrFileDescriptor'.
+  Overload 3 of 3, '(path: PathOrFileDescriptor, options?: BufferEncoding | (ObjectEncodingOptions & { flag?: string | undefined; }) | null | undefined): string | Buffer', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'PathOrFileDescriptor'.
 node_modules/acorn/bin/run_test262.js(3,21): error TS2307: Cannot find module 'test262-parser-runner' or its corresponding type declarations.
 node_modules/acorn/dist/acorn.es.js(36,1): error TS2322: Type 'null' is not assignable to type 'string'.
 node_modules/acorn/dist/acorn.es.js(36,32): error TS2322: Type 'null' is not assignable to type 'string'.
@@ -616,6 +845,7 @@ node_modules/acorn/dist/acorn.es.js(2594,22): error TS2339: Property 'parseBlock
 node_modules/acorn/dist/acorn.es.js(2596,10): error TS2339: Property 'adaptDirectivePrologue' does not exist on type 'parseFunctionBody'.
 node_modules/acorn/dist/acorn.es.js(2599,8): error TS2339: Property 'exitFunctionScope' does not exist on type 'parseFunctionBody'.
 node_modules/acorn/dist/acorn.es.js(2603,10): error TS2339: Property 'checkLVal' does not exist on type 'parseFunctionBody'.
+node_modules/acorn/dist/acorn.es.js(2651,9): error TS2322: Type 'null' is not assignable to type 'undefined'.
 node_modules/acorn/dist/acorn.es.js(2717,46): error TS2339: Property 'start' does not exist on type 'parseYield'.
 node_modules/acorn/dist/acorn.es.js(2719,19): error TS2339: Property 'startNode' does not exist on type 'parseYield'.
 node_modules/acorn/dist/acorn.es.js(2720,8): error TS2339: Property 'next' does not exist on type 'parseYield'.
@@ -681,12 +911,14 @@ node_modules/acorn/dist/acorn.es.js(4638,56): error TS2532: Object is possibly '
 node_modules/acorn/dist/acorn.es.js(4639,26): error TS2339: Property 'raise' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.es.js(4639,32): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/dist/acorn.es.js(4641,12): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
+node_modules/acorn/dist/acorn.es.js(4642,5): error TS2322: Type 'undefined' is not assignable to type 'number'.
 node_modules/acorn/dist/acorn.es.js(4644,42): error TS2339: Property 'input' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.es.js(4645,16): error TS2339: Property 'curLine' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.es.js(4646,14): error TS2339: Property 'lineStart' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.es.js(4649,12): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.es.js(4650,12): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.es.js(4650,41): error TS2339: Property 'input' does not exist on type 'skipBlockComment'.
+node_modules/acorn/dist/acorn.es.js(4650,53): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/dist/acorn.es.js(4651,43): error TS2339: Property 'curPosition' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.es.js(4719,19): error TS2339: Property 'pos' does not exist on type 'finishToken'.
 node_modules/acorn/dist/acorn.es.js(4720,12): error TS2339: Property 'options' does not exist on type 'finishToken'.
@@ -710,6 +942,12 @@ node_modules/acorn/dist/acorn.es.js(4931,32): error TS2339: Property 'unexpected
 node_modules/acorn/dist/acorn.es.js(4936,8): error TS2339: Property 'validateRegExpFlags' does not exist on type 'readRegexp'.
 node_modules/acorn/dist/acorn.es.js(4937,8): error TS2339: Property 'validateRegExpPattern' does not exist on type 'readRegexp'.
 node_modules/acorn/dist/acorn.es.js(4948,15): error TS2339: Property 'finishToken' does not exist on type 'readRegexp'.
+node_modules/acorn/dist/acorn.es.js(4961,23): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.es.js(4962,28): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.es.js(4963,42): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.es.js(4964,12): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.es.js(4965,9): error TS2532: Object is possibly 'undefined'.
+node_modules/acorn/dist/acorn.es.js(4967,29): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/dist/acorn.es.js(5060,10): error TS2339: Property 'readTmplToken' does not exist on type 'tryReadTemplateToken'.
 node_modules/acorn/dist/acorn.es.js(5063,12): error TS2339: Property 'readInvalidTemplateToken' does not exist on type 'tryReadTemplateToken'.
 node_modules/acorn/dist/acorn.es.js(5156,17): error TS2339: Property 'input' does not exist on type 'readEscapedChar'.
@@ -872,6 +1110,7 @@ node_modules/acorn/dist/acorn.js(2600,22): error TS2339: Property 'parseBlock' d
 node_modules/acorn/dist/acorn.js(2602,10): error TS2339: Property 'adaptDirectivePrologue' does not exist on type 'parseFunctionBody'.
 node_modules/acorn/dist/acorn.js(2605,8): error TS2339: Property 'exitFunctionScope' does not exist on type 'parseFunctionBody'.
 node_modules/acorn/dist/acorn.js(2609,10): error TS2339: Property 'checkLVal' does not exist on type 'parseFunctionBody'.
+node_modules/acorn/dist/acorn.js(2657,9): error TS2322: Type 'null' is not assignable to type 'undefined'.
 node_modules/acorn/dist/acorn.js(2723,46): error TS2339: Property 'start' does not exist on type 'parseYield'.
 node_modules/acorn/dist/acorn.js(2725,19): error TS2339: Property 'startNode' does not exist on type 'parseYield'.
 node_modules/acorn/dist/acorn.js(2726,8): error TS2339: Property 'next' does not exist on type 'parseYield'.
@@ -937,12 +1176,14 @@ node_modules/acorn/dist/acorn.js(4644,56): error TS2532: Object is possibly 'und
 node_modules/acorn/dist/acorn.js(4645,26): error TS2339: Property 'raise' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.js(4645,32): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/dist/acorn.js(4647,12): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
+node_modules/acorn/dist/acorn.js(4648,5): error TS2322: Type 'undefined' is not assignable to type 'number'.
 node_modules/acorn/dist/acorn.js(4650,42): error TS2339: Property 'input' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.js(4651,16): error TS2339: Property 'curLine' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.js(4652,14): error TS2339: Property 'lineStart' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.js(4655,12): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.js(4656,12): error TS2339: Property 'options' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.js(4656,41): error TS2339: Property 'input' does not exist on type 'skipBlockComment'.
+node_modules/acorn/dist/acorn.js(4656,53): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/dist/acorn.js(4657,43): error TS2339: Property 'curPosition' does not exist on type 'skipBlockComment'.
 node_modules/acorn/dist/acorn.js(4725,19): error TS2339: Property 'pos' does not exist on type 'finishToken'.
 node_modules/acorn/dist/acorn.js(4726,12): error TS2339: Property 'options' does not exist on type 'finishToken'.
@@ -966,6 +1207,12 @@ node_modules/acorn/dist/acorn.js(4937,32): error TS2339: Property 'unexpected' d
 node_modules/acorn/dist/acorn.js(4942,8): error TS2339: Property 'validateRegExpFlags' does not exist on type 'readRegexp'.
 node_modules/acorn/dist/acorn.js(4943,8): error TS2339: Property 'validateRegExpPattern' does not exist on type 'readRegexp'.
 node_modules/acorn/dist/acorn.js(4954,15): error TS2339: Property 'finishToken' does not exist on type 'readRegexp'.
+node_modules/acorn/dist/acorn.js(4967,23): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.js(4968,28): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.js(4969,42): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.js(4970,12): error TS2322: Type 'number' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn.js(4971,9): error TS2532: Object is possibly 'undefined'.
+node_modules/acorn/dist/acorn.js(4973,29): error TS2532: Object is possibly 'undefined'.
 node_modules/acorn/dist/acorn.js(5066,10): error TS2339: Property 'readTmplToken' does not exist on type 'tryReadTemplateToken'.
 node_modules/acorn/dist/acorn.js(5069,12): error TS2339: Property 'readInvalidTemplateToken' does not exist on type 'tryReadTemplateToken'.
 node_modules/acorn/dist/acorn.js(5162,17): error TS2339: Property 'input' does not exist on type 'readEscapedChar'.
@@ -1057,6 +1304,8 @@ node_modules/acorn/dist/acorn_loose.es.js(309,20): error TS2339: Property 'tok' 
 node_modules/acorn/dist/acorn_loose.es.js(310,12): error TS2339: Property 'options' does not exist on type 'parseTopLevel'.
 node_modules/acorn/dist/acorn_loose.es.js(311,28): error TS2339: Property 'options' does not exist on type 'parseTopLevel'.
 node_modules/acorn/dist/acorn_loose.es.js(313,15): error TS2339: Property 'finishNode' does not exist on type 'parseTopLevel'.
+node_modules/acorn/dist/acorn_loose.es.js(602,7): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn_loose.es.js(606,7): error TS2322: Type 'false' is not assignable to type 'undefined'.
 node_modules/acorn/dist/acorn_loose.es.js(640,8): error TS2551: Property 'initFunction' does not exist on type 'parseFunction'. Did you mean 'inFunction'?
 node_modules/acorn/dist/acorn_loose.es.js(641,12): error TS2339: Property 'options' does not exist on type 'parseFunction'.
 node_modules/acorn/dist/acorn_loose.es.js(642,27): error TS2339: Property 'eat' does not exist on type 'parseFunction'.
@@ -1068,6 +1317,8 @@ node_modules/acorn/dist/acorn_loose.es.js(651,22): error TS2339: Property 'parse
 node_modules/acorn/dist/acorn_loose.es.js(652,20): error TS2339: Property 'parseBlock' does not exist on type 'parseFunction'.
 node_modules/acorn/dist/acorn_loose.es.js(653,8): error TS2339: Property 'toks' does not exist on type 'parseFunction'.
 node_modules/acorn/dist/acorn_loose.es.js(656,15): error TS2339: Property 'finishNode' does not exist on type 'parseFunction'.
+node_modules/acorn/dist/acorn_loose.es.js(1167,7): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn_loose.es.js(1171,7): error TS2322: Type 'false' is not assignable to type 'undefined'.
 node_modules/acorn/dist/acorn_loose.es.js(1311,19): error TS2339: Property 'startNode' does not exist on type 'parseMethod'.
 node_modules/acorn/dist/acorn_loose.es.js(1312,8): error TS2551: Property 'initFunction' does not exist on type 'parseMethod'. Did you mean 'inFunction'?
 node_modules/acorn/dist/acorn_loose.es.js(1313,12): error TS2339: Property 'options' does not exist on type 'parseMethod'.
@@ -1132,6 +1383,8 @@ node_modules/acorn/dist/acorn_loose.js(313,20): error TS2339: Property 'tok' doe
 node_modules/acorn/dist/acorn_loose.js(314,12): error TS2339: Property 'options' does not exist on type 'parseTopLevel'.
 node_modules/acorn/dist/acorn_loose.js(315,28): error TS2339: Property 'options' does not exist on type 'parseTopLevel'.
 node_modules/acorn/dist/acorn_loose.js(317,15): error TS2339: Property 'finishNode' does not exist on type 'parseTopLevel'.
+node_modules/acorn/dist/acorn_loose.js(606,7): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn_loose.js(610,7): error TS2322: Type 'false' is not assignable to type 'undefined'.
 node_modules/acorn/dist/acorn_loose.js(644,8): error TS2551: Property 'initFunction' does not exist on type 'parseFunction'. Did you mean 'inFunction'?
 node_modules/acorn/dist/acorn_loose.js(645,12): error TS2339: Property 'options' does not exist on type 'parseFunction'.
 node_modules/acorn/dist/acorn_loose.js(646,27): error TS2339: Property 'eat' does not exist on type 'parseFunction'.
@@ -1143,6 +1396,8 @@ node_modules/acorn/dist/acorn_loose.js(655,22): error TS2339: Property 'parseFun
 node_modules/acorn/dist/acorn_loose.js(656,20): error TS2339: Property 'parseBlock' does not exist on type 'parseFunction'.
 node_modules/acorn/dist/acorn_loose.js(657,8): error TS2339: Property 'toks' does not exist on type 'parseFunction'.
 node_modules/acorn/dist/acorn_loose.js(660,15): error TS2339: Property 'finishNode' does not exist on type 'parseFunction'.
+node_modules/acorn/dist/acorn_loose.js(1171,7): error TS2322: Type 'true' is not assignable to type 'undefined'.
+node_modules/acorn/dist/acorn_loose.js(1175,7): error TS2322: Type 'false' is not assignable to type 'undefined'.
 node_modules/acorn/dist/acorn_loose.js(1315,19): error TS2339: Property 'startNode' does not exist on type 'parseMethod'.
 node_modules/acorn/dist/acorn_loose.js(1316,8): error TS2551: Property 'initFunction' does not exist on type 'parseMethod'. Did you mean 'inFunction'?
 node_modules/acorn/dist/acorn_loose.js(1317,12): error TS2339: Property 'options' does not exist on type 'parseMethod'.
