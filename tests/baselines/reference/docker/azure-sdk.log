@@ -49,6 +49,7 @@ Executing a maximum of ?simultaneous processes...
 "@azure/keyvault-certificates" is blocked by "@azure/dev-tool".
 "@azure/keyvault-keys" is blocked by "@azure/dev-tool".
 "@azure/keyvault-secrets" is blocked by "@azure/dev-tool".
+"@azure-tests/perf-keyvault-secrets" is blocked by "@azure/dev-tool".
 "@azure/monitor-query" is blocked by "@azure/dev-tool".
 "@azure/iot-modelsrepository" is blocked by "@azure/dev-tool".
 "@azure/mixed-reality-authentication" is blocked by "@azure/dev-tool".
@@ -113,7 +114,6 @@ Executing a maximum of ?simultaneous processes...
 "@azure-tests/perf-container-registry" is blocked by "@azure/dev-tool".
 "@azure-tests/perf-keyvault-certificates" is blocked by "@azure/dev-tool".
 "@azure-tests/perf-keyvault-keys" is blocked by "@azure/dev-tool".
-"@azure-tests/perf-keyvault-secrets" is blocked by "@azure/dev-tool".
 "@azure-tests/perf-service-bus" is blocked by "@azure/dev-tool".
 "@azure/core-http" is blocked by "@azure/dev-tool".
 "@azure/core-lro" is blocked by "@azure/dev-tool".
