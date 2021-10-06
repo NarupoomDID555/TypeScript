@@ -57,7 +57,7 @@ node_modules/lodash/_baseHas.js(16,56): error TS2345: Argument of type 'string |
   Type 'any[]' is not assignable to type 'PropertyKey'.
     Type 'any[]' is not assignable to type 'string'.
 node_modules/lodash/_baseHasIn.js(9,28): error TS1016: A required parameter cannot follow an optional parameter.
-node_modules/lodash/_baseHasIn.js(10,28): error TS2360: The left-hand side of an 'in' expression must be a private identifier or of type 'any', 'string', 'number', or 'symbol'.
+node_modules/lodash/_baseHasIn.js(10,28): error TS2360: The left-hand side of an 'in' expression must be of type 'any', 'string', 'number', or 'symbol'.
 node_modules/lodash/_baseIntersection.js(53,40): error TS2345: Argument of type 'Function | undefined' is not assignable to parameter of type 'Function'.
   Type 'undefined' is not assignable to type 'Function'.
 node_modules/lodash/_baseIntersection.js(60,54): error TS2345: Argument of type 'Function | undefined' is not assignable to parameter of type 'Function'.
