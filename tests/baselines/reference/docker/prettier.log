@@ -17,9 +17,9 @@ parser-typescript.js...........info Visit https://yarnpkg.com/en/docs/cli/run fo
 Standard error:
 
 <--- Last few GCs --->
-[18:0x4f3f2f0]   ?s: Scavenge 3040.5 (3108.4) -> 3036.3 (3109.4) MB, 11.5 / ?s  (average mu = 0.353, current mu = 0.346) allocation failure 
-[18:0x4f3f2f0]   ?s: Scavenge 3041.5 (3109.4) -> 3038.1 (3111.9) MB, 14.4 / ?s  (average mu = 0.353, current mu = 0.346) allocation failure 
-[18:0x4f3f2f0]   ?s: Scavenge 3043.9 (3111.9) -> 3040.2 (3129.9) MB, 1077.4 / ?s  (average mu = 0.353, current mu = 0.346) allocation failure 
+[18:0x501c2f0]   ?s: Scavenge 3038.4 (3106.9) -> 3034.2 (3107.9) MB, 22.0 / ?s  (average mu = 0.377, current mu = 0.383) allocation failure 
+[18:0x501c2f0]   ?s: Scavenge 3039.4 (3107.9) -> 3036.0 (3110.2) MB, 28.6 / ?s  (average mu = 0.377, current mu = 0.383) allocation failure 
+[18:0x501c2f0]   ?s: Scavenge 3041.8 (3110.2) -> 3038.0 (3128.2) MB, 897.4 / ?s  (average mu = 0.377, current mu = 0.383) allocation failure 
 <--- JS stacktrace --->
 FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
  1: 0xb03020 node::Abort() [/usr/local/bin/node]
