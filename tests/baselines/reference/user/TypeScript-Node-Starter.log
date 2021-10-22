@@ -1,0 +1,13 @@
+Exit Code: 2
+Standard output:
+node_modules/mongoose/index.d.ts(1053,30): error TS2315: Type 'SchemaDefinition' is not generic.
+node_modules/mongoose/index.d.ts(1056,14): error TS2315: Type 'SchemaDefinition' is not generic.
+node_modules/mongoose/index.d.ts(1191,8): error TS2456: Type alias 'SchemaDefinitionProperty' circularly references itself.
+node_modules/mongoose/index.d.ts(1198,5): error TS2315: Type 'SchemaDefinition' is not generic.
+node_modules/mongoose/index.d.ts(1199,5): error TS2315: Type 'SchemaDefinition' is not generic.
+node_modules/mongoose/index.d.ts(1201,8): error TS2456: Type alias 'SchemaDefinition' circularly references itself.
+node_modules/mongoose/index.d.ts(1203,29): error TS2315: Type 'SchemaDefinitionProperty' is not generic.
+
+
+
+Standard error:
