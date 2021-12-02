@@ -1,8 +1,12 @@
 Exit Code: 2
 Standard output:
 lib/arborist-cmd.js(19,17): error TS2339: Property 'exec' does not exist on type 'ArboristCmd'.
-lib/auth/legacy.js(43,11): error TS2571: Object is of type 'unknown'.
-lib/auth/legacy.js(62,9): error TS2571: Object is of type 'unknown'.
+lib/auth/legacy.js(40,11): error TS2571: Object is of type 'unknown'.
+lib/auth/legacy.js(59,9): error TS2571: Object is of type 'unknown'.
+lib/auth/legacy.js(84,7): error TS2339: Property 'info' does not exist on type '{}'.
+lib/auth/sso.js(17,7): error TS2339: Property 'info' does not exist on type '{}'.
+lib/auth/sso.js(39,7): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/auth/sso.js(72,7): error TS2339: Property 'info' does not exist on type '{}'.
 lib/base-command.js(17,29): error TS2339: Property 'description' does not exist on type 'Function'.
 lib/base-command.js(22,26): error TS2339: Property 'description' does not exist on type 'Function'.
 lib/base-command.js(23,43): error TS2339: Property 'description' does not exist on type 'Function'.
@@ -11,27 +15,38 @@ lib/base-command.js(30,43): error TS2339: Property 'usage' does not exist on typ
 lib/base-command.js(35,26): error TS2339: Property 'params' does not exist on type 'Function'.
 lib/base-command.js(49,42): error TS2339: Property 'params' does not exist on type 'Function'.
 lib/base-command.js(77,14): error TS2339: Property 'isArboristCmd' does not exist on type 'BaseCommand'.
-lib/cli.js(21,15): error TS2339: Property 'setNpm' does not exist on type '(err: any) => void'.
-lib/cli.js(68,9): error TS2571: Object is of type 'unknown'.
+lib/cli.js(24,15): error TS2339: Property 'setNpm' does not exist on type '(err: any) => undefined'.
+lib/cli.js(34,7): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/cli.js(36,7): error TS2339: Property 'info' does not exist on type '{}'.
+lib/cli.js(37,7): error TS2339: Property 'info' does not exist on type '{}'.
+lib/cli.js(69,9): error TS2571: Object is of type 'unknown'.
 lib/commands/access.js(24,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Access'.
 lib/commands/access.js(190,13): error TS2571: Object is of type 'unknown'.
 lib/commands/adduser.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'AddUser'.
+lib/commands/adduser.js(25,9): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/commands/adduser.js(27,9): error TS2339: Property 'notice' does not exist on type '{}'.
 lib/commands/audit.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Audit'.
 lib/commands/bin.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Bin'.
 lib/commands/birthday.js(4,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Birthday'.
 lib/commands/bugs.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Bugs'.
+lib/commands/bugs.js(25,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/cache.js(71,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Cache'.
+lib/commands/cache.js(144,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/cache.js(158,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/cache.js(164,11): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/cache.js(177,34): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
 lib/commands/cache.js(178,26): error TS2532: Object is possibly 'undefined'.
-lib/commands/ci.js(13,16): error TS2769: No overload matches this call.
+lib/commands/ci.js(12,16): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/commands/ci.js(18,16): error TS2769: No overload matches this call.
+lib/commands/ci.js(17,16): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/commands/ci.js(24,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'CI'.
-lib/commands/ci.js(34,11): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/commands/ci.js(23,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'CI'.
+lib/commands/ci.js(33,11): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/commands/ci.js(49,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/ci.js(80,23): error TS2339: Property 'level' does not exist on type '{}'.
 lib/commands/completion.js(49,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Completion'.
 lib/commands/completion.js(59,26): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
@@ -39,45 +54,76 @@ lib/commands/completion.js(60,26): error TS2345: Argument of type 'string | unde
   Type 'undefined' is not assignable to type 'string'.
 lib/commands/completion.js(220,9): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
 lib/commands/completion.js(232,7): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
-lib/commands/config.js(35,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Config'.
-lib/commands/config.js(222,16): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
-lib/commands/dedupe.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Dedupe'.
-lib/commands/dedupe.js(27,10): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/commands/config.js(36,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Config'.
+lib/commands/config.js(91,9): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/config.js(96,9): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/commands/config.js(121,11): error TS2339: Property 'enableProgress' does not exist on type '{}'.
+lib/commands/config.js(132,11): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/config.js(135,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/config.js(223,16): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
+lib/commands/dedupe.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Dedupe'.
+lib/commands/dedupe.js(28,10): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/commands/deprecate.js(11,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Deprecate'.
-lib/commands/diff.js(16,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Diff'.
-lib/commands/diff.js(72,33): error TS2532: Object is possibly 'undefined'.
-lib/commands/dist-tag.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'DistTag'.
-lib/commands/dist-tag.js(174,24): error TS2532: Object is possibly 'undefined'.
-lib/commands/docs.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Docs'.
-lib/commands/doctor.js(41,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Doctor'.
-lib/commands/doctor.js(93,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
-lib/commands/doctor.js(93,36): error TS2538: Type 'any[]' cannot be used as an index type.
-lib/commands/doctor.js(95,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
-lib/commands/doctor.js(107,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
+lib/commands/diff.js(14,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Diff'.
+lib/commands/diff.js(58,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/diff.js(70,33): error TS2532: Object is possibly 'undefined'.
+lib/commands/diff.js(84,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/diff.js(117,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/diff.js(155,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/diff.js(228,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/diff.js(262,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/dist-tag.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'DistTag'.
+lib/commands/dist-tag.js(76,9): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/dist-tag.js(85,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/dist-tag.js(99,11): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/dist-tag.js(120,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/dist-tag.js(128,11): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/dist-tag.js(165,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/dist-tag.js(173,24): error TS2532: Object is possibly 'undefined'.
+lib/commands/docs.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Docs'.
+lib/commands/docs.js(36,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/doctor.js(42,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Doctor'.
+lib/commands/doctor.js(46,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/doctor.js(94,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
+lib/commands/doctor.js(94,36): error TS2538: Type 'any[]' cannot be used as an index type.
+lib/commands/doctor.js(96,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
+lib/commands/doctor.js(108,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
   Type 'string' is not assignable to type 'boolean'.
-lib/commands/doctor.js(113,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
-lib/commands/doctor.js(146,27): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(147,15): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(147,41): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(149,15): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(205,7): error TS2322: Type 'number' is not assignable to type 'null'.
-lib/commands/doctor.js(239,27): error TS2345: Argument of type 'null' is not assignable to parameter of type 'number | undefined'.
+lib/commands/doctor.js(114,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
+lib/commands/doctor.js(128,24): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/commands/doctor.js(128,35): error TS2339: Property 'level' does not exist on type '{}'.
+lib/commands/doctor.js(128,48): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/commands/doctor.js(141,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(147,27): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(148,15): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(148,41): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(150,15): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(158,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(177,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(206,7): error TS2322: Type 'number' is not assignable to type 'null'.
+lib/commands/doctor.js(211,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(240,27): error TS2345: Argument of type 'null' is not assignable to parameter of type 'number | undefined'.
+lib/commands/doctor.js(273,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(286,25): error TS2339: Property 'newItem' does not exist on type '{}'.
 lib/commands/edit.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Edit'.
-lib/commands/exec.js(40,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Exec'.
-lib/commands/exec.js(48,24): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
-lib/commands/exec.js(48,37): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
-lib/commands/exec.js(48,43): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
+lib/commands/exec.js(41,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Exec'.
+lib/commands/exec.js(49,24): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
+lib/commands/exec.js(49,37): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
+lib/commands/exec.js(49,43): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
 lib/commands/exec.js(95,24): error TS2532: Object is possibly 'undefined'.
 lib/commands/explain.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Explain'.
 lib/commands/explain.js(22,33): error TS2554: Expected 0-1 arguments, but got 2.
-lib/commands/explore.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Explore'.
+lib/commands/explore.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Explore'.
+lib/commands/explore.js(41,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/explore.js(54,9): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/commands/explore.js(75,11): error TS2339: Property 'enableProgress' does not exist on type '{}'.
 lib/commands/find-dupes.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'FindDupes'.
-lib/commands/fund.js(21,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Fund'.
-lib/commands/fund.js(28,33): error TS2554: Expected 0-1 arguments, but got 2.
-lib/commands/fund.js(44,11): error TS2339: Property 'code' does not exist on type 'Error'.
-lib/commands/fund.js(50,11): error TS2339: Property 'code' does not exist on type 'Error'.
-lib/commands/fund.js(70,15): error TS2339: Property 'flatOptions' does not exist on type 'Fund'.
-lib/commands/fund.js(204,22): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/commands/fund.js(22,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Fund'.
+lib/commands/fund.js(29,33): error TS2554: Expected 0-1 arguments, but got 2.
+lib/commands/fund.js(45,11): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/commands/fund.js(51,11): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/commands/fund.js(71,15): error TS2339: Property 'flatOptions' does not exist on type 'Fund'.
+lib/commands/fund.js(205,22): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/commands/get.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Get'.
 lib/commands/help-search.js(11,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'HelpSearch'.
 lib/commands/help.js(17,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Help'.
@@ -94,14 +140,26 @@ lib/commands/help.js(118,12): error TS2339: Property 'on' does not exist on type
   The intersection 'ChildProcessWithoutNullStreams & ChildProcessByStdio<Writable, Readable, Readable> & ... 7 more ... & ChildProcess' was reduced to 'never' because property 'stdin' has conflicting types in some constituents.
 lib/commands/help.js(123,16): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
 lib/commands/hook.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Hook'.
-lib/commands/init.js(17,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Init'.
+lib/commands/init.js(18,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Init'.
+lib/commands/init.js(128,9): error TS2339: Property 'pause' does not exist on type '{}'.
+lib/commands/init.js(129,9): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/commands/init.js(150,13): error TS2339: Property 'resume' does not exist on type '{}'.
+lib/commands/init.js(151,13): error TS2339: Property 'enableProgress' does not exist on type '{}'.
+lib/commands/init.js(152,13): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/init.js(154,15): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/init.js(155,18): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
+lib/commands/init.js(160,15): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/install-ci-test.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'InstallCITest'.
 lib/commands/install-test.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'InstallTest'.
 lib/commands/install.js(16,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Install'.
-lib/commands/link.js(16,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Link'.
+lib/commands/install.js(121,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/install.js(142,11): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/install.js(176,23): error TS2339: Property 'level' does not exist on type '{}'.
+lib/commands/link.js(17,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Link'.
 lib/commands/ll.js(4,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'LL'.
 lib/commands/logout.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Logout'.
+lib/commands/logout.js(23,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/logout.js(30,11): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/ls.js(29,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'LS'.
 lib/commands/ls.js(48,33): error TS2554: Expected 0-1 arguments, but got 2.
 lib/commands/org.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Org'.
@@ -111,27 +169,51 @@ lib/commands/outdated.js(241,9): error TS2532: Object is possibly 'undefined'.
 lib/commands/outdated.js(257,9): error TS2571: Object is of type 'unknown'.
 lib/commands/outdated.js(258,9): error TS2571: Object is of type 'unknown'.
 lib/commands/outdated.js(259,9): error TS2571: Object is of type 'unknown'.
-lib/commands/owner.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Owner'.
-lib/commands/owner.js(165,27): error TS2339: Property 'name' does not exist on type 'string'.
-lib/commands/owner.js(165,37): error TS2339: Property 'error' does not exist on type 'string'.
-lib/commands/owner.js(175,5): error TS2322: Type '{ name: any; email: any; }' is not assignable to type 'string'.
-lib/commands/owner.js(175,19): error TS2339: Property 'name' does not exist on type 'string'.
-lib/commands/owner.js(175,34): error TS2339: Property 'email' does not exist on type 'string'.
-lib/commands/pack.js(16,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Pack'.
-lib/commands/pack.js(90,26): error TS2488: Type 'any[] | undefined' must have a '[Symbol.iterator]()' method that returns an iterator.
+lib/commands/owner.js(11,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Owner'.
+lib/commands/owner.js(102,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/owner.js(123,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/owner.js(146,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/owner.js(160,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/owner.js(164,27): error TS2339: Property 'name' does not exist on type 'string'.
+lib/commands/owner.js(164,37): error TS2339: Property 'error' does not exist on type 'string'.
+lib/commands/owner.js(174,5): error TS2322: Type '{ name: any; email: any; }' is not assignable to type 'string'.
+lib/commands/owner.js(174,19): error TS2339: Property 'name' does not exist on type 'string'.
+lib/commands/owner.js(174,34): error TS2339: Property 'email' does not exist on type 'string'.
+lib/commands/owner.js(220,13): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/owner.js(242,11): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/pack.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Pack'.
+lib/commands/pack.js(82,11): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/pack.js(87,26): error TS2488: Type 'any[] | undefined' must have a '[Symbol.iterator]()' method that returns an iterator.
 lib/commands/ping.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Ping'.
+lib/commands/ping.js(11,9): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/ping.js(15,9): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/ping.js(23,11): error TS2339: Property 'notice' does not exist on type '{}'.
 lib/commands/pkg.js(7,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Pkg'.
 lib/commands/pkg.js(21,23): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
 lib/commands/pkg.js(51,50): error TS2532: Object is possibly 'undefined'.
 lib/commands/prefix.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Prefix'.
 lib/commands/profile.js(42,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Profile'.
-lib/commands/prune.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Prune'.
+lib/commands/profile.js(84,9): error TS2339: Property 'gauge' does not exist on type '{}'.
+lib/commands/profile.js(183,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/profile.js(286,11): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/profile.js(306,9): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/profile.js(310,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/profile.js(317,11): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/profile.js(329,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/profile.js(359,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/profile.js(393,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/prune.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Prune'.
 lib/commands/publish.js(30,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Publish'.
+lib/commands/publish.js(51,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/publish.js(58,24): error TS2339: Property 'level' does not exist on type '{}'.
+lib/commands/publish.js(150,24): error TS2339: Property 'level' does not exist on type '{}'.
 lib/commands/publish.js(155,37): error TS2532: Object is possibly 'undefined'.
 lib/commands/publish.js(160,13): error TS2571: Object is of type 'unknown'.
+lib/commands/publish.js(161,15): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/rebuild.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Rebuild'.
 lib/commands/rebuild.js(23,33): error TS2554: Expected 0-1 arguments, but got 2.
-lib/commands/repo.js(11,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Repo'.
+lib/commands/repo.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Repo'.
+lib/commands/repo.js(59,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/restart.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Restart'.
 lib/commands/root.js(4,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Root'.
 lib/commands/run-script.js(19,20): error TS2769: No overload matches this call.
@@ -143,110 +225,170 @@ lib/commands/run-script.js(19,20): error TS2769: No overload matches this call.
     Type 'string' is not assignable to type 'never'.
 lib/commands/run-script.js(41,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'RunScript'.
 lib/commands/run-script.js(70,63): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
+lib/commands/run-script.js(119,19): error TS2339: Property 'level' does not exist on type '{}'.
+lib/commands/run-script.js(142,13): error TS2339: Property 'level' does not exist on type '{}'.
 lib/commands/run-script.js(203,33): error TS2532: Object is possibly 'undefined'.
+lib/commands/run-script.js(209,13): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/run-script.js(210,13): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/run-script.js(211,13): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/run-script.js(212,13): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/run-script.js(236,13): error TS2339: Property 'level' does not exist on type '{}'.
 lib/commands/run-script.js(242,35): error TS2532: Object is possibly 'undefined'.
 lib/commands/run-script.js(251,35): error TS2532: Object is possibly 'undefined'.
 lib/commands/run-script.js(260,33): error TS2532: Object is possibly 'undefined'.
 lib/commands/search.js(31,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Search'.
+lib/commands/search.js(80,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/search.js(99,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/search.js(100,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
 lib/commands/set-script.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'SetScript'.
+lib/commands/set-script.js(38,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/set-script.js(46,32): error TS2532: Object is possibly 'undefined'.
+lib/commands/set-script.js(50,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/set-script.js(51,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/set-script.js(52,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/set-script.js(55,13): error TS2339: Property 'error' does not exist on type '{}'.
 lib/commands/set-script.js(55,33): error TS2571: Object is of type 'unknown'.
+lib/commands/set-script.js(56,13): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/set-script.js(57,13): error TS2339: Property 'error' does not exist on type '{}'.
 lib/commands/set.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Set'.
-lib/commands/shrinkwrap.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Shrinkwrap'.
-lib/commands/shrinkwrap.js(20,10): error TS2339: Property 'code' does not exist on type 'Error'.
-lib/commands/star.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Star'.
-lib/commands/stars.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Stars'.
-lib/commands/stars.js(31,11): error TS2571: Object is of type 'unknown'.
+lib/commands/shrinkwrap.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Shrinkwrap'.
+lib/commands/shrinkwrap.js(19,10): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/commands/shrinkwrap.js(55,11): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/shrinkwrap.js(62,11): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/shrinkwrap.js(64,11): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/shrinkwrap.js(66,11): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/star.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Star'.
+lib/commands/star.js(52,13): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/star.js(54,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/star.js(57,13): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/star.js(58,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/star.js(69,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/stars.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Stars'.
+lib/commands/stars.js(23,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/stars.js(30,11): error TS2571: Object is of type 'unknown'.
+lib/commands/stars.js(31,13): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/start.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Start'.
 lib/commands/stop.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Stop'.
 lib/commands/team.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Team'.
 lib/commands/test.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Test'.
 lib/commands/token.js(14,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Token'.
-lib/commands/uninstall.js(11,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Uninstall'.
-lib/commands/uninstall.js(37,15): error TS2571: Object is of type 'unknown'.
-lib/commands/uninstall.js(37,39): error TS2571: Object is of type 'unknown'.
+lib/commands/token.js(33,9): error TS2339: Property 'gauge' does not exist on type '{}'.
+lib/commands/token.js(55,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/token.js(100,26): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/token.js(146,13): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/uninstall.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Uninstall'.
+lib/commands/uninstall.js(38,15): error TS2571: Object is of type 'unknown'.
+lib/commands/uninstall.js(38,39): error TS2571: Object is of type 'unknown'.
 lib/commands/unpublish.js(15,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Unpublish'.
+lib/commands/unpublish.js(69,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/unpublish.js(70,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/unpublish.js(88,20): error TS2571: Object is of type 'unknown'.
 lib/commands/unpublish.js(88,45): error TS2571: Object is of type 'unknown'.
+lib/commands/unpublish.js(95,11): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/unpublish.js(129,24): error TS2532: Object is possibly 'undefined'.
 lib/commands/unstar.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Unstar'.
 lib/commands/update.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Update'.
 lib/commands/update.js(33,33): error TS2554: Expected 0-1 arguments, but got 2.
+lib/commands/update.js(44,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/version.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Version'.
 lib/commands/version.js(82,32): error TS2532: Object is possibly 'undefined'.
 lib/commands/version.js(119,24): error TS2532: Object is possibly 'undefined'.
 lib/commands/view.js(24,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'View'.
+lib/commands/view.js(120,13): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/view.js(124,11): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/commands/view.js(142,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/view.js(152,24): error TS2532: Object is possibly 'undefined'.
+lib/commands/view.js(160,13): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/view.js(210,10): error TS2339: Property 'statusCode' does not exist on type 'Error'.
 lib/commands/view.js(211,10): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/commands/view.js(212,10): error TS2339: Property 'pkgid' does not exist on type 'Error'.
 lib/commands/whoami.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Whoami'.
-lib/npm.js(63,18): error TS2769: No overload matches this call.
+lib/npm.js(40,5): error TS2322: Type 'LogFiles' is not assignable to type 'null'.
+lib/npm.js(41,5): error TS2322: Type 'Display' is not assignable to type 'null'.
+lib/npm.js(42,5): error TS2322: Type 'Timers' is not assignable to type 'null'.
+lib/npm.js(44,7): error TS2322: Type '(name: any, ms: any) => void' is not assignable to type 'null | undefined'.
+  Type '(name: any, ms: any) => void' is not assignable to type 'null'.
+lib/npm.js(46,9): error TS2531: Object is possibly 'null'.
+lib/npm.js(47,9): error TS2531: Object is possibly 'null'.
+lib/npm.js(62,29): error TS2339: Property 'version' does not exist on type 'Function'.
+lib/npm.js(92,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(75,29): error TS2339: Property 'version' does not exist on type 'Function'.
-lib/npm.js(105,18): error TS2769: No overload matches this call.
+lib/npm.js(108,15): error TS2339: Property 'error' does not exist on type '{}'.
+lib/npm.js(143,22): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(147,22): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(154,20): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(156,22): error TS2769: No overload matches this call.
+lib/npm.js(161,19): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/npm.js(164,26): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(160,22): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(167,20): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(178,26): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(182,13): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
-lib/npm.js(203,18): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(210,18): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(168,13): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
+lib/npm.js(190,5): error TS2531: Object is possibly 'null'.
+lib/npm.js(191,5): error TS2531: Object is possibly 'null'.
+lib/npm.js(192,5): error TS2531: Object is possibly 'null'.
+lib/npm.js(194,7): error TS2531: Object is possibly 'null'.
 lib/npm.js(217,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(219,18): error TS2769: No overload matches this call.
+lib/npm.js(224,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(228,18): error TS2769: No overload matches this call.
+lib/npm.js(226,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/npm.js(231,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
 lib/npm.js(233,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(235,18): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(237,18): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(240,18): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
 lib/npm.js(242,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
+    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(247,18): error TS2769: No overload matches this call.
+  The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(246,18): error TS2769: No overload matches this call.
+lib/npm.js(249,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(251,18): error TS2769: No overload matches this call.
+lib/npm.js(250,5): error TS2531: Object is possibly 'null'.
+lib/npm.js(259,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(253,18): error TS2769: No overload matches this call.
+lib/npm.js(262,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
-lib/npm.js(255,18): error TS2769: No overload matches this call.
+lib/npm.js(263,5): error TS2531: Object is possibly 'null'.
+lib/npm.js(267,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/npm.js(267,28): error TS2531: Object is possibly 'null'.
+lib/npm.js(268,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(270,18): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(271,5): error TS2531: Object is possibly 'null'.
+lib/npm.js(274,18): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(276,18): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(281,18): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
+lib/npm.js(308,12): error TS2531: Object is possibly 'null'.
+lib/npm.js(312,12): error TS2531: Object is possibly 'null'.
+lib/npm.js(316,12): error TS2531: Object is possibly 'null'.
+lib/npm.js(320,12): error TS2531: Object is possibly 'null'.
+lib/npm.js(398,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
+lib/npm.js(401,9): error TS2339: Property 'showProgress' does not exist on type '{}'.
 lib/search/format-package-stream.js(41,19): error TS2339: Property 'emit' does not exist on type 'JSONOutputStream'.
-lib/utils/cleanup-log-files.js(14,16): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
-lib/utils/cleanup-log-files.js(19,16): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
-lib/utils/cleanup-log-files.js(29,13): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
+lib/utils/audit-error.js(20,7): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/utils/config/definition.js(43,52): error TS2339: Property 'default' does not exist on type 'Definition'.
 lib/utils/config/definition.js(46,48): error TS2339: Property 'type' does not exist on type 'Definition'.
 lib/utils/config/definition.js(50,16): error TS2339: Property 'type' does not exist on type 'Definition'.
@@ -266,29 +408,127 @@ lib/utils/config/definitions.js(73,41): error TS2769: No overload matches this c
 lib/utils/config/definitions.js(80,3): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
 lib/utils/config/index.js(36,22): error TS2322: Type 'string' is not assignable to type 'never'.
-lib/utils/exit-handler.js(32,16): error TS2769: No overload matches this call.
+lib/utils/display.js(15,9): error TS2339: Property 'pause' does not exist on type '{}'.
+lib/utils/display.js(28,9): error TS2339: Property 'tracker' does not exist on type '{}'.
+lib/utils/display.js(43,11): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/display.js(45,11): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/display.js(48,9): error TS2339: Property 'heading' does not exist on type '{}'.
+lib/utils/display.js(51,11): error TS2339: Property 'enableColor' does not exist on type '{}'.
+lib/utils/display.js(53,11): error TS2339: Property 'disableColor' does not exist on type '{}'.
+lib/utils/display.js(57,11): error TS2339: Property 'enableUnicode' does not exist on type '{}'.
+lib/utils/display.js(59,11): error TS2339: Property 'disableUnicode' does not exist on type '{}'.
+lib/utils/display.js(63,24): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/display.js(63,35): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/display.js(63,48): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/display.js(65,11): error TS2339: Property 'enableProgress' does not exist on type '{}'.
+lib/utils/display.js(67,11): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/utils/display.js(71,9): error TS2339: Property 'resume' does not exist on type '{}'.
+lib/utils/display.js(112,50): error TS2339: Property 'useColor' does not exist on type '{}'.
+lib/utils/error-message.js(67,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(14,7): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/utils/exit-handler.js(18,16): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
-lib/utils/exit-handler.js(136,16): error TS2339: Property 'code' does not exist on type 'Error'.
-lib/utils/exit-handler.js(138,13): error TS2339: Property 'code' does not exist on type 'Error'.
-lib/utils/exit-handler.js(171,23): error TS2339: Property 'code' does not exist on type 'Error'.
-lib/utils/exit-handler.js(179,22): error TS2339: Property 'errno' does not exist on type 'Error'.
-lib/utils/exit-handler.js(180,24): error TS2339: Property 'errno' does not exist on type 'Error'.
-lib/utils/exit-handler.js(181,29): error TS2339: Property 'code' does not exist on type 'Error'.
-lib/utils/exit-handler.js(182,24): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/utils/exit-handler.js(26,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(31,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/utils/exit-handler.js(33,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(38,9): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(40,9): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(41,9): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(53,13): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/exit-handler.js(53,24): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/exit-handler.js(53,38): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/exit-handler.js(57,9): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(80,7): error TS2339: Property 'disableProgress' does not exist on type '{}'.
+lib/utils/exit-handler.js(98,13): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/exit-handler.js(99,9): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/exit-handler.js(100,9): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/exit-handler.js(101,9): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/exit-handler.js(119,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(122,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(125,16): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/utils/exit-handler.js(127,13): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/utils/exit-handler.js(133,15): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(138,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(139,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(140,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(141,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(142,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(147,15): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(153,13): error TS2339: Property 'error' does not exist on type '{}'.
+lib/utils/exit-handler.js(159,23): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/utils/exit-handler.js(167,22): error TS2339: Property 'errno' does not exist on type 'Error'.
+lib/utils/exit-handler.js(168,24): error TS2339: Property 'errno' does not exist on type 'Error'.
+lib/utils/exit-handler.js(169,29): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/utils/exit-handler.js(170,24): error TS2339: Property 'code' does not exist on type 'Error'.
+lib/utils/exit-handler.js(175,7): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/utils/exit-handler.js(177,28): error TS2339: Property 'level' does not exist on type '{}'.
 lib/utils/is-windows-bash.js(3,26): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
+lib/utils/log-file.js(50,5): error TS2322: Type 'number' is not assignable to type 'null'.
+lib/utils/log-file.js(51,5): error TS2322: Type 'number' is not assignable to type 'null'.
+lib/utils/log-file.js(87,11): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
+lib/utils/log-file.js(87,16): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
+lib/utils/log-file.js(99,41): error TS2339: Property 'pipe' does not exist on type 'never'.
+lib/utils/log-file.js(117,12): error TS2358: The left-hand side of an 'instanceof' expression must be of type 'any', an object type or a type parameter.
+lib/utils/log-file.js(122,23): error TS2339: Property 'end' does not exist on type 'never'.
+lib/utils/log-file.js(144,23): error TS2339: Property 'write' does not exist on type 'never'.
+lib/utils/log-file.js(149,31): error TS2531: Object is possibly 'null'.
+lib/utils/log-file.js(152,33): error TS2531: Object is possibly 'null'.
+lib/utils/log-file.js(160,23): error TS2339: Property 'write' does not exist on type 'never'.
+lib/utils/log-file.js(170,25): error TS2345: Argument of type 'null' is not assignable to parameter of type 'string'.
+lib/utils/log-file.js(181,25): error TS2531: Object is possibly 'null'.
+lib/utils/log-file.js(230,11): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/utils/log-file.js(236,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/utils/log-file.js(240,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/utils/open-url.js(49,14): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
 lib/utils/path.js(4,18): error TS2532: Object is possibly 'undefined'.
+lib/utils/pulse-till-done.js(15,9): error TS2339: Property 'gauge' does not exist on type '{}'.
 lib/utils/queryable.js(282,24): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
 lib/utils/queryable.js(293,12): error TS2345: Argument of type '{ data: any; key: any; value: symbol; }' is not assignable to parameter of type '{ data: any; key: any; value: any; force: any; }'.
   Property 'force' is missing in type '{ data: any; key: any; value: symbol; }' but required in type '{ data: any; key: any; value: any; force: any; }'.
+lib/utils/read-user-info.js(21,7): error TS2339: Property 'clearProgress' does not exist on type '{}'.
+lib/utils/read-user-info.js(22,44): error TS2339: Property 'showProgress' does not exist on type '{}'.
+lib/utils/read-user-info.js(47,11): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/utils/read-user-info.js(61,11): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/utils/reify-output.js(30,11): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/reify-output.js(30,22): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/reify-output.js(30,35): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/reify-output.js(61,13): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/utils/reify-output.js(79,40): error TS2769: No overload matches this call.
   Overload 1 of 2, '(value: any, replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined): string', gave the following error.
     Argument of type '0' is not assignable to parameter of type '((this: any, key: string, value: any) => any) | undefined'.
   Overload 2 of 2, '(value: any, replacer?: (string | number)[] | null | undefined, space?: string | number | undefined): string', gave the following error.
     Argument of type '0' is not assignable to parameter of type '(string | number)[] | null | undefined'.
-lib/utils/update-notifier.js(32,50): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+lib/utils/reify-output.js(108,24): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/reify-output.js(108,35): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/reify-output.js(108,48): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/tar.js(13,7): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(14,7): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(15,7): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(17,9): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(34,9): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(35,41): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(37,7): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(38,7): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/tar.js(69,7): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/utils/timers.js(25,5): error TS2322: Type 'string' is not assignable to type 'null'.
+lib/utils/timers.js(42,18): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '"time"' is not assignable to parameter of type 'Signals'.
+lib/utils/timers.js(46,3): error TS2416: Property 'on' in type 'Timers' is not assignable to the same property in base type 'EventEmitter'.
+  Type '(listener: any) => void' is not assignable to type '(eventName: string | symbol, listener: (...args: any[]) => void) => this'.
+    Type 'void' is not assignable to type 'this'.
+      'this' could be instantiated with an arbitrary type which could be unrelated to 'void'.
+lib/utils/timers.js(55,3): error TS2416: Property 'off' in type 'Timers' is not assignable to the same property in base type 'EventEmitter'.
+  Type '(listener: any) => void' is not assignable to type '(eventName: string | symbol, listener: (...args: any[]) => void) => this'.
+    Type 'void' is not assignable to type 'this'.
+      'this' could be instantiated with an arbitrary type which could be unrelated to 'void'.
+lib/utils/timers.js(83,22): error TS2345: Argument of type 'null' is not assignable to parameter of type 'string'.
+lib/utils/timers.js(91,11): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/utils/timers.js(106,11): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/utils/update-notifier.js(33,50): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+lib/utils/update-notifier.js(65,24): error TS2339: Property 'useColor' does not exist on type '{}'.
 lib/utils/usage.js(9,21): error TS2769: No overload matches this call.
   Overload 1 of 2, '(...items: ConcatArray<never>[]): never[]', gave the following error.
     Argument of type 'string' is not assignable to parameter of type 'ConcatArray<never>'.
