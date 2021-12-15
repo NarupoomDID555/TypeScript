@@ -1,7 +1,7 @@
-Exit Code: 0
+Exit Code: 1
 Standard output:
 yarn run vX.X.X
-$ node --max-old-space-size=3072 ./scripts/build/build.js
+$ node --max-old-space-size=4096 ./scripts/build/build.mjs
  Building packages 
 index.js.......................   DONE  
 doc.js.........................   DONE  
@@ -14,15 +14,25 @@ parser-typescript.js...........   DONE
 parser-espree.js...............   DONE  
 parser-meriyah.js..............   DONE  
 parser-angular.js..............   DONE  
-parser-postcss.js..............   DONE  
-esm/parser-postcss.mjs.........   DONE  
-parser-graphql.js..............   DONE  
-parser-markdown.js.............   DONE  
-parser-glimmer.js..............   DONE  
-parser-html.js.................   DONE  
-parser-yaml.js.................   DONE  
-Done in ?s.
+parser-postcss.js..............info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 
 
 
 Standard error:
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:67:19)
+    at Object.createHash (node:crypto:130:10)
+    at BulkUpdateDecorator.hashFactory (/prettier/node_modules/webpack/lib/util/createHash.js:145:18)
+    at BulkUpdateDecorator.update (/prettier/node_modules/webpack/lib/util/createHash.js:46:50)
+    at RawSource.updateHash (/prettier/node_modules/webpack-sources/lib/RawSource.js:77:8)
+    at NormalModule._initBuildHash (/prettier/node_modules/webpack/lib/NormalModule.js:880:17)
+    at handleParseResult (/prettier/node_modules/webpack/lib/NormalModule.js:946:10)
+    at /prettier/node_modules/webpack/lib/NormalModule.js:1038:4
+    at processResult (/prettier/node_modules/webpack/lib/NormalModule.js:755:11)
+    at /prettier/node_modules/webpack/lib/NormalModule.js:819:5 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+error Command failed with exit code 1.
