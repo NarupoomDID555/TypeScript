@@ -1,0 +1,24 @@
+Exit Code: 2
+Standard output:
+node_modules/rc-cascader/lib/Cascader.d.ts(66,18): error TS2430: Interface 'SingleCascaderProps<OptionType>' incorrectly extends interface 'BaseCascaderProps<OptionType>'.
+  Types of property 'onChange' are incompatible.
+    Type 'OnSingleChange<OptionType> | undefined' is not assignable to type '((value: ValueType, selectedOptions?: OptionType[] | OptionType[][] | undefined) => void) | undefined'.
+      Type 'OnSingleChange<OptionType>' is not assignable to type '(value: ValueType, selectedOptions?: OptionType[] | OptionType[][] | undefined) => void'.
+        Types of parameters 'value' and 'value' are incompatible.
+          Type 'ValueType' is not assignable to type 'SingleValueType'.
+            Type 'SingleValueType[]' is not assignable to type '(string | number)[]'.
+              Type 'SingleValueType' is not assignable to type 'string | number'.
+                Type '(string | number)[]' is not assignable to type 'string'.
+node_modules/rc-cascader/lib/Cascader.d.ts(70,18): error TS2430: Interface 'MultipleCascaderProps<OptionType>' incorrectly extends interface 'BaseCascaderProps<OptionType>'.
+  Types of property 'onChange' are incompatible.
+    Type 'OnMultipleChange<OptionType> | undefined' is not assignable to type '((value: ValueType, selectedOptions?: OptionType[] | OptionType[][] | undefined) => void) | undefined'.
+      Type 'OnMultipleChange<OptionType>' is not assignable to type '(value: ValueType, selectedOptions?: OptionType[] | OptionType[][] | undefined) => void'.
+        Types of parameters 'value' and 'value' are incompatible.
+          Type 'ValueType' is not assignable to type 'SingleValueType[]'.
+            Type 'SingleValueType' is not assignable to type 'SingleValueType[]'.
+              Type 'string | number' is not assignable to type 'SingleValueType'.
+                Type 'string' is not assignable to type '(string | number)[]'.
+
+
+
+Standard error:
