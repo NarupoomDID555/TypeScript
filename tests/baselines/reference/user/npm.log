@@ -280,13 +280,13 @@ lib/commands/token.js(146,13): error TS2339: Property 'info' does not exist on t
 lib/commands/uninstall.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Uninstall'.
 lib/commands/uninstall.js(38,15): error TS2571: Object is of type 'unknown'.
 lib/commands/uninstall.js(38,39): error TS2571: Object is of type 'unknown'.
-lib/commands/unpublish.js(15,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Unpublish'.
-lib/commands/unpublish.js(69,9): error TS2339: Property 'silly' does not exist on type '{}'.
-lib/commands/unpublish.js(70,9): error TS2339: Property 'silly' does not exist on type '{}'.
-lib/commands/unpublish.js(88,20): error TS2571: Object is of type 'unknown'.
-lib/commands/unpublish.js(88,45): error TS2571: Object is of type 'unknown'.
-lib/commands/unpublish.js(95,11): error TS2339: Property 'verbose' does not exist on type '{}'.
-lib/commands/unpublish.js(129,24): error TS2532: Object is possibly 'undefined'.
+lib/commands/unpublish.js(19,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Unpublish'.
+lib/commands/unpublish.js(77,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/unpublish.js(78,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/unpublish.js(96,20): error TS2571: Object is of type 'unknown'.
+lib/commands/unpublish.js(96,45): error TS2571: Object is of type 'unknown'.
+lib/commands/unpublish.js(103,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/unpublish.js(151,24): error TS2532: Object is possibly 'undefined'.
 lib/commands/unstar.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Unstar'.
 lib/commands/update.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Update'.
 lib/commands/update.js(33,33): error TS2554: Expected 0-1 arguments, but got 2.
