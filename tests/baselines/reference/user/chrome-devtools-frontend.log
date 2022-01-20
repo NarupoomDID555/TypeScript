@@ -10,7 +10,7 @@ node_modules/chrome-devtools-frontend/front_end/Runtime.js(270,9): error TS2322:
   Type 'void' is not assignable to type 'undefined'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(280,5): error TS2322: Type 'Promise<void>' is not assignable to type 'Promise<undefined>'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(525,9): error TS2322: Type 'Window' is not assignable to type 'Window & typeof globalThis'.
-  Type 'Window' is missing the following properties from type 'typeof globalThis': globalThis, eval, parseInt, parseFloat, and 758 more.
+  Type 'Window' is missing the following properties from type 'typeof globalThis': globalThis, eval, parseInt, parseFloat, and 754 more.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(527,55): error TS2352: Conversion of type 'Window & typeof globalThis' to type 'new () => any' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
   Type 'Window & typeof globalThis' provides no match for the signature 'new (): any'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(539,24): error TS2351: This expression is not constructable.
@@ -21,7 +21,7 @@ node_modules/chrome-devtools-frontend/front_end/Runtime.js(705,5): error TS2322:
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(715,7): error TS2322: Type 'Promise<void>' is not assignable to type 'Promise<undefined>'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(729,7): error TS2322: Type 'Promise<void>' is not assignable to type 'Promise<undefined>'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(746,5): error TS2322: Type 'Window | {}' is not assignable to type 'Window'.
-  Type '{}' is missing the following properties from type 'Window': clientInformation, closed, customElements, devicePixelRatio, and 190 more.
+  Type '{}' is missing the following properties from type 'Window': clientInformation, closed, customElements, devicePixelRatio, and 189 more.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(1083,15): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(1088,15): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
 node_modules/chrome-devtools-frontend/front_end/Tests.js(203,14): error TS7014: Function type, which lacks return-type annotation, implicitly has an 'any' return type.
@@ -1627,11 +1627,7 @@ node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighth
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44356,15): error TS2339: Property 'inverse' does not exist on type 'Map<any, any>'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44458,18): error TS2339: Property 'keysArray' does not exist on type 'Map<any, any>'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44469,8): error TS2339: Property 'pushAll' does not exist on type 'any[]'.
-node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44495,27): error TS2769: No overload matches this call.
-  Overload 1 of 2, '(message?: string, options?: ErrorOptions): Error', gave the following error.
-    Argument of type 'number' is not assignable to parameter of type 'string'.
-  Overload 2 of 2, '(message?: string): Error', gave the following error.
-    Argument of type 'number' is not assignable to parameter of type 'string'.
+node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44495,27): error TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44525,22): error TS2339: Property '_outgoingCallback' does not exist on type 'CallbackBarrier'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44535,22): error TS2339: Property '_outgoingCallback' does not exist on type 'CallbackBarrier'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(44536,6): error TS2339: Property '_outgoingCallback' does not exist on type 'CallbackBarrier'.
@@ -4097,7 +4093,7 @@ node_modules/chrome-devtools-frontend/front_end/cm_modes/coffeescript.js(10,17):
 node_modules/chrome-devtools-frontend/front_end/cm_modes/coffeescript.js(11,19): error TS2304: Cannot find name 'define'.
 node_modules/chrome-devtools-frontend/front_end/cm_modes/coffeescript.js(11,43): error TS2304: Cannot find name 'define'.
 node_modules/chrome-devtools-frontend/front_end/cm_modes/coffeescript.js(12,5): error TS2304: Cannot find name 'define'.
-node_modules/chrome-devtools-frontend/front_end/cm_modes/coffeescript.js(41,3): error TS2740: Type 'RegExp' is missing the following properties from type 'string[]': length, pop, push, concat, and 29 more.
+node_modules/chrome-devtools-frontend/front_end/cm_modes/coffeescript.js(41,3): error TS2740: Type 'RegExp' is missing the following properties from type 'string[]': length, pop, push, concat, and 28 more.
 node_modules/chrome-devtools-frontend/front_end/cm_modes/coffeescript.js(282,24): error TS2339: Property 'exec' does not exist on type 'string[]'.
 node_modules/chrome-devtools-frontend/front_end/cm_modes/jsx.js(6,17): error TS2792: Cannot find module '../../lib/codemirror'. Did you mean to set the 'moduleResolution' option to 'node', or to add aliases to the 'paths' option?
 node_modules/chrome-devtools-frontend/front_end/cm_modes/jsx.js(6,42): error TS2554: Expected 0-1 arguments, but got 3.
@@ -6345,7 +6341,7 @@ node_modules/chrome-devtools-frontend/front_end/extensions/ExtensionTraceProvide
 node_modules/chrome-devtools-frontend/front_end/extensions/ExtensionTraceProvider.js(31,32): error TS2339: Property 'stopTraceRecording' does not exist on type 'typeof extensionServer'.
 node_modules/chrome-devtools-frontend/front_end/extensions/ExtensionView.js(50,18): error TS2339: Property 'src' does not exist on type 'Element'.
 node_modules/chrome-devtools-frontend/front_end/extensions/ExtensionView.js(74,29): error TS2352: Conversion of type 'Window' to type 'Window[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
-  Type 'Window' is missing the following properties from type 'Window[]': pop, push, concat, join, and 28 more.
+  Type 'Window' is missing the following properties from type 'Window[]': pop, push, concat, join, and 27 more.
 node_modules/chrome-devtools-frontend/front_end/extensions/ExtensionView.js(75,74): error TS2339: Property 'contentWindow' does not exist on type 'Element'.
 node_modules/chrome-devtools-frontend/front_end/extensions_test_runner/ExtensionsNetworkTestRunner.js(23,5): error TS2304: Cannot find name 'output'.
 node_modules/chrome-devtools-frontend/front_end/extensions_test_runner/ExtensionsNetworkTestRunner.js(27,3): error TS2304: Cannot find name 'webInspector'.
@@ -8415,11 +8411,7 @@ node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1231,20): 
 node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1267,22): error TS2339: Property 'keysArray' does not exist on type 'Map<K, Set<V>>'.
 node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1277,14): error TS2339: Property 'pushAll' does not exist on type 'any[]'.
 node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1277,40): error TS2339: Property 'valuesArray' does not exist on type 'Set<V>'.
-node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1299,35): error TS2769: No overload matches this call.
-  Overload 1 of 2, '(message?: string, options?: ErrorOptions): Error', gave the following error.
-    Argument of type 'number' is not assignable to parameter of type 'string'.
-  Overload 2 of 2, '(message?: string): Error', gave the following error.
-    Argument of type 'number' is not assignable to parameter of type 'string'.
+node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1299,35): error TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.
 node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1321,12): error TS7014: Function type, which lacks return-type annotation, implicitly has an 'any' return type.
 node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1324,6): error TS2339: Property 'setImmediate' does not exist on type 'Window & typeof globalThis'.
 node_modules/chrome-devtools-frontend/front_end/platform/utilities.js(1326,41): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
@@ -11864,7 +11856,7 @@ node_modules/chrome-devtools-frontend/front_end/timeline/TimelineFlameChartDataP
 node_modules/chrome-devtools-frontend/front_end/timeline/TimelineFlameChartDataProvider.js(654,37): error TS2339: Property 'naturalHeight' does not exist on type 'new (width?: number, height?: number) => HTMLImageElement'.
 node_modules/chrome-devtools-frontend/front_end/timeline/TimelineFlameChartDataProvider.js(655,39): error TS2339: Property 'naturalWidth' does not exist on type 'new (width?: number, height?: number) => HTMLImageElement'.
 node_modules/chrome-devtools-frontend/front_end/timeline/TimelineFlameChartDataProvider.js(660,23): error TS2345: Argument of type 'new (width?: number, height?: number) => HTMLImageElement' is not assignable to parameter of type 'CanvasImageSource'.
-  Type 'new (width?: number, height?: number) => HTMLImageElement' is missing the following properties from type 'HTMLCanvasElement': height, width, captureStream, getContext, and 281 more.
+  Type 'new (width?: number, height?: number) => HTMLImageElement' is missing the following properties from type 'ImageBitmap': height, width, close
 node_modules/chrome-devtools-frontend/front_end/timeline/TimelineFlameChartDataProvider.js(679,3): error TS4122: This member cannot have a JSDoc comment with an '@override' tag because it is not declared in the base class 'Object'.
 node_modules/chrome-devtools-frontend/front_end/timeline/TimelineFlameChartDataProvider.js(745,3): error TS4122: This member cannot have a JSDoc comment with an '@override' tag because it is not declared in the base class 'Object'.
 node_modules/chrome-devtools-frontend/front_end/timeline/TimelineFlameChartDataProvider.js(862,44): error TS2339: Property 'id' does not exist on type 'Event'.

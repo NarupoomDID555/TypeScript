@@ -9,16 +9,6 @@ lib/cache/PackFileCacheStrategy.js(1292,11): error TS2345: Argument of type 'str
 lib/cache/PackFileCacheStrategy.js(1325,13): error TS2345: Argument of type 'string' is not assignable to parameter of type 'string[]'.
 lib/cache/PackFileCacheStrategy.js(1367,46): error TS2345: Argument of type 'string' is not assignable to parameter of type 'string[]'.
 lib/css/CssLoadingRuntimeModule.js(281,8): error TS2367: This condition will always return 'true' since the types 'true | ((arg0: string) => string)' and 'false' have no overlap.
-lib/dependencies/WorkerPlugin.js(268,23): error TS2339: Property 'name' does not exist on type 'Record<string, any> | {}'.
-  Property 'name' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(270,36): error TS2339: Property 'name' does not exist on type 'Record<string, any> | {}'.
-  Property 'name' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(312,23): error TS2339: Property 'type' does not exist on type 'Record<string, Identifier | SimpleLiteral | RegExpLiteral | BigIntLiteral | FunctionExpression | ... 25 more ... | AssignmentPattern> | {}'.
-  Property 'type' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(313,33): error TS2339: Property 'type' does not exist on type 'Record<string, Identifier | SimpleLiteral | RegExpLiteral | BigIntLiteral | FunctionExpression | ... 25 more ... | AssignmentPattern> | {}'.
-  Property 'type' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(314,20): error TS2339: Property 'type' does not exist on type 'Record<string, any> | {}'.
-  Property 'type' does not exist on type '{}'.
 lib/javascript/StartupHelpers.js(26,36): error TS2694: Namespace 'ChunkGraph' has no exported member 'EntryModuleWithChunkGroup'.
 lib/javascript/StartupHelpers.js(104,36): error TS2694: Namespace 'ChunkGraph' has no exported member 'EntryModuleWithChunkGroup'.
 lib/util/deterministicGrouping.js(501,14): error TS2314: Generic type 'GroupedItems' requires 1 type argument(s).

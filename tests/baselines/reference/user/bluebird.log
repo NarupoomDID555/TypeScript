@@ -48,6 +48,7 @@ node_modules/bluebird/js/release/map.js(118,23): error TS2339: Property '_values
 node_modules/bluebird/js/release/map.js(120,18): error TS2339: Property '_isResolved' does not exist on type 'MappingPromiseArray'.
 node_modules/bluebird/js/release/map.js(134,10): error TS2339: Property '_resolve' does not exist on type 'MappingPromiseArray'.
 node_modules/bluebird/js/release/map.js(163,66): error TS2339: Property 'promise' does not exist on type 'MappingPromiseArray'.
+node_modules/bluebird/js/release/nodeify.js(32,19): error TS2339: Property 'cause' does not exist on type 'Error'.
 node_modules/bluebird/js/release/promise.js(4,12): error TS2350: Only a void function can be called with the 'new' keyword.
 node_modules/bluebird/js/release/promise.js(7,24): error TS2339: Property 'PromiseInspection' does not exist on type 'typeof Promise'.
 node_modules/bluebird/js/release/promise.js(10,27): error TS2350: Only a void function can be called with the 'new' keyword.
