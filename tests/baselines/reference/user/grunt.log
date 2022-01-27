@@ -1,20 +1,31 @@
 Exit Code: 2
 Standard output:
+../../../../../built/local/lib.es2015.symbol.wellknown.d.ts(282,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+../../../../../node_modules/@types/node/cluster.d.ts(409,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+../../../../../node_modules/@types/node/fs.d.ts(409,38): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+../../../../../node_modules/@types/node/path.d.ts(7,14): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt.js(10,11): error TS2307: Cannot find module 'coffeescript/register' or its corresponding type declarations.
+lib/grunt.js(48,14): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/grunt.js(63,1): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt.js(91,13): error TS2551: Property 'task' does not exist on type 'typeof import("/grunt/grunt/lib/grunt.js")'. Did you mean 'tasks'?
 lib/grunt.js(96,34): error TS2551: Property 'task' does not exist on type 'typeof import("/grunt/grunt/lib/grunt.js")'. Did you mean 'tasks'?
 lib/grunt.js(101,25): error TS2339: Property 'cli' does not exist on type 'typeof import("/grunt/grunt/lib/grunt.js")'.
 lib/grunt.js(102,23): error TS2339: Property 'cli' does not exist on type 'typeof import("/grunt/grunt/lib/grunt.js")'.
+lib/grunt/cli.js(27,39): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/config.js(66,18): error TS2339: Property 'template' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/fail.js(22,14): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/fail.js(25,19): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/fail.js(25,65): error TS2339: Property 'underline' does not exist on type '"Used --force, continuing."'.
 lib/grunt/fail.js(26,15): error TS2339: Property 'yellow' does not exist on type 'string'.
+lib/grunt/fail.js(28,30): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/fail.js(28,35): error TS2339: Property 'red' does not exist on type 'string'.
 lib/grunt/fail.js(35,13): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/fail.js(57,24): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/fail.js(61,14): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(35,39): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
   Type 'IArguments' is missing the following properties from type 'string[]': pop, push, concat, join, and 27 more.
+lib/grunt/file.js(67,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/grunt/file.js(87,27): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/file.js(87,33): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[options?: any, patterns?: any, filepaths?: any]'.
 lib/grunt/file.js(182,13): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(186,91): error TS2571: Object is of type 'unknown'.
@@ -25,26 +36,32 @@ lib/grunt/file.js(239,74): error TS2571: Object is of type 'unknown'.
 lib/grunt/file.js(263,74): error TS2571: Object is of type 'unknown'.
 lib/grunt/file.js(270,23): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(288,86): error TS2571: Object is of type 'unknown'.
+lib/grunt/file.js(316,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/file.js(333,7): error TS2367: This condition will always return 'false' since the types 'string | Buffer' and 'boolean' have no overlap.
 lib/grunt/file.js(344,23): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(346,29): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(361,13): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(365,13): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(379,75): error TS2571: Object is of type 'unknown'.
+lib/grunt/file.js(385,34): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/file.js(385,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
 lib/grunt/file.js(391,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
 lib/grunt/file.js(395,9): error TS2571: Object is of type 'unknown'.
+lib/grunt/file.js(399,85): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/file.js(399,85): error TS2571: Object is of type 'unknown'.
 lib/grunt/file.js(405,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(411,34): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/file.js(411,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
 lib/grunt/file.js(417,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
 lib/grunt/file.js(444,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
 lib/grunt/file.js(454,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/help.js(41,3): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/help.js(58,40): error TS2339: Property 'cli' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/help.js(59,19): error TS2339: Property 'cli' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/help.js(81,9): error TS2551: Property 'task' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'. Did you mean 'tasks'?
 lib/grunt/help.js(85,21): error TS2551: Property 'task' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'. Did you mean 'tasks'?
 lib/grunt/help.js(87,22): error TS2551: Property 'task' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'. Did you mean 'tasks'?
+lib/grunt/help.js(95,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/task.js(26,23): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
 lib/grunt/task.js(39,24): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(44,22): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
@@ -58,6 +75,7 @@ lib/grunt/task.js(95,56): error TS2339: Property 'config' does not exist on type
 lib/grunt/task.js(104,53): error TS2339: Property 'config' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(110,40): error TS2339: Property 'config' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(115,51): error TS2339: Property 'yellow' does not exist on type '"[no files]"'.
+lib/grunt/task.js(135,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/task.js(136,20): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(142,28): error TS2339: Property 'config' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(143,29): error TS2339: Property 'config' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
@@ -78,13 +96,16 @@ lib/grunt/task.js(273,27): error TS2345: Argument of type 'any' is not assignabl
 lib/grunt/task.js(274,25): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
 lib/grunt/task.js(278,21): error TS2571: Object is of type 'unknown'.
 lib/grunt/task.js(285,35): error TS2339: Property 'config' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/task.js(307,18): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/task.js(331,48): error TS2571: Object is of type 'unknown'.
+lib/grunt/task.js(342,42): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/task.js(348,23): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(354,29): error TS2571: Object is of type 'unknown'.
 lib/grunt/task.js(361,13): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(377,14): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(390,19): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(390,48): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/task.js(395,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/grunt/task.js(398,28): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(413,13): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/task.js(436,23): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
@@ -110,6 +131,7 @@ lib/grunt/template.js(85,5): error TS2571: Object is of type 'unknown'.
 lib/grunt/template.js(85,69): error TS2571: Object is of type 'unknown'.
 lib/grunt/template.js(86,11): error TS2339: Property 'warn' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/template.js(86,25): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/util/task.js(122,14): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/util/task.js(161,36): error TS2345: Argument of type 'number[]' is not assignable to parameter of type '[start: number, deleteCount: number, ...items: never[]]'.
   Source provides no match for required element at position 0 in target.
 lib/util/task.js(211,12): error TS2339: Property '_success' does not exist on type '(Anonymous function)'.
@@ -125,6 +147,7 @@ lib/util/task.js(278,32): error TS2339: Property '_placeholder' does not exist o
 lib/util/task.js(293,12): error TS2339: Property 'runTaskFn' does not exist on type '(Anonymous function)'.
 lib/util/task.js(294,36): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
 lib/util/task.js(294,42): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
+lib/util/task.js(307,21): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/util/task.js(320,21): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
 lib/util/task.js(331,7): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
 

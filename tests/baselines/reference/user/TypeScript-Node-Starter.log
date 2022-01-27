@@ -1,13 +1,21 @@
 Exit Code: 2
 Standard output:
+../../../../../built/local/lib.es2015.symbol.wellknown.d.ts(135,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/async/index.d.ts(282,34): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/@types/mongodb/index.d.ts(44,78): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
   Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
 node_modules/@types/mongodb/index.d.ts(57,111): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
   Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
+node_modules/mongoose/index.d.ts(1564,29): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/mongoose/node_modules/@types/mongodb/index.d.ts(46,78): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
   Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
 node_modules/mongoose/node_modules/@types/mongodb/index.d.ts(58,111): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
   Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
+src/config/passport.ts(109,46): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+src/controllers/api.ts(24,19): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+src/controllers/user.ts(31,62): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+src/controllers/user.ts(199,32): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+src/controllers/user.ts(200,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 
 
 

@@ -1,5 +1,11 @@
 Exit Code: 2
 Standard output:
+../../../../built/local/lib.dom.d.ts(16328,38): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@discordjs/builders/dist/index.d.ts(58,51): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@discordjs/builders/dist/index.d.ts(770,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/node/base.d.ts(1006,40): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/node/base.d.ts(2690,28): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/ws/index.d.ts(351,29): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/discord.js/typings/index.d.ts(52,30): error TS2307: Cannot find module 'node:child_process' or its corresponding type declarations.
 node_modules/discord.js/typings/index.d.ts(53,30): error TS2307: Cannot find module 'node:events' or its corresponding type declarations.
 node_modules/discord.js/typings/index.d.ts(54,30): error TS2307: Cannot find module 'node:https' or its corresponding type declarations.
@@ -9,9 +15,14 @@ node_modules/discord.js/typings/index.d.ts(658,28): error TS2694: Namespace 'Nod
 node_modules/discord.js/typings/index.d.ts(659,32): error TS2694: Namespace 'NodeJS' has no exported member 'Timeout'.
 node_modules/discord.js/typings/index.d.ts(1435,27): error TS2694: Namespace 'NodeJS' has no exported member 'Timeout'.
 node_modules/discord.js/typings/index.d.ts(2194,47): error TS2694: Namespace 'NodeJS' has no exported member 'Timeout'.
+node_modules/discord.js/typings/index.d.ts(2361,29): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/discord.js/typings/index.d.ts(2475,33): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/discord.js/typings/index.d.ts(2611,102): error TS2694: Namespace 'NodeJS' has no exported member 'Timeout'.
 node_modules/discord.js/typings/index.d.ts(2613,32): error TS2694: Namespace 'NodeJS' has no exported member 'Timeout'.
 node_modules/discord.js/typings/index.d.ts(2616,32): error TS2694: Namespace 'NodeJS' has no exported member 'Timeout'.
+node_modules/discord.js/typings/index.d.ts(3802,76): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/zod/lib/ZodError.d.ts(45,18): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/zod/lib/types.d.ts(660,68): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 
 
 

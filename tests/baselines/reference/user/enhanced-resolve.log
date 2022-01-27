@@ -1,5 +1,9 @@
 Exit Code: 2
 Standard output:
+node_modules/@types/node/buffer.d.ts(166,26): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/AliasPlugin.js(45,34): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/AliasPlugin.js(62,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(23,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(120,20): error TS2532: Object is possibly 'undefined'.
 node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(123,17): error TS2532: Object is possibly 'undefined'.
 node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(124,3): error TS2532: Object is possibly 'undefined'.
@@ -12,6 +16,7 @@ node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(127,18): error TS2769
   Overload 2 of 2, '(id?: number | undefined): void', gave the following error.
     Argument of type 'Timer | null' is not assignable to parameter of type 'number | undefined'.
       Type 'null' is not assignable to type 'number | undefined'.
+node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(132,21): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(143,18): error TS2769: No overload matches this call.
   Overload 1 of 2, '(intervalId: Timeout): void', gave the following error.
     Argument of type 'Timer | null' is not assignable to parameter of type 'Timeout'.
@@ -34,17 +39,39 @@ node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(235,4): error TS2322:
 node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(246,4): error TS2322: Type 'null' is not assignable to type '(path: any) => any'.
 node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(252,24): error TS2322: Type 'null' is not assignable to type '(path: any, callback: any) => void'.
 node_modules/enhanced-resolve/lib/CachedInputFileSystem.js(257,28): error TS2322: Type 'null' is not assignable to type '(path: any) => any'.
+node_modules/enhanced-resolve/lib/ConcordModulesPlugin.js(38,42): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/ConcordModulesPlugin.js(51,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/DescriptionFileUtils.js(44,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/FileExistsPlugin.js(22,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/MainFieldPlugin.js(9,1): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/ModulesInRootPlugin.js(19,35): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/enhanced-resolve/lib/Resolver.js(56,8): error TS2339: Property '_pluginCompat' does not exist on type 'Resolver'.
 node_modules/enhanced-resolve/lib/Resolver.js(65,8): error TS2339: Property '_pluginCompat' does not exist on type 'Resolver'.
 node_modules/enhanced-resolve/lib/Resolver.js(189,18): error TS2339: Property 'push' does not exist on type 'Set<any>'.
 node_modules/enhanced-resolve/lib/Resolver.js(210,13): error TS2339: Property 'details' does not exist on type 'Error'.
 node_modules/enhanced-resolve/lib/Resolver.js(211,13): error TS2339: Property 'missing' does not exist on type 'Error'.
+node_modules/enhanced-resolve/lib/Resolver.js(246,4): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/enhanced-resolve/lib/Resolver.js(262,20): error TS2339: Property 'recursion' does not exist on type 'Error'.
+node_modules/enhanced-resolve/lib/ResolverFactory.js(314,21): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/ResolverFactory.js(338,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/enhanced-resolve/lib/RootPlugin.js(9,36): error TS2694: Namespace 'Resolver' has no exported member 'ResolveStepHook'.
+node_modules/enhanced-resolve/lib/SymlinkPlugin.js(30,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/SyncAsyncFileSystemDecorator.js(46,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js(18,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/concord.js(13,28): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/enhanced-resolve/lib/concord.js(80,30): error TS2531: Object is possibly 'null'.
 node_modules/enhanced-resolve/lib/concord.js(81,17): error TS2531: Object is possibly 'null'.
 node_modules/enhanced-resolve/lib/concord.js(149,24): error TS2339: Property 'replace' does not exist on type 'never'.
 node_modules/enhanced-resolve/lib/concord.js(188,17): error TS2339: Property 'replace' does not exist on type 'never'.
+node_modules/enhanced-resolve/lib/createInnerCallback.js(41,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/forEachBail.js(14,3): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/forEachBail.js(25,21): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/getPaths.js(33,24): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/globToRegExp.js(60,8): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/globToRegExp.js(165,27): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/node.js(56,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/node.js(132,2): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/enhanced-resolve/lib/node.js(188,14): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 
 
 

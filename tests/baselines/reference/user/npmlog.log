@@ -1,5 +1,11 @@
 Exit Code: 2
 Standard output:
+../../../../built/local/lib.es2015.symbol.wellknown.d.ts(226,6): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+../../../../built/local/lib.es2015.symbol.wellknown.d.ts(302,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/node/assert.d.ts(895,31): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/node/constants.d.ts(12,14): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/node/stream/web.d.ts(300,19): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/npmlog/log.js(25,1): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/npmlog/log.js(82,8): error TS2339: Property 'tracker' does not exist on type 'enableProgress'.
 node_modules/npmlog/log.js(82,34): error TS2339: Property 'showProgress' does not exist on type 'enableProgress'.
 node_modules/npmlog/log.js(83,12): error TS2339: Property '_pause' does not exist on type 'enableProgress'.
@@ -7,6 +13,7 @@ node_modules/npmlog/log.js(84,8): error TS2339: Property 'gauge' does not exist 
 node_modules/npmlog/log.js(90,8): error TS2339: Property 'tracker' does not exist on type 'disableProgress'.
 node_modules/npmlog/log.js(90,46): error TS2339: Property 'showProgress' does not exist on type 'disableProgress'.
 node_modules/npmlog/log.js(91,8): error TS2339: Property 'gauge' does not exist on type 'disableProgress'.
+node_modules/npmlog/log.js(145,8): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/npmlog/log.js(150,12): error TS2339: Property 'progressEnabled' does not exist on type 'pause'.
 node_modules/npmlog/log.js(150,34): error TS2339: Property 'gauge' does not exist on type 'pause'.
 node_modules/npmlog/log.js(159,3): error TS2532: Object is possibly 'undefined'.
@@ -14,6 +21,7 @@ node_modules/npmlog/log.js(162,12): error TS2339: Property 'progressEnabled' doe
 node_modules/npmlog/log.js(162,34): error TS2339: Property 'gauge' does not exist on type 'resume'.
 node_modules/npmlog/log.js(171,16): error TS2339: Property 'levels' does not exist on type '(Anonymous function)'.
 node_modules/npmlog/log.js(173,17): error TS2339: Property 'emit' does not exist on type '(Anonymous function)'.
+node_modules/npmlog/log.js(187,16): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/npmlog/log.js(202,8): error TS2339: Property 'emit' does not exist on type '(Anonymous function)'.
 node_modules/npmlog/log.js(203,8): error TS2339: Property 'emit' does not exist on type '(Anonymous function)'.
 node_modules/npmlog/log.js(204,22): error TS2339: Property 'emit' does not exist on type '(Anonymous function)'.
@@ -31,6 +39,7 @@ node_modules/npmlog/log.js(271,16): error TS2769: No overload matches this call.
     Argument of type 'string | undefined' is not assignable to parameter of type 'string | Uint8Array'.
 node_modules/npmlog/log.js(277,8): error TS2339: Property 'levels' does not exist on type 'addLevel'.
 node_modules/npmlog/log.js(278,8): error TS2339: Property 'style' does not exist on type 'addLevel'.
+node_modules/npmlog/log.js(278,21): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 node_modules/npmlog/log.js(289,8): error TS2339: Property 'disp' does not exist on type 'addLevel'.
 
 

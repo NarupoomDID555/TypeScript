@@ -1,5 +1,8 @@
 Exit Code: 2
 Standard output:
+../../../../built/local/lib.es2015.iterable.d.ts(55,6): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+../../../../built/local/lib.es2015.symbol.wellknown.d.ts(320,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+../../../../built/local/lib.es2018.asynciterable.d.ts(40,6): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 index.ts(1,27): error TS2307: Cannot find module 'firebase' or its corresponding type declarations.
 
 

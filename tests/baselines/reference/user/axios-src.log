@@ -1,0 +1,9 @@
+Exit Code: 2
+Standard output:
+test/typescript/axios.ts(60,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+test/typescript/axios.ts(201,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+test/typescript/axios.ts(209,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+
+
+
+Standard error:

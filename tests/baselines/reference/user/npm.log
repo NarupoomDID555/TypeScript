@@ -1,11 +1,16 @@
 Exit Code: 2
 Standard output:
+../../../../../node_modules/@types/node/repl.d.ts(234,61): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+../../../../../node_modules/@types/node/timers.d.ts(24,29): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/arborist-cmd.js(19,17): error TS2339: Property 'exec' does not exist on type 'ArboristCmd'.
+lib/auth/legacy.js(40,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/auth/legacy.js(40,11): error TS2571: Object is of type 'unknown'.
 lib/auth/legacy.js(59,9): error TS2571: Object is of type 'unknown'.
 lib/auth/legacy.js(84,7): error TS2339: Property 'info' does not exist on type '{}'.
 lib/auth/sso.js(17,7): error TS2339: Property 'info' does not exist on type '{}'.
+lib/auth/sso.js(19,52): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/auth/sso.js(39,7): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/auth/sso.js(58,62): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/auth/sso.js(72,7): error TS2339: Property 'info' does not exist on type '{}'.
 lib/base-command.js(20,29): error TS2339: Property 'description' does not exist on type 'Function'.
 lib/base-command.js(25,26): error TS2339: Property 'description' does not exist on type 'Function'.
@@ -17,11 +22,13 @@ lib/base-command.js(52,42): error TS2339: Property 'params' does not exist on ty
 lib/base-command.js(80,14): error TS2339: Property 'isArboristCmd' does not exist on type 'BaseCommand'.
 lib/cli.js(24,15): error TS2339: Property 'setNpm' does not exist on type '(err: any) => undefined'.
 lib/cli.js(34,7): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/cli.js(34,34): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/cli.js(36,7): error TS2339: Property 'info' does not exist on type '{}'.
 lib/cli.js(37,7): error TS2339: Property 'info' does not exist on type '{}'.
 lib/cli.js(69,9): error TS2571: Object is of type 'unknown'.
 lib/commands/access.js(24,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Access'.
 lib/commands/access.js(190,13): error TS2571: Object is of type 'unknown'.
+lib/commands/access.js(199,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/adduser.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'AddUser'.
 lib/commands/adduser.js(25,9): error TS2339: Property 'disableProgress' does not exist on type '{}'.
 lib/commands/adduser.js(27,9): error TS2339: Property 'notice' does not exist on type '{}'.
@@ -30,6 +37,8 @@ lib/commands/bin.js(6,10): error TS2699: Static property 'name' conflicts with b
 lib/commands/birthday.js(4,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Birthday'.
 lib/commands/bugs.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Bugs'.
 lib/commands/bugs.js(25,9): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/commands/cache.js(25,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/cache.js(45,19): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/cache.js(71,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Cache'.
 lib/commands/cache.js(144,13): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/cache.js(158,9): error TS2339: Property 'silly' does not exist on type '{}'.
@@ -37,6 +46,7 @@ lib/commands/cache.js(164,11): error TS2339: Property 'silly' does not exist on 
 lib/commands/cache.js(177,34): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
 lib/commands/cache.js(178,26): error TS2532: Object is possibly 'undefined'.
+lib/commands/cache.js(182,68): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/ci.js(12,16): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"time"' is not assignable to parameter of type 'Signals'.
@@ -52,14 +62,22 @@ lib/commands/completion.js(59,26): error TS2345: Argument of type 'string | unde
   Type 'undefined' is not assignable to type 'string'.
 lib/commands/completion.js(60,26): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
+lib/commands/completion.js(132,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/completion.js(157,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/completion.js(220,9): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
 lib/commands/completion.js(232,7): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
+lib/commands/completion.js(259,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/config.js(24,30): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/config.js(29,10): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/config.js(47,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Config'.
+lib/commands/config.js(65,18): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/config.js(102,9): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/config.js(107,9): error TS2339: Property 'disableProgress' does not exist on type '{}'.
 lib/commands/config.js(132,11): error TS2339: Property 'enableProgress' does not exist on type '{}'.
 lib/commands/config.js(143,11): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/config.js(146,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/config.js(229,37): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/config.js(229,43): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/config.js(234,16): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
 lib/commands/dedupe.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Dedupe'.
 lib/commands/dedupe.js(29,10): error TS2339: Property 'code' does not exist on type 'Error'.
@@ -70,16 +88,21 @@ lib/commands/diff.js(70,33): error TS2532: Object is possibly 'undefined'.
 lib/commands/diff.js(84,11): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/diff.js(117,11): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/diff.js(155,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/diff.js(172,28): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/diff.js(177,29): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/diff.js(228,13): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/diff.js(262,11): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/dist-tag.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'DistTag'.
+lib/commands/dist-tag.js(49,33): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/dist-tag.js(76,9): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/dist-tag.js(85,9): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/dist-tag.js(99,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/dist-tag.js(120,9): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/dist-tag.js(128,11): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/dist-tag.js(161,50): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/dist-tag.js(165,11): error TS2339: Property 'error' does not exist on type '{}'.
 lib/commands/dist-tag.js(173,24): error TS2532: Object is possibly 'undefined'.
+lib/commands/dist-tag.js(190,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/docs.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Docs'.
 lib/commands/docs.js(36,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/doctor.js(42,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Doctor'.
@@ -87,6 +110,7 @@ lib/commands/doctor.js(46,9): error TS2339: Property 'info' does not exist on ty
 lib/commands/doctor.js(94,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
 lib/commands/doctor.js(94,36): error TS2538: Type 'any[]' cannot be used as an index type.
 lib/commands/doctor.js(96,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
+lib/commands/doctor.js(102,30): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/doctor.js(108,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
   Type 'string' is not assignable to type 'boolean'.
 lib/commands/doctor.js(114,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
@@ -98,10 +122,12 @@ lib/commands/doctor.js(147,27): error TS2571: Object is of type 'unknown'.
 lib/commands/doctor.js(148,15): error TS2571: Object is of type 'unknown'.
 lib/commands/doctor.js(148,41): error TS2571: Object is of type 'unknown'.
 lib/commands/doctor.js(150,15): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(158,21): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/doctor.js(158,25): error TS2339: Property 'newItem' does not exist on type '{}'.
 lib/commands/doctor.js(177,25): error TS2339: Property 'newItem' does not exist on type '{}'.
 lib/commands/doctor.js(206,7): error TS2322: Type 'number' is not assignable to type 'null'.
 lib/commands/doctor.js(211,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(217,23): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/doctor.js(240,27): error TS2345: Argument of type 'null' is not assignable to parameter of type 'number | undefined'.
 lib/commands/doctor.js(273,25): error TS2339: Property 'newItem' does not exist on type '{}'.
 lib/commands/doctor.js(286,25): error TS2339: Property 'newItem' does not exist on type '{}'.
@@ -123,14 +149,21 @@ lib/commands/fund.js(29,33): error TS2554: Expected 0-1 arguments, but got 2.
 lib/commands/fund.js(45,11): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/commands/fund.js(51,11): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/commands/fund.js(71,15): error TS2339: Property 'flatOptions' does not exist on type 'Fund'.
+lib/commands/fund.js(115,13): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/fund.js(205,22): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/commands/get.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Get'.
 lib/commands/help-search.js(11,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'HelpSearch'.
+lib/commands/help-search.js(46,12): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/help-search.js(69,60): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/help-search.js(105,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/help.js(17,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Help'.
+lib/commands/help.js(41,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/help.js(64,26): error TS2531: Object is possibly 'null'.
 lib/commands/help.js(65,26): error TS2531: Object is possibly 'null'.
+lib/commands/help.js(68,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/help.js(69,16): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
 lib/commands/help.js(69,29): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+lib/commands/help.js(116,29): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/help.js(116,35): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '{ env: {}; stdio: string; }' is not assignable to parameter of type 'SpawnOptions'.
@@ -138,9 +171,13 @@ lib/commands/help.js(116,35): error TS2769: No overload matches this call.
         Type 'string' is not assignable to type 'StdioOptions | undefined'.
 lib/commands/help.js(118,12): error TS2339: Property 'on' does not exist on type 'never'.
   The intersection 'ChildProcessWithoutNullStreams & ChildProcessByStdio<Writable, Readable, Readable> & ... 7 more ... & ChildProcess' was reduced to 'never' because property 'stdin' has conflicting types in some constituents.
+lib/commands/help.js(120,29): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/help.js(123,16): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
 lib/commands/hook.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Hook'.
+lib/commands/hook.js(41,46): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/hook.js(96,39): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/init.js(18,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Init'.
+lib/commands/init.js(76,35): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/init.js(128,9): error TS2339: Property 'pause' does not exist on type '{}'.
 lib/commands/init.js(129,9): error TS2339: Property 'disableProgress' does not exist on type '{}'.
 lib/commands/init.js(150,13): error TS2339: Property 'resume' does not exist on type '{}'.
@@ -151,25 +188,42 @@ lib/commands/init.js(155,18): error TS2794: Expected 1 arguments, but got 0. Did
 lib/commands/init.js(160,15): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/install-ci-test.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'InstallCITest'.
 lib/commands/install-test.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'InstallTest'.
+lib/commands/install.js(4,32): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/install.js(16,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Install'.
+lib/commands/install.js(81,40): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/install.js(113,67): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/install.js(121,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/install.js(137,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/install.js(142,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/install.js(176,23): error TS2339: Property 'level' does not exist on type '{}'.
 lib/commands/link.js(17,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Link'.
+lib/commands/link.js(42,33): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/link.js(99,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/ll.js(4,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'LL'.
 lib/commands/logout.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Logout'.
 lib/commands/logout.js(23,11): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/logout.js(30,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/logout.js(33,13): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/ls.js(29,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'LS'.
 lib/commands/ls.js(48,33): error TS2554: Expected 0-1 arguments, but got 2.
+lib/commands/ls.js(257,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/ls.js(290,38): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/ls.js(320,8): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/ls.js(336,6): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/org.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Org'.
+lib/commands/org.js(114,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/outdated.js(18,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Outdated'.
+lib/commands/outdated.js(59,57): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/outdated.js(60,23): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/outdated.js(166,5): error TS2532: Object is possibly 'undefined'.
 lib/commands/outdated.js(241,9): error TS2532: Object is possibly 'undefined'.
 lib/commands/outdated.js(257,9): error TS2571: Object is of type 'unknown'.
 lib/commands/outdated.js(258,9): error TS2571: Object is of type 'unknown'.
 lib/commands/outdated.js(259,9): error TS2571: Object is of type 'unknown'.
+lib/commands/outdated.js(300,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/outdated.js(305,38): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/owner.js(11,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Owner'.
+lib/commands/owner.js(47,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/owner.js(102,11): error TS2339: Property 'error' does not exist on type '{}'.
 lib/commands/owner.js(123,9): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/owner.js(146,9): error TS2339: Property 'verbose' does not exist on type '{}'.
@@ -181,7 +235,9 @@ lib/commands/owner.js(174,19): error TS2339: Property 'name' does not exist on t
 lib/commands/owner.js(174,34): error TS2339: Property 'email' does not exist on type 'string'.
 lib/commands/owner.js(220,13): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/owner.js(242,11): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/owner.js(258,18): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/pack.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Pack'.
+lib/commands/pack.js(52,47): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/pack.js(82,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/pack.js(87,26): error TS2488: Type 'any[] | undefined' must have a '[Symbol.iterator]()' method that returns an iterator.
 lib/commands/ping.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Ping'.
@@ -191,10 +247,17 @@ lib/commands/ping.js(23,11): error TS2339: Property 'notice' does not exist on t
 lib/commands/pkg.js(7,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Pkg'.
 lib/commands/pkg.js(21,23): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
 lib/commands/pkg.js(51,50): error TS2532: Object is possibly 'undefined'.
+lib/commands/pkg.js(73,18): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/pkg.js(118,13): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/prefix.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Prefix'.
 lib/commands/profile.js(42,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Profile'.
 lib/commands/profile.js(84,9): error TS2339: Property 'gauge' does not exist on type '{}'.
+lib/commands/profile.js(129,44): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/profile.js(149,31): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/profile.js(183,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/profile.js(205,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/profile.js(216,23): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/profile.js(278,25): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/profile.js(286,11): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/profile.js(306,9): error TS2339: Property 'notice' does not exist on type '{}'.
 lib/commands/profile.js(310,9): error TS2339: Property 'info' does not exist on type '{}'.
@@ -206,13 +269,16 @@ lib/commands/prune.js(9,10): error TS2699: Static property 'name' conflicts with
 lib/commands/publish.js(30,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Publish'.
 lib/commands/publish.js(51,9): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/publish.js(58,24): error TS2339: Property 'level' does not exist on type '{}'.
+lib/commands/publish.js(105,46): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/publish.js(115,11): error TS2339: Property 'notice' does not exist on type '{}'.
 lib/commands/publish.js(154,24): error TS2339: Property 'level' does not exist on type '{}'.
 lib/commands/publish.js(159,37): error TS2532: Object is possibly 'undefined'.
 lib/commands/publish.js(164,13): error TS2571: Object is of type 'unknown'.
 lib/commands/publish.js(165,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/publish.js(186,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/rebuild.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Rebuild'.
 lib/commands/rebuild.js(23,33): error TS2554: Expected 0-1 arguments, but got 2.
+lib/commands/rebuild.js(63,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/repo.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Repo'.
 lib/commands/repo.js(59,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/restart.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Restart'.
@@ -226,7 +292,9 @@ lib/commands/run-script.js(19,20): error TS2769: No overload matches this call.
     Type 'string' is not assignable to type 'never'.
 lib/commands/run-script.js(41,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'RunScript'.
 lib/commands/run-script.js(70,63): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
+lib/commands/run-script.js(88,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/run-script.js(119,19): error TS2339: Property 'level' does not exist on type '{}'.
+lib/commands/run-script.js(141,36): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/run-script.js(142,13): error TS2339: Property 'level' does not exist on type '{}'.
 lib/commands/run-script.js(203,33): error TS2532: Object is possibly 'undefined'.
 lib/commands/run-script.js(209,13): error TS2339: Property 'error' does not exist on type '{}'.
@@ -238,6 +306,7 @@ lib/commands/run-script.js(242,35): error TS2532: Object is possibly 'undefined'
 lib/commands/run-script.js(251,35): error TS2532: Object is possibly 'undefined'.
 lib/commands/run-script.js(260,33): error TS2532: Object is possibly 'undefined'.
 lib/commands/search.js(31,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Search'.
+lib/commands/search.js(65,46): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/search.js(80,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/search.js(99,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/search.js(100,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
@@ -245,6 +314,7 @@ lib/commands/set-script.js(10,10): error TS2699: Static property 'name' conflict
 lib/commands/set-script.js(38,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/set-script.js(46,32): error TS2532: Object is possibly 'undefined'.
 lib/commands/set-script.js(50,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/set-script.js(50,45): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/set-script.js(51,15): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/set-script.js(52,15): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/set-script.js(55,13): error TS2339: Property 'error' does not exist on type '{}'.
@@ -263,6 +333,7 @@ lib/commands/star.js(52,13): error TS2339: Property 'info' does not exist on typ
 lib/commands/star.js(54,13): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/star.js(57,13): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/star.js(58,13): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/star.js(63,15): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/star.js(69,11): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/commands/stars.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Stars'.
 lib/commands/stars.js(23,13): error TS2339: Property 'warn' does not exist on type '{}'.
@@ -270,22 +341,31 @@ lib/commands/stars.js(30,11): error TS2571: Object is of type 'unknown'.
 lib/commands/stars.js(31,13): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/start.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Start'.
 lib/commands/stop.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Stop'.
+lib/commands/stop.js(12,1): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/team.js(9,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Team'.
+lib/commands/team.js(104,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/test.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Test'.
 lib/commands/token.js(14,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Token'.
 lib/commands/token.js(33,9): error TS2339: Property 'gauge' does not exist on type '{}'.
 lib/commands/token.js(55,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/token.js(81,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/token.js(100,26): error TS2339: Property 'newItem' does not exist on type '{}'.
 lib/commands/token.js(146,13): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/token.js(148,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/token.js(174,28): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/token.js(184,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/token.js(191,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/uninstall.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Uninstall'.
 lib/commands/uninstall.js(38,15): error TS2571: Object is of type 'unknown'.
 lib/commands/uninstall.js(38,39): error TS2571: Object is of type 'unknown'.
 lib/commands/unpublish.js(19,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Unpublish'.
+lib/commands/unpublish.js(60,35): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/unpublish.js(77,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/unpublish.js(78,9): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/commands/unpublish.js(96,20): error TS2571: Object is of type 'unknown'.
 lib/commands/unpublish.js(96,45): error TS2571: Object is of type 'unknown'.
 lib/commands/unpublish.js(103,11): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/unpublish.js(123,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/unpublish.js(151,24): error TS2532: Object is possibly 'undefined'.
 lib/commands/unstar.js(5,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Unstar'.
 lib/commands/update.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Update'.
@@ -303,6 +383,8 @@ lib/commands/view.js(160,13): error TS2339: Property 'silly' does not exist on t
 lib/commands/view.js(210,10): error TS2339: Property 'statusCode' does not exist on type 'Error'.
 lib/commands/view.js(211,10): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/commands/view.js(212,10): error TS2339: Property 'pkgid' does not exist on type 'Error'.
+lib/commands/view.js(288,37): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/commands/view.js(430,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/commands/whoami.js(6,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Whoami'.
 lib/npm.js(40,5): error TS2322: Type 'LogFiles' is not assignable to type 'null'.
 lib/npm.js(41,5): error TS2322: Type 'Display' is not assignable to type 'null'.
@@ -366,6 +448,7 @@ lib/npm.js(262,18): error TS2769: No overload matches this call.
 lib/npm.js(263,5): error TS2531: Object is possibly 'null'.
 lib/npm.js(267,9): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/npm.js(267,28): error TS2531: Object is possibly 'null'.
+lib/npm.js(268,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/npm.js(268,18): error TS2769: No overload matches this call.
   The last overload gave the following error.
     Argument of type '"timeEnd"' is not assignable to parameter of type 'Signals'.
@@ -389,6 +472,7 @@ lib/npm.js(320,12): error TS2531: Object is possibly 'null'.
 lib/npm.js(398,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
 lib/npm.js(401,9): error TS2339: Property 'showProgress' does not exist on type '{}'.
 lib/search/format-package-stream.js(41,19): error TS2339: Property 'emit' does not exist on type 'JSONOutputStream'.
+lib/utils/audit-error.js(17,21): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/audit-error.js(20,7): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/utils/config/definition.js(43,52): error TS2339: Property 'default' does not exist on type 'Definition'.
 lib/utils/config/definition.js(46,48): error TS2339: Property 'type' does not exist on type 'Definition'.
@@ -397,6 +481,7 @@ lib/utils/config/definition.js(79,39): error TS2339: Property 'description' does
 lib/utils/config/definition.js(85,30): error TS2339: Property 'deprecated' does not exist on type 'Definition'.
 lib/utils/config/definition.js(85,79): error TS2339: Property 'deprecated' does not exist on type 'Definition'.
 lib/utils/config/definitions.js(19,9): error TS2571: Object is of type 'unknown'.
+lib/utils/config/definitions.js(45,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/config/definitions.js(72,14): error TS2532: Object is possibly 'undefined'.
 lib/utils/config/definitions.js(73,41): error TS2769: No overload matches this call.
   Overload 1 of 2, '(...items: ConcatArray<null>[]): null[]', gave the following error.
@@ -408,12 +493,25 @@ lib/utils/config/definitions.js(73,41): error TS2769: No overload matches this c
     Argument of type 'string[]' is not assignable to parameter of type 'ConcatArray<null>'.
 lib/utils/config/definitions.js(80,3): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
+lib/utils/config/definitions.js(278,3): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/definitions.js(717,31): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/definitions.js(777,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/definitions.js(1320,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/definitions.js(1523,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/definitions.js(1684,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/definitions.js(1814,35): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/definitions.js(1850,5): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/flatten.js(17,19): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/config/flatten.js(33,1): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/config/index.js(36,22): error TS2322: Type 'string' is not assignable to type 'never'.
+lib/utils/config/index.js(43,12): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/deref-command.js(27,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/display.js(15,9): error TS2339: Property 'pause' does not exist on type '{}'.
 lib/utils/display.js(28,9): error TS2339: Property 'tracker' does not exist on type '{}'.
 lib/utils/display.js(43,11): error TS2339: Property 'level' does not exist on type '{}'.
 lib/utils/display.js(45,11): error TS2339: Property 'level' does not exist on type '{}'.
 lib/utils/display.js(48,9): error TS2339: Property 'heading' does not exist on type '{}'.
+lib/utils/display.js(51,7): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/display.js(51,11): error TS2339: Property 'enableColor' does not exist on type '{}'.
 lib/utils/display.js(53,11): error TS2339: Property 'disableColor' does not exist on type '{}'.
 lib/utils/display.js(57,11): error TS2339: Property 'enableUnicode' does not exist on type '{}'.
@@ -425,6 +523,7 @@ lib/utils/display.js(65,11): error TS2339: Property 'enableProgress' does not ex
 lib/utils/display.js(67,11): error TS2339: Property 'disableProgress' does not exist on type '{}'.
 lib/utils/display.js(71,9): error TS2339: Property 'resume' does not exist on type '{}'.
 lib/utils/display.js(112,50): error TS2339: Property 'useColor' does not exist on type '{}'.
+lib/utils/display.js(119,18): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/error-message.js(67,13): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/utils/exit-handler.js(14,7): error TS2339: Property 'disableProgress' does not exist on type '{}'.
 lib/utils/exit-handler.js(18,16): error TS2769: No overload matches this call.
@@ -464,6 +563,8 @@ lib/utils/exit-handler.js(170,29): error TS2339: Property 'code' does not exist 
 lib/utils/exit-handler.js(171,24): error TS2339: Property 'code' does not exist on type 'Error'.
 lib/utils/exit-handler.js(176,7): error TS2339: Property 'verbose' does not exist on type '{}'.
 lib/utils/exit-handler.js(178,28): error TS2339: Property 'level' does not exist on type '{}'.
+lib/utils/explain-dep.js(75,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/explain-dep.js(81,10): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/is-windows-bash.js(3,26): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
   Type 'undefined' is not assignable to type 'string'.
 lib/utils/log-file.js(52,5): error TS2322: Type 'number' is not assignable to type 'null'.
@@ -481,12 +582,16 @@ lib/utils/log-file.js(168,25): error TS2345: Argument of type 'null' is not assi
 lib/utils/log-file.js(225,11): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/utils/log-file.js(231,15): error TS2339: Property 'silly' does not exist on type '{}'.
 lib/utils/log-file.js(235,11): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/utils/log-shim.js(24,11): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/open-url.js(49,14): error TS2794: Expected 1 arguments, but got 0. Did you forget to include 'void' in your type argument to 'Promise'?
 lib/utils/path.js(4,18): error TS2532: Object is possibly 'undefined'.
 lib/utils/pulse-till-done.js(15,9): error TS2339: Property 'gauge' does not exist on type '{}'.
+lib/utils/queryable.js(168,20): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/queryable.js(282,24): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
 lib/utils/queryable.js(293,12): error TS2345: Argument of type '{ data: any; key: any; value: symbol; }' is not assignable to parameter of type '{ data: any; key: any; value: any; force: any; }'.
   Property 'force' is missing in type '{ data: any; key: any; value: symbol; }' but required in type '{ data: any; key: any; value: any; force: any; }'.
+lib/utils/read-user-info.js(2,19): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/read-user-info.js(9,17): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/read-user-info.js(21,7): error TS2339: Property 'clearProgress' does not exist on type '{}'.
 lib/utils/read-user-info.js(22,44): error TS2339: Property 'showProgress' does not exist on type '{}'.
 lib/utils/read-user-info.js(47,11): error TS2339: Property 'warn' does not exist on type '{}'.
@@ -503,6 +608,8 @@ lib/utils/reify-output.js(79,40): error TS2769: No overload matches this call.
 lib/utils/reify-output.js(108,24): error TS2339: Property 'levels' does not exist on type '{}'.
 lib/utils/reify-output.js(108,35): error TS2339: Property 'level' does not exist on type '{}'.
 lib/utils/reify-output.js(108,48): error TS2339: Property 'levels' does not exist on type '{}'.
+lib/utils/reify-output.js(151,9): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+lib/utils/tar.js(12,31): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/tar.js(13,7): error TS2339: Property 'notice' does not exist on type '{}'.
 lib/utils/tar.js(14,7): error TS2339: Property 'notice' does not exist on type '{}'.
 lib/utils/tar.js(15,7): error TS2339: Property 'notice' does not exist on type '{}'.
@@ -527,13 +634,17 @@ lib/utils/timers.js(55,3): error TS2416: Property 'off' in type 'Timers' is not 
 lib/utils/timers.js(83,22): error TS2345: Argument of type 'null' is not assignable to parameter of type 'string'.
 lib/utils/timers.js(91,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/utils/timers.js(106,11): error TS2339: Property 'silly' does not exist on type '{}'.
+lib/utils/unsupported.js(34,53): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/update-notifier.js(33,50): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+lib/utils/update-notifier.js(56,40): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/update-notifier.js(65,24): error TS2339: Property 'useColor' does not exist on type '{}'.
+lib/utils/usage.js(9,12): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 lib/utils/usage.js(9,21): error TS2769: No overload matches this call.
   Overload 1 of 2, '(...items: ConcatArray<never>[]): never[]', gave the following error.
     Argument of type 'string' is not assignable to parameter of type 'ConcatArray<never>'.
   Overload 2 of 2, '(...items: ConcatArray<never>[]): never[]', gave the following error.
     Argument of type 'string' is not assignable to parameter of type 'ConcatArray<never>'.
+lib/utils/with-chown-sync.js(11,16): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
 
 
 

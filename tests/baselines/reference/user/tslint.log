@@ -1,0 +1,9 @@
+Exit Code: 2
+Standard output:
+node_modules/@types/node/assert.d.ts(893,27): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/node/dns.d.ts(626,26): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+node_modules/@types/node/util.d.ts(540,32): error TS2496: The 'arguments' object cannot be referenced in an arrow function in ES3 and ES5. Consider using a standard function expression.
+
+
+
+Standard error:
