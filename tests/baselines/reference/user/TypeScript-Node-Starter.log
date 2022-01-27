@@ -1,0 +1,14 @@
+Exit Code: 2
+Standard output:
+node_modules/@types/mongodb/index.d.ts(44,78): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
+node_modules/@types/mongodb/index.d.ts(57,111): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
+node_modules/mongoose/node_modules/@types/mongodb/index.d.ts(46,78): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
+node_modules/mongoose/node_modules/@types/mongodb/index.d.ts(58,111): error TS7016: Could not find a declaration file for module 'bson'. '../../../tests/cases/user/TypeScript-Node-Starter/TypeScript-Node-Starter/node_modules/bson/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/bson` if it exists or add a new declaration (.d.ts) file containing `declare module 'bson';`
+
+
+
+Standard error:
