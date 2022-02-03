@@ -533,7 +533,7 @@ src/util/testProxyUtils.ts(94,80): error TS1005: ':' expected.
 src/util/typescript/diagnostic.ts(57,13): error TS1109: Expression expected.
 src/util/typescript/diagnostic.ts(57,14): error TS1003: Identifier expected.
 src/util/typescript/diagnostic.ts(57,25): error TS1005: ':' expected.
---[ FAILURE: @azure/eslint-plugin-azure-sdk ]----------------[ ? seconds ]--
+--[ FAILURE: @azure/eslint-plugin-azure-sdk ]---------------[ ? seconds ]--
 Invoking: tsc -p tsconfig.build.json 
 ../../temp/node_modules/.pnpm/@types+node@X.X.X/node_modules/@types/node/assert.d.ts:2:68 - error TS1144: '{' or ';' expected.
 2     function assert(value: any, message?: string | Error): asserts value;
