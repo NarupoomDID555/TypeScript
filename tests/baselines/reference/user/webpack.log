@@ -1,20 +1,21 @@
-Exit Code: 2
+Exit Code: 1
 Standard output:
-lib/dependencies/WorkerPlugin.js(268,23): error TS2339: Property 'name' does not exist on type 'Record<string, any> | {}'.
-  Property 'name' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(270,36): error TS2339: Property 'name' does not exist on type 'Record<string, any> | {}'.
-  Property 'name' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(312,23): error TS2339: Property 'type' does not exist on type 'Record<string, Identifier | SimpleLiteral | RegExpLiteral | BigIntLiteral | FunctionExpression | ... 25 more ... | AssignmentPattern> | {}'.
-  Property 'type' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(313,33): error TS2339: Property 'type' does not exist on type 'Record<string, Identifier | SimpleLiteral | RegExpLiteral | BigIntLiteral | FunctionExpression | ... 25 more ... | AssignmentPattern> | {}'.
-  Property 'type' does not exist on type '{}'.
-lib/dependencies/WorkerPlugin.js(314,20): error TS2339: Property 'type' does not exist on type 'Record<string, any> | {}'.
-  Property 'type' does not exist on type '{}'.
-node_modules/terser-webpack-plugin/types/index.d.ts(219,24): error TS2307: Cannot find module 'webpack' or its corresponding type declarations.
-node_modules/terser-webpack-plugin/types/index.d.ts(241,27): error TS2307: Cannot find module 'webpack' or its corresponding type declarations.
-node_modules/terser-webpack-plugin/types/index.d.ts(242,28): error TS2307: Cannot find module 'webpack' or its corresponding type declarations.
-node_modules/terser-webpack-plugin/types/index.d.ts(243,21): error TS2307: Cannot find module 'webpack' or its corresponding type declarations.
 
 
 
 Standard error:
+
+../../../src/compiler/checker.ts:32194
+                Debug.assertEqual(links.type, type, "Parameter symbol already has a cached type which differs from newly assigned type");
+                      ^
+Error: Debug Failure. Expected [object Object] === [object Object]. Parameter symbol already has a cached type which differs from newly assigned type
+    at assignParameterType (../../../src/compiler/checker.ts:32194:23)
+    at assignContextualParameterTypes (../../../src/compiler/checker.ts:32166:21)
+    at contextuallyCheckFunctionExpressionOrObjectLiteralMethod (../../../src/compiler/checker.ts:32677:29)
+    at checkFunctionExpressionOrObjectLiteralMethod (../../../src/compiler/checker.ts:32650:13)
+    at checkExpressionWorker (../../../src/compiler/checker.ts:34600:28)
+    at checkExpression (../../../src/compiler/checker.ts:34489:40)
+    at checkExpressionWithContextualType (../../../src/compiler/checker.ts:34096:30)
+    at getSignatureApplicabilityError (../../../src/compiler/checker.ts:30000:37)
+    at chooseOverload (../../../src/compiler/checker.ts:30522:25)
+    at resolveCall (../../../src/compiler/checker.ts:30393:26)
