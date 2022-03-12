@@ -4,18 +4,18 @@ Standard output:
 
 
 Standard error:
+../../../built/local/tsc.js:116449
+                throw e;
+                ^
 
-../../../src/compiler/checker.ts:32194
-                Debug.assertEqual(links.type, type, "Parameter symbol already has a cached type which differs from newly assigned type");
-                      ^
 Error: Debug Failure. Expected [object Object] === [object Object]. Parameter symbol already has a cached type which differs from newly assigned type
-    at assignParameterType (../../../src/compiler/checker.ts:32194:23)
-    at assignContextualParameterTypes (../../../src/compiler/checker.ts:32166:21)
-    at contextuallyCheckFunctionExpressionOrObjectLiteralMethod (../../../src/compiler/checker.ts:32677:29)
-    at checkFunctionExpressionOrObjectLiteralMethod (../../../src/compiler/checker.ts:32650:13)
-    at checkExpressionWorker (../../../src/compiler/checker.ts:34600:28)
-    at checkExpression (../../../src/compiler/checker.ts:34489:40)
-    at checkExpressionWithContextualType (../../../src/compiler/checker.ts:34096:30)
-    at getSignatureApplicabilityError (../../../src/compiler/checker.ts:30000:37)
-    at chooseOverload (../../../src/compiler/checker.ts:30522:25)
-    at resolveCall (../../../src/compiler/checker.ts:30393:26)
+    at assignParameterType (../../../built/local/tsc.js:76818:26)
+    at assignContextualParameterTypes (../../../built/local/tsc.js:76791:21)
+    at contextuallyCheckFunctionExpressionOrObjectLiteralMethod (../../../built/local/tsc.js:77261:29)
+    at checkFunctionExpressionOrObjectLiteralMethod (../../../built/local/tsc.js:77236:13)
+    at checkExpressionWorker (../../../built/local/tsc.js:79003:28)
+    at checkExpression (../../../built/local/tsc.js:78898:38)
+    at checkExpressionWithContextualType (../../../built/local/tsc.js:78533:28)
+    at getSignatureApplicabilityError (../../../built/local/tsc.js:74823:35)
+    at chooseOverload (../../../built/local/tsc.js:75323:25)
+    at resolveCall (../../../built/local/tsc.js:75197:26)
