@@ -54,7 +54,7 @@ Standard output:
 @fluentui/api-docs: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/api-docs/tsconfig.json"
 @fluentui/api-docs: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/api-docs/tsconfig.json
 @fluentui/api-docs: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/api-docs/tsconfig.json"
-@fluentui/api-docs: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/api-docs: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/codemods: yarn run vX.X.X
 @fluentui/codemods: $ just-scripts ts
 @fluentui/codemods: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/codemods/tsconfig.json
@@ -84,14 +84,14 @@ Standard output:
 @fluentui/keyboard-keys: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/keyboard-keys: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/keyboard-keys: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/keyboard-keys: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/keyboard-keys: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/monaco-editor: yarn run vX.X.X
 @fluentui/monaco-editor: $ just-scripts ts
 @fluentui/monaco-editor: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/monaco-editor/tsconfig.json
 @fluentui/monaco-editor: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/monaco-editor/tsconfig.json"
 @fluentui/monaco-editor: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/monaco-editor/tsconfig.json
 @fluentui/monaco-editor: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/monaco-editor/tsconfig.json"
-@fluentui/monaco-editor: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/monaco-editor: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/priority-overflow: yarn run vX.X.X
 @fluentui/priority-overflow: $ just-scripts ts
 @fluentui/priority-overflow: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -107,7 +107,7 @@ Standard output:
 @fluentui/public-docsite-setup: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/public-docsite-setup/tsconfig.json"
 @fluentui/public-docsite-setup: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/public-docsite-setup/tsconfig.json
 @fluentui/public-docsite-setup: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/public-docsite-setup/tsconfig.json"
-@fluentui/public-docsite-setup: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/public-docsite-setup: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-conformance: yarn run vX.X.X
 @fluentui/react-conformance: $ just-scripts ts
 @fluentui/react-conformance: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-conformance/tsconfig.json
@@ -137,7 +137,7 @@ Standard output:
 @fluentui/test-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/test-utilities/tsconfig.json"
 @fluentui/test-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/test-utilities/tsconfig.json
 @fluentui/test-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/test-utilities/tsconfig.json"
-@fluentui/test-utilities: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/test-utilities: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/webpack-utilities: yarn run vX.X.X
 @fluentui/webpack-utilities: $ just-scripts ts
 @fluentui/webpack-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/webpack-utilities/tsconfig.json
@@ -177,7 +177,7 @@ Standard output:
 @fluentui/react-utilities: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-utilities: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-utilities: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-conformance-griffel: yarn run vX.X.X
 @fluentui/react-conformance-griffel: $ just-scripts ts
 @fluentui/react-conformance-griffel: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -195,7 +195,7 @@ Standard output:
 @fluentui/react-shared-contexts: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-shared-contexts: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-shared-contexts: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-shared-contexts: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-shared-contexts: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/date-time-utilities: yarn run vX.X.X
 @fluentui/date-time-utilities: $ just-scripts ts
 @fluentui/date-time-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/date-time-utilities/tsconfig.json
@@ -209,7 +209,7 @@ Standard output:
 @fluentui/dom-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/dom-utilities/tsconfig.json"
 @fluentui/dom-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/dom-utilities/tsconfig.json
 @fluentui/dom-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/dom-utilities/tsconfig.json"
-@fluentui/dom-utilities: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/dom-utilities: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/merge-styles: yarn run vX.X.X
 @fluentui/merge-styles: $ just-scripts ts
 @fluentui/merge-styles: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/merge-styles/tsconfig.json
@@ -223,7 +223,7 @@ Standard output:
 @fluentui/react-window-provider: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-window-provider/tsconfig.json"
 @fluentui/react-window-provider: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-window-provider/tsconfig.json
 @fluentui/react-window-provider: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-window-provider/tsconfig.json"
-@fluentui/react-window-provider: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-window-provider: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-northstar-styles-renderer: yarn run vX.X.X
 @fluentui/react-northstar-styles-renderer: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/react-northstar-styles-renderer: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
@@ -244,7 +244,7 @@ Standard output:
 @fluentui/react-context-selector: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-context-selector: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-context-selector: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-context-selector: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-context-selector: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-badge: yarn run vX.X.X
 @fluentui/react-badge: $ just-scripts ts
 @fluentui/react-badge: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -280,7 +280,7 @@ Standard output:
 @fluentui/react-image: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-image: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-image: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-image: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-image: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-input: yarn run vX.X.X
 @fluentui/react-input: $ just-scripts ts
 @fluentui/react-input: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -334,7 +334,7 @@ Standard output:
 @fluentui/react-text: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-text: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-text: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-text: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-text: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-textarea: yarn run vX.X.X
 @fluentui/react-textarea: $ just-scripts ts
 @fluentui/react-textarea: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -352,7 +352,7 @@ Standard output:
 @fluentui/react-toolbar: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-toolbar: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-toolbar: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-toolbar: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-toolbar: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-positioning: yarn run vX.X.X
 @fluentui/react-positioning: $ just-scripts ts
 @fluentui/react-positioning: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -377,7 +377,7 @@ Standard output:
 @fluentui/jest-serializer-merge-styles: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/jest-serializer-merge-styles/tsconfig.json"
 @fluentui/jest-serializer-merge-styles: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/jest-serializer-merge-styles/tsconfig.json
 @fluentui/jest-serializer-merge-styles: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/jest-serializer-merge-styles/tsconfig.json"
-@fluentui/jest-serializer-merge-styles: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/jest-serializer-merge-styles: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-northstar-emotion-renderer: yarn run vX.X.X
 @fluentui/react-northstar-emotion-renderer: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/react-northstar-emotion-renderer: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
@@ -428,7 +428,7 @@ Standard output:
 @fluentui/react-checkbox: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-checkbox: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-checkbox: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-checkbox: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-checkbox: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-link: yarn run vX.X.X
 @fluentui/react-link: $ just-scripts ts
 @fluentui/react-link: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -446,7 +446,7 @@ Standard output:
 @fluentui/react-portal: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-portal: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-portal: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-portal: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-portal: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-provider: yarn run vX.X.X
 @fluentui/react-provider: $ just-scripts ts
 @fluentui/react-provider: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -455,7 +455,7 @@ Standard output:
 @fluentui/react-provider: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-provider: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-provider: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-provider: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-provider: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-radio: yarn run vX.X.X
 @fluentui/react-radio: $ just-scripts ts
 @fluentui/react-radio: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -510,7 +510,7 @@ Standard output:
 @fluentui/react-card: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-card: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-card: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-card: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-card: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-combobox: yarn run vX.X.X
 @fluentui/react-combobox: $ just-scripts ts
 @fluentui/react-combobox: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -528,7 +528,7 @@ Standard output:
 @fluentui/react-menu: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-menu: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-menu: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-menu: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-menu: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-popover: yarn run vX.X.X
 @fluentui/react-popover: $ just-scripts ts
 @fluentui/react-popover: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -537,7 +537,7 @@ Standard output:
 @fluentui/react-popover: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-popover: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-popover: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-popover: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-popover: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-tooltip: yarn run vX.X.X
 @fluentui/react-tooltip: $ just-scripts ts
 @fluentui/react-tooltip: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -562,7 +562,7 @@ Standard output:
 @fluentui/react-storybook-addon: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-storybook-addon: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-storybook-addon: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-storybook-addon: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-storybook-addon: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-storybook: yarn run vX.X.X
 @fluentui/react-storybook: $ just-scripts ts
 @fluentui/react-storybook: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -585,7 +585,7 @@ Standard output:
 @fluentui/theme: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/theme/tsconfig.json"
 @fluentui/theme: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/theme/tsconfig.json
 @fluentui/theme: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/theme/tsconfig.json"
-@fluentui/theme: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/theme: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-icons-northstar: yarn run vX.X.X
 @fluentui/react-icons-northstar: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/react-icons-northstar: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
@@ -634,7 +634,7 @@ Standard output:
 @fluentui/ts-minbar-test-react-components: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 @fluentui/common-styles: yarn run vX.X.X
 @fluentui/common-styles: $ just-scripts ts
-@fluentui/common-styles: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/common-styles: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/font-icons-mdl2: yarn run vX.X.X
 @fluentui/font-icons-mdl2: $ just-scripts ts
 @fluentui/font-icons-mdl2: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/font-icons-mdl2/tsconfig.json
@@ -655,7 +655,7 @@ Standard output:
 @fluentui/react-file-type-icons: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-file-type-icons/tsconfig.json"
 @fluentui/react-file-type-icons: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-file-type-icons/tsconfig.json
 @fluentui/react-file-type-icons: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-file-type-icons/tsconfig.json"
-@fluentui/react-file-type-icons: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-file-type-icons: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-focus: yarn run vX.X.X
 @fluentui/react-focus: $ just-scripts ts
 @fluentui/react-focus: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-focus/tsconfig.json
@@ -708,7 +708,7 @@ Standard output:
 @fluentui/perf-test: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/apps/perf-test/tsconfig.json"
 @fluentui/perf-test: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/perf-test/tsconfig.json
 @fluentui/perf-test: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/apps/perf-test/tsconfig.json"
-@fluentui/perf-test: Done in ?s. Peak memory usage 32.94MB.
+@fluentui/perf-test: Done in ?s. Peak memory usage 32.69MB.
 @fluentui/ts-minbar-test-react: yarn run vX.X.X
 @fluentui/ts-minbar-test-react: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/ts-minbar-test-react: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/ts-minbar-test-react/tsconfig.json
@@ -722,7 +722,7 @@ Standard output:
 @fluentui/azure-themes: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/azure-themes/tsconfig.json"
 @fluentui/azure-themes: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/azure-themes/tsconfig.json
 @fluentui/azure-themes: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/azure-themes/tsconfig.json"
-@fluentui/azure-themes: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/azure-themes: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/cra-template: yarn run vX.X.X
 @fluentui/cra-template: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/cra-template: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
@@ -746,7 +746,7 @@ Standard output:
 @fluentui/react-date-time: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-date-time/tsconfig.json"
 @fluentui/react-date-time: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-date-time/tsconfig.json
 @fluentui/react-date-time: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-date-time/tsconfig.json"
-@fluentui/react-date-time: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-date-time: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-experiments: yarn run vX.X.X
 @fluentui/react-experiments: $ just-scripts ts
 @fluentui/react-experiments: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-experiments/tsconfig.json
@@ -774,7 +774,7 @@ Standard output:
 @fluentui/react-icons-mdl2-branded: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-icons-mdl2-branded/tsconfig.json"
 @fluentui/react-icons-mdl2-branded: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-icons-mdl2-branded/tsconfig.json
 @fluentui/react-icons-mdl2-branded: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-icons-mdl2-branded/tsconfig.json"
-@fluentui/react-icons-mdl2-branded: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-icons-mdl2-branded: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/docs: yarn run vX.X.X
 @fluentui/docs: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/docs: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
@@ -833,7 +833,7 @@ Standard output:
 @fluentui/public-docsite-resources: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/apps/public-docsite-resources/tsconfig.json"
 @fluentui/public-docsite-resources: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite-resources/tsconfig.json
 @fluentui/public-docsite-resources: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/apps/public-docsite-resources/tsconfig.json"
-@fluentui/public-docsite-resources: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/public-docsite-resources: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/public-docsite: yarn run vX.X.X
 @fluentui/public-docsite: $ just-scripts ts
 @fluentui/public-docsite: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite/tsconfig.json
@@ -1032,9 +1032,9 @@ Standard error:
 @fluentui/pr-deploy-site: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/pr-deploy-site: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/pr-deploy-site: error Command failed with exit code 1.
-@fluentui/react-conformance: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
+@fluentui/react-conformance: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-conformance: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-conformance: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-conformance/tsconfig.json"
+@fluentui/react-conformance: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-conformance/tsconfig.json"
 @fluentui/react-conformance:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-conformance:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-conformance:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1102,11 +1102,11 @@ Standard error:
 @fluentui/react-conformance: Found 18 errors in the same file, starting at: src/defaultTests.tsx:30
 @fluentui/react-conformance: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-conformance: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-conformance: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
+@fluentui/react-conformance: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/react-conformance: error Command failed with exit code 1.
-@fluentui/react-theme: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
+@fluentui/react-theme: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-theme: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-theme: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
+@fluentui/react-theme: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
 @fluentui/react-theme:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-theme:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-theme:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1120,7 +1120,7 @@ Standard error:
 @fluentui/react-theme: Found 1 error in src/themeToTokensObject.ts:15
 @fluentui/react-theme: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-theme: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-theme: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
+@fluentui/react-theme: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/react-theme: error Command failed with exit code 1.
 @fluentui/webpack-utilities: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/webpack-utilities: [XX:XX:XX XM] x ------------------------------------
@@ -1200,9 +1200,9 @@ Standard error:
 @fluentui/react-northstar-styles-renderer: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/react-northstar-styles-renderer: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/react-northstar-styles-renderer: error Command failed with exit code 1.
-@fluentui/react-positioning: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
+@fluentui/react-positioning: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-positioning: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-positioning: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
+@fluentui/react-positioning: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
 @fluentui/react-positioning:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-positioning:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-positioning:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1223,7 +1223,7 @@ Standard error:
 @fluentui/react-positioning: Found 1 error in src/createVirtualElementFromClick.ts:14
 @fluentui/react-positioning: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-positioning: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-positioning: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
+@fluentui/react-positioning: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/react-positioning: error Command failed with exit code 1.
 @fluentui/react-northstar-emotion-renderer: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
 @fluentui/react-northstar-emotion-renderer: [XX:XX:XX XM] x Command not defined: ts
@@ -1340,9 +1340,9 @@ Standard error:
 @fluentui/react-northstar: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/react-northstar: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/react-northstar: error Command failed with exit code 1.
-@fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x ------------------------------------
-@fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/apps/ts-minbar-test-react-components/tsconfig.json"
+@fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/apps/ts-minbar-test-react-components/tsconfig.json"
 @fluentui/ts-minbar-test-react-components:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/ts-minbar-test-react-components:     at ChildProcess.emit (events.js:314:20)
 @fluentui/ts-minbar-test-react-components:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1356,7 +1356,7 @@ Standard error:
 @fluentui/ts-minbar-test-react-components: Found 1 error in src/index.ts:49
 @fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x ------------------------------------
 @fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/ts-minbar-test-react-components: error Command failed with exit code 1.
 @fluentui/circulars-test: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
 @fluentui/circulars-test: [XX:XX:XX XM] x Command not defined: ts
@@ -1443,9 +1443,9 @@ Standard error:
 @fluentui/react-northstar-prototypes: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/react-northstar-prototypes: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/react-northstar-prototypes: error Command failed with exit code 1.
-@fluentui/ts-minbar-test-react: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/ts-minbar-test-react: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/ts-minbar-test-react: [XX:XX:XX XM] x ------------------------------------
-@fluentui/ts-minbar-test-react: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/apps/ts-minbar-test-react/tsconfig.json"
+@fluentui/ts-minbar-test-react: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/apps/ts-minbar-test-react/tsconfig.json"
 @fluentui/ts-minbar-test-react:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/ts-minbar-test-react:     at ChildProcess.emit (events.js:314:20)
 @fluentui/ts-minbar-test-react:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1459,24 +1459,21 @@ Standard error:
 @fluentui/ts-minbar-test-react: Found 1 error in src/index.ts:54
 @fluentui/ts-minbar-test-react: [XX:XX:XX XM] x ------------------------------------
 @fluentui/ts-minbar-test-react: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/ts-minbar-test-react: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/ts-minbar-test-react: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/ts-minbar-test-react: error Command failed with exit code 1.
 @fluentui/cra-template: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
 @fluentui/cra-template: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/cra-template: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/cra-template: error Command failed with exit code 1.
-@fluentui/react-experiments: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-experiments: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-experiments: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-experiments: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-experiments/tsconfig.json"
+@fluentui/react-experiments: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-experiments/tsconfig.json"
 @fluentui/react-experiments:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-experiments:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-experiments:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
 @fluentui/react-experiments:     at maybeClose (internal/child_process.js:1022:16)
-@fluentui/react-experiments:     at Socket.<anonymous> (internal/child_process.js:444:11)
-@fluentui/react-experiments:     at Socket.emit (events.js:314:20)
-@fluentui/react-experiments:     at Socket.EventEmitter.emit (domain.js:506:15)
-@fluentui/react-experiments:     at Pipe.<anonymous> (net.js:675:12)
-@fluentui/react-experiments:     at Pipe.callbackTrampoline (internal/async_hooks.js:126:14)
+@fluentui/react-experiments:     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+@fluentui/react-experiments:     at Process.callbackTrampoline (internal/async_hooks.js:126:14)
 @fluentui/react-experiments: [XX:XX:XX XM] x stdout:
 @fluentui/react-experiments: [XX:XX:XX XM] x src/components/FloatingSuggestions/FloatingPeopleSuggestions/defaults/DefaultPeopleSuggestionsItem.tsx:13:72 - error TS2339: Property 'peoplePickerPersonaContent' does not exist on type 'typeof import("*.scss")'.
 @fluentui/react-experiments: 13     <div className={css('ms-PeoplePicker-personaContent', stylesImport.peoplePickerPersonaContent)}>
@@ -1626,11 +1623,11 @@ Standard error:
 @fluentui/react-experiments:      1  src/utilities/scrolling/ScrollContainer.tsx:76
 @fluentui/react-experiments: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-experiments: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-experiments: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-experiments: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-experiments: error Command failed with exit code 1.
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
+@fluentui/react-monaco-editor: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-monaco-editor: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-monaco-editor/tsconfig.json"
+@fluentui/react-monaco-editor: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-monaco-editor/tsconfig.json"
 @fluentui/react-monaco-editor:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-monaco-editor:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-monaco-editor:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1678,7 +1675,7 @@ Standard error:
 @fluentui/react-monaco-editor:      5  src/transpiler/transpile.ts:2
 @fluentui/react-monaco-editor: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-monaco-editor: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
+@fluentui/react-monaco-editor: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/react-monaco-editor: error Command failed with exit code 1.
 @fluentui/docs: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
 @fluentui/docs: [XX:XX:XX XM] x Command not defined: ts
@@ -1688,9 +1685,9 @@ Standard error:
 @fluentui/e2e: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/e2e: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/e2e: error Command failed with exit code 1.
-@fluentui/react-docsite-components: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
+@fluentui/react-docsite-components: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-docsite-components: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-docsite-components: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-docsite-components/tsconfig.json"
+@fluentui/react-docsite-components: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-docsite-components/tsconfig.json"
 @fluentui/react-docsite-components:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-docsite-components:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-docsite-components:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1750,15 +1747,15 @@ Standard error:
 @fluentui/react-docsite-components:      1  src/components/Video/Video.tsx:4
 @fluentui/react-docsite-components: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-docsite-components: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-docsite-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
+@fluentui/react-docsite-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/react-docsite-components: error Command failed with exit code 1.
 @fluentui/perf: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
 @fluentui/perf: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/perf: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/perf: error Command failed with exit code 1.
-@fluentui/react-examples: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
+@fluentui/react-examples: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-examples: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-examples: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --target es5 --project "/office-ui-fabric-react/packages/react-examples/tsconfig.json"
+@fluentui/react-examples: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --target es5 --project "/office-ui-fabric-react/packages/react-examples/tsconfig.json"
 @fluentui/react-examples:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-examples:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-examples:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1818,7 +1815,7 @@ Standard error:
 @fluentui/react-examples:      4  src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Expandable.Example.tsx:27
 @fluentui/react-examples: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-examples: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-examples: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
+@fluentui/react-examples: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/react-examples: error Command failed with exit code 1.
 @fluentui/public-docsite: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/public-docsite: [XX:XX:XX XM] x ------------------------------------
