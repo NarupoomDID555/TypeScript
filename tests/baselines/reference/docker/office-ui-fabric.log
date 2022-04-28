@@ -1,4 +1,4 @@
-Exit Code: 1
+Exit Code: null
 Standard output:
 @fluentui/bundle-size: yarn run vX.X.X
 @fluentui/bundle-size: $ /office-ui-fabric-react/node_modules/.bin/just ts
@@ -54,21 +54,21 @@ Standard output:
 @fluentui/api-docs: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/api-docs/tsconfig.json"
 @fluentui/api-docs: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/api-docs/tsconfig.json
 @fluentui/api-docs: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/api-docs/tsconfig.json"
-@fluentui/api-docs: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/api-docs: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/codemods: yarn run vX.X.X
 @fluentui/codemods: $ just-scripts ts
 @fluentui/codemods: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/codemods/tsconfig.json
 @fluentui/codemods: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/codemods/tsconfig.json"
 @fluentui/codemods: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/codemods/tsconfig.json
 @fluentui/codemods: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/codemods/tsconfig.json"
-@fluentui/codemods: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/codemods: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/example-data: yarn run vX.X.X
 @fluentui/example-data: $ just-scripts ts
 @fluentui/example-data: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/example-data/tsconfig.json
 @fluentui/example-data: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/example-data/tsconfig.json"
 @fluentui/example-data: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/example-data/tsconfig.json
 @fluentui/example-data: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/example-data/tsconfig.json"
-@fluentui/example-data: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/example-data: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/keyboard-key: yarn run vX.X.X
 @fluentui/keyboard-key: $ just-scripts ts
 @fluentui/keyboard-key: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/keyboard-key/tsconfig.json
@@ -91,7 +91,7 @@ Standard output:
 @fluentui/monaco-editor: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/monaco-editor/tsconfig.json"
 @fluentui/monaco-editor: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/monaco-editor/tsconfig.json
 @fluentui/monaco-editor: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/monaco-editor/tsconfig.json"
-@fluentui/monaco-editor: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/monaco-editor: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/priority-overflow: yarn run vX.X.X
 @fluentui/priority-overflow: $ just-scripts ts
 @fluentui/priority-overflow: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -100,7 +100,7 @@ Standard output:
 @fluentui/priority-overflow: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/priority-overflow: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/priority-overflow: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/priority-overflow: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/priority-overflow: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/public-docsite-setup: yarn run vX.X.X
 @fluentui/public-docsite-setup: $ just-scripts ts
 @fluentui/public-docsite-setup: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/public-docsite-setup/tsconfig.json
@@ -137,7 +137,7 @@ Standard output:
 @fluentui/test-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/test-utilities/tsconfig.json"
 @fluentui/test-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/test-utilities/tsconfig.json
 @fluentui/test-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/test-utilities/tsconfig.json"
-@fluentui/test-utilities: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/test-utilities: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/webpack-utilities: yarn run vX.X.X
 @fluentui/webpack-utilities: $ just-scripts ts
 @fluentui/webpack-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/webpack-utilities/tsconfig.json
@@ -186,7 +186,7 @@ Standard output:
 @fluentui/react-conformance-griffel: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-conformance-griffel: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-conformance-griffel: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-conformance-griffel: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-conformance-griffel: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-shared-contexts: yarn run vX.X.X
 @fluentui/react-shared-contexts: $ just-scripts ts
 @fluentui/react-shared-contexts: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -202,14 +202,14 @@ Standard output:
 @fluentui/date-time-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/date-time-utilities/tsconfig.json"
 @fluentui/date-time-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/date-time-utilities/tsconfig.json
 @fluentui/date-time-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/date-time-utilities/tsconfig.json"
-@fluentui/date-time-utilities: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/date-time-utilities: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/dom-utilities: yarn run vX.X.X
 @fluentui/dom-utilities: $ just-scripts ts
 @fluentui/dom-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/dom-utilities/tsconfig.json
 @fluentui/dom-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/dom-utilities/tsconfig.json"
 @fluentui/dom-utilities: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/dom-utilities/tsconfig.json
 @fluentui/dom-utilities: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/dom-utilities/tsconfig.json"
-@fluentui/dom-utilities: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/dom-utilities: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/merge-styles: yarn run vX.X.X
 @fluentui/merge-styles: $ just-scripts ts
 @fluentui/merge-styles: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/merge-styles/tsconfig.json
@@ -253,7 +253,7 @@ Standard output:
 @fluentui/react-alert: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-alert: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-alert: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-alert: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-alert: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-badge: yarn run vX.X.X
 @fluentui/react-badge: $ just-scripts ts
 @fluentui/react-badge: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -262,7 +262,7 @@ Standard output:
 @fluentui/react-badge: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-badge: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-badge: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-badge: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-badge: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-dialog: yarn run vX.X.X
 @fluentui/react-dialog: $ just-scripts ts
 @fluentui/react-dialog: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -280,7 +280,7 @@ Standard output:
 @fluentui/react-divider: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-divider: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-divider: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-divider: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-divider: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-image: yarn run vX.X.X
 @fluentui/react-image: $ just-scripts ts
 @fluentui/react-image: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -298,7 +298,7 @@ Standard output:
 @fluentui/react-input: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-input: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-input: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-input: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-input: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-label: yarn run vX.X.X
 @fluentui/react-label: $ just-scripts ts
 @fluentui/react-label: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -316,7 +316,7 @@ Standard output:
 @fluentui/react-list: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-list: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-list: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-list: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-list: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-portal-compat-context: yarn run vX.X.X
 @fluentui/react-portal-compat-context: $ just-scripts ts
 @fluentui/react-portal-compat-context: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -325,7 +325,7 @@ Standard output:
 @fluentui/react-portal-compat-context: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-portal-compat-context: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-portal-compat-context: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-portal-compat-context: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-portal-compat-context: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-portal-compat: yarn run vX.X.X
 @fluentui/react-portal-compat: $ just-scripts ts
 @fluentui/react-portal-compat: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -334,7 +334,7 @@ Standard output:
 @fluentui/react-portal-compat: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-portal-compat: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-portal-compat: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-portal-compat: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-portal-compat: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-text: yarn run vX.X.X
 @fluentui/react-text: $ just-scripts ts
 @fluentui/react-text: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -343,7 +343,7 @@ Standard output:
 @fluentui/react-text: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-text: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-text: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-text: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-text: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-textarea: yarn run vX.X.X
 @fluentui/react-textarea: $ just-scripts ts
 @fluentui/react-textarea: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -352,7 +352,7 @@ Standard output:
 @fluentui/react-textarea: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-textarea: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-textarea: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-textarea: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-textarea: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-select: yarn run vX.X.X
 @fluentui/react-select: $ just-scripts ts
 @fluentui/react-select: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -401,7 +401,7 @@ Standard output:
 @fluentui/react-priority-overflow: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-priority-overflow: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-priority-overflow: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-priority-overflow: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-priority-overflow: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-avatar: yarn run vX.X.X
 @fluentui/react-avatar: $ just-scripts ts
 @fluentui/react-avatar: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -428,7 +428,7 @@ Standard output:
 @fluentui/react-spinner: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-spinner: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-spinner: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-spinner: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-spinner: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-accordion: yarn run vX.X.X
 @fluentui/react-accordion: $ just-scripts ts
 @fluentui/react-accordion: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -437,7 +437,7 @@ Standard output:
 @fluentui/react-accordion: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-accordion: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-accordion: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-accordion: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-accordion: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-link: yarn run vX.X.X
 @fluentui/react-link: $ just-scripts ts
 @fluentui/react-link: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -455,7 +455,7 @@ Standard output:
 @fluentui/react-provider: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-provider: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-provider: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-provider: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-provider: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-radio: yarn run vX.X.X
 @fluentui/react-radio: $ just-scripts ts
 @fluentui/react-radio: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -491,7 +491,7 @@ Standard output:
 @fluentui/react-checkbox: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-checkbox: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-checkbox: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-checkbox: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/react-checkbox: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/react-portal: yarn run vX.X.X
 @fluentui/react-portal: $ just-scripts ts
 @fluentui/react-portal: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -571,7 +571,7 @@ Standard output:
 @fluentui/react-toolbar: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
 @fluentui/react-toolbar: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with tsconfig.lib.json
 @fluentui/react-toolbar: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
-@fluentui/react-toolbar: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/react-toolbar: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/react-combobox: yarn run vX.X.X
 @fluentui/react-combobox: $ just-scripts ts
 @fluentui/react-combobox: [XX:XX:XX XM] ■ 📣 TSC: package is using TS path aliases. Overriding tsconfig settings.
@@ -677,7 +677,7 @@ Standard output:
 @fluentui/font-icons-mdl2: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/font-icons-mdl2/tsconfig.json"
 @fluentui/font-icons-mdl2: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/font-icons-mdl2/tsconfig.json
 @fluentui/font-icons-mdl2: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/font-icons-mdl2/tsconfig.json"
-@fluentui/font-icons-mdl2: Done in ?s. Peak memory usage 31.38MB.
+@fluentui/font-icons-mdl2: Done in ?s. Peak memory usage 31.63MB.
 @fluentui/foundation-legacy: yarn run vX.X.X
 @fluentui/foundation-legacy: $ just-scripts ts
 @fluentui/foundation-legacy: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/foundation-legacy/tsconfig.json
@@ -744,7 +744,7 @@ Standard output:
 @fluentui/perf-test: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/perf-test/tsconfig.json"
 @fluentui/perf-test: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/perf-test/tsconfig.json
 @fluentui/perf-test: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/apps/perf-test/tsconfig.json"
-@fluentui/perf-test: Done in ?s. Peak memory usage 33.19MB.
+@fluentui/perf-test: Done in ?s. Peak memory usage 32.44MB.
 @fluentui/ts-minbar-test-react: yarn run vX.X.X
 @fluentui/ts-minbar-test-react: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/ts-minbar-test-react: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/ts-minbar-test-react/tsconfig.json
@@ -758,7 +758,7 @@ Standard output:
 @fluentui/azure-themes: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/azure-themes/tsconfig.json"
 @fluentui/azure-themes: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/azure-themes/tsconfig.json
 @fluentui/azure-themes: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/azure-themes/tsconfig.json"
-@fluentui/azure-themes: Done in ?s. Peak memory usage 31.63MB.
+@fluentui/azure-themes: Done in ?s. Peak memory usage 31.38MB.
 @fluentui/cra-template: yarn run vX.X.X
 @fluentui/cra-template: $ /office-ui-fabric-react/node_modules/.bin/just ts
 @fluentui/cra-template: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
@@ -796,97 +796,6 @@ Standard output:
 @fluentui/react-monaco-editor: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-monaco-editor/tsconfig.json"
 @fluentui/react-monaco-editor: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-monaco-editor/tsconfig.json
 @fluentui/react-monaco-editor: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-monaco-editor/tsconfig.json"
-@fluentui/react-monaco-editor: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/theme-samples: yarn run vX.X.X
-@fluentui/theme-samples: $ just-scripts ts
-@fluentui/theme-samples: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/theme-samples/tsconfig.json
-@fluentui/theme-samples: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/theme-samples/tsconfig.json"
-@fluentui/theme-samples: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/theme-samples/tsconfig.json
-@fluentui/theme-samples: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/theme-samples/tsconfig.json"
-@fluentui/theme-samples: Done in ?s. Peak memory usage 31.38MB.
-@fluentui/react-icons-mdl2-branded: yarn run vX.X.X
-@fluentui/react-icons-mdl2-branded: $ just-scripts ts
-@fluentui/react-icons-mdl2-branded: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-icons-mdl2-branded/tsconfig.json
-@fluentui/react-icons-mdl2-branded: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-icons-mdl2-branded/tsconfig.json"
-@fluentui/react-icons-mdl2-branded: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-icons-mdl2-branded/tsconfig.json
-@fluentui/react-icons-mdl2-branded: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-icons-mdl2-branded/tsconfig.json"
-@fluentui/react-icons-mdl2-branded: Done in ?s. Peak memory usage 31.38MB.
-@fluentui/docs: yarn run vX.X.X
-@fluentui/docs: $ /office-ui-fabric-react/node_modules/.bin/just ts
-@fluentui/docs: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/e2e: yarn run vX.X.X
-@fluentui/e2e: $ /office-ui-fabric-react/node_modules/.bin/just ts
-@fluentui/e2e: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/perf-test-northstar: yarn run vX.X.X
-@fluentui/perf-test-northstar: $ /office-ui-fabric-react/node_modules/.bin/just ts
-@fluentui/perf-test-northstar: Webpack version: 5.X.X
-@fluentui/perf-test-northstar: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/fluentui/perf-test-northstar/tsconfig.json
-@fluentui/perf-test-northstar: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/fluentui/perf-test-northstar/tsconfig.json"
-@fluentui/perf-test-northstar: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/fluentui/perf-test-northstar/tsconfig.json
-@fluentui/perf-test-northstar: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/fluentui/perf-test-northstar/tsconfig.json"
-@fluentui/perf-test-northstar: Done in ?s. Peak memory usage 31.38MB.
-@fluentui/react-docsite-components: yarn run vX.X.X
-@fluentui/react-docsite-components: $ just-scripts ts
-@fluentui/react-docsite-components: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-docsite-components/tsconfig.json
-@fluentui/react-docsite-components: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-docsite-components/tsconfig.json"
-@fluentui/react-docsite-components: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-docsite-components/tsconfig.json
-@fluentui/react-docsite-components: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-docsite-components/tsconfig.json"
-@fluentui/react-docsite-components: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/storybook: yarn run vX.X.X
-@fluentui/storybook: $ just-scripts ts
-@fluentui/storybook: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/storybook/tsconfig.json
-@fluentui/storybook: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/storybook/tsconfig.json"
-@fluentui/storybook: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/storybook/tsconfig.json
-@fluentui/storybook: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/storybook/tsconfig.json"
-@fluentui/storybook: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/perf: yarn run vX.X.X
-@fluentui/perf: $ /office-ui-fabric-react/node_modules/.bin/just ts
-@fluentui/perf: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/theming-designer: yarn run vX.X.X
-@fluentui/theming-designer: $ just-scripts ts
-@fluentui/theming-designer: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/theming-designer/tsconfig.json
-@fluentui/theming-designer: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/theming-designer/tsconfig.json"
-@fluentui/theming-designer: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/theming-designer/tsconfig.json
-@fluentui/theming-designer: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/apps/theming-designer/tsconfig.json"
-@fluentui/theming-designer: Done in ?s. Peak memory usage 31.38MB.
-@fluentui/public-docsite-v9: yarn run vX.X.X
-@fluentui/public-docsite-v9: $ just-scripts ts
-@fluentui/public-docsite-v9: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite-v9/tsconfig.json
-@fluentui/public-docsite-v9: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/public-docsite-v9/tsconfig.json"
-@fluentui/public-docsite-v9: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite-v9/tsconfig.json
-@fluentui/public-docsite-v9: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/apps/public-docsite-v9/tsconfig.json"
-@fluentui/public-docsite-v9: Done in ?s. Peak memory usage 31.38MB.
-@fluentui/vr-tests: yarn run vX.X.X
-@fluentui/vr-tests: $ just-scripts ts
-@fluentui/vr-tests: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/vr-tests/tsconfig.json
-@fluentui/vr-tests: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/vr-tests/tsconfig.json"
-@fluentui/vr-tests: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/vr-tests/tsconfig.json
-@fluentui/vr-tests: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/apps/vr-tests/tsconfig.json"
-@fluentui/vr-tests: Done in ?s. Peak memory usage 31.38MB.
-@fluentui/react-examples: yarn run vX.X.X
-@fluentui/react-examples: $ just-scripts ts
-@fluentui/react-examples: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-examples/tsconfig.json
-@fluentui/react-examples: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-examples/tsconfig.json"
-@fluentui/react-examples: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/packages/react-examples/tsconfig.json
-@fluentui/react-examples: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-examples/tsconfig.json"
-@fluentui/react-examples: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/public-docsite-resources: yarn run vX.X.X
-@fluentui/public-docsite-resources: $ just-scripts ts
-@fluentui/public-docsite-resources: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite-resources/tsconfig.json
-@fluentui/public-docsite-resources: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/public-docsite-resources/tsconfig.json"
-@fluentui/public-docsite-resources: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite-resources/tsconfig.json
-@fluentui/public-docsite-resources: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/apps/public-docsite-resources/tsconfig.json"
-@fluentui/public-docsite-resources: Done in ?s. Peak memory usage 31.38MB.
-@fluentui/public-docsite: yarn run vX.X.X
-@fluentui/public-docsite: $ just-scripts ts
-@fluentui/public-docsite: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite/tsconfig.json
-@fluentui/public-docsite: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/public-docsite/tsconfig.json"
-@fluentui/public-docsite: [XX:XX:XX XM] ■ Running /office-ui-fabric-react/node_modules/typescript/lib/tsc.js with /office-ui-fabric-react/apps/public-docsite/tsconfig.json
-@fluentui/public-docsite: [XX:XX:XX XM] ■ Executing: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/apps/public-docsite/tsconfig.json"
-@fluentui/public-docsite: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-@fluentui/ssr-tests: yarn run vX.X.X
-@fluentui/ssr-tests: $ just-scripts ts
-@fluentui/ssr-tests: Done in ?s. Peak memory usage 31.38MB.
 
 
 
@@ -1063,9 +972,9 @@ Standard error:
 @fluentui/pr-deploy-site: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/pr-deploy-site: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/pr-deploy-site: error Command failed with exit code 1.
-@fluentui/react-conformance: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-conformance: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-conformance: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-conformance: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-conformance/tsconfig.json"
+@fluentui/react-conformance: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-conformance/tsconfig.json"
 @fluentui/react-conformance:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-conformance:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-conformance:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1143,7 +1052,7 @@ Standard error:
 @fluentui/react-conformance:      1  src/utils/merge.ts:32
 @fluentui/react-conformance: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-conformance: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-conformance: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-conformance: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-conformance: error Command failed with exit code 1.
 @fluentui/react-theme: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-theme: [XX:XX:XX XM] x ------------------------------------
@@ -1183,7 +1092,6 @@ Standard error:
 @fluentui/webpack-utilities: Found 1 error in src/fabricAsyncLoaderInclude.ts:7
 @fluentui/webpack-utilities: [XX:XX:XX XM] x ------------------------------------
 @fluentui/webpack-utilities: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/webpack-utilities: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/webpack-utilities: error Command failed with exit code 1.
 @fluentui/accessibility: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
 @fluentui/accessibility: [XX:XX:XX XM] x Command not defined: ts
@@ -1217,9 +1125,9 @@ Standard error:
 @fluentui/styles: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/styles: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/styles: error Command failed with exit code 1.
-@fluentui/react-utilities: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-utilities: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-utilities: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-utilities: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
+@fluentui/react-utilities: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --baseUrl "." --rootDir "./src" --project "tsconfig.lib.json"
 @fluentui/react-utilities:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-utilities:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-utilities:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1263,7 +1171,7 @@ Standard error:
 @fluentui/react-utilities:      1  src/utils/applyTriggerPropsToChildren.ts:39
 @fluentui/react-utilities: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-utilities: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-utilities: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-utilities: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-utilities: error Command failed with exit code 1.
 @fluentui/merge-styles: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/merge-styles: [XX:XX:XX XM] x ------------------------------------
@@ -1536,9 +1444,9 @@ Standard error:
 @fluentui/react-bindings: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/react-bindings: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/react-bindings: error Command failed with exit code 1.
-@fluentui/perf-test-react-components: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/perf-test-react-components: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/perf-test-react-components: [XX:XX:XX XM] x ------------------------------------
-@fluentui/perf-test-react-components: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/perf-test-react-components/tsconfig.json"
+@fluentui/perf-test-react-components: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/apps/perf-test-react-components/tsconfig.json"
 @fluentui/perf-test-react-components:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/perf-test-react-components:     at ChildProcess.emit (events.js:314:20)
 @fluentui/perf-test-react-components:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1586,7 +1494,7 @@ Standard error:
 @fluentui/perf-test-react-components:      1  ../../packages/react-utilities/src/utils/applyTriggerPropsToChildren.ts:39
 @fluentui/perf-test-react-components: [XX:XX:XX XM] x ------------------------------------
 @fluentui/perf-test-react-components: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/perf-test-react-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/perf-test-react-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/perf-test-react-components: error Command failed with exit code 1.
 @fluentui/react-hooks: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-hooks: [XX:XX:XX XM] x ------------------------------------
@@ -1893,9 +1801,9 @@ Standard error:
 @fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/ts-minbar-test-react-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/ts-minbar-test-react-components: error Command failed with exit code 1.
-@fluentui/foundation-legacy: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/foundation-legacy: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/foundation-legacy: [XX:XX:XX XM] x ------------------------------------
-@fluentui/foundation-legacy: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/foundation-legacy/tsconfig.json"
+@fluentui/foundation-legacy: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/foundation-legacy/tsconfig.json"
 @fluentui/foundation-legacy:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/foundation-legacy:     at ChildProcess.emit (events.js:314:20)
 @fluentui/foundation-legacy:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -1986,7 +1894,7 @@ Standard error:
 @fluentui/foundation-legacy:      2  ../utilities/lib/styled.d.ts:17
 @fluentui/foundation-legacy: [XX:XX:XX XM] x ------------------------------------
 @fluentui/foundation-legacy: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/foundation-legacy: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/foundation-legacy: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/foundation-legacy: error Command failed with exit code 1.
 @fluentui/react-file-type-icons: [XX:XX:XX XM] x Error detected while running 'ts:esm'
 @fluentui/react-file-type-icons: [XX:XX:XX XM] x ------------------------------------
@@ -2057,9 +1965,9 @@ Standard error:
 @fluentui/react-file-type-icons: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/react-file-type-icons: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
 @fluentui/react-file-type-icons: error Command failed with exit code 1.
-@fluentui/react-focus: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-focus: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-focus: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-focus: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-focus/tsconfig.json"
+@fluentui/react-focus: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-focus/tsconfig.json"
 @fluentui/react-focus:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-focus:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-focus:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -2124,11 +2032,11 @@ Standard error:
 @fluentui/react-focus:      2  ../utilities/lib/styled.d.ts:17
 @fluentui/react-focus: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-focus: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-focus: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-focus: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-focus: error Command failed with exit code 1.
-@fluentui/react-icon-provider: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-icon-provider: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-icon-provider: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-icon-provider: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-icon-provider/tsconfig.json"
+@fluentui/react-icon-provider: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-icon-provider/tsconfig.json"
 @fluentui/react-icon-provider:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-icon-provider:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-icon-provider:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -2193,7 +2101,7 @@ Standard error:
 @fluentui/react-icon-provider:      2  ../utilities/lib/styled.d.ts:17
 @fluentui/react-icon-provider: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-icon-provider: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-icon-provider: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-icon-provider: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-icon-provider: error Command failed with exit code 1.
 @fluentui/circulars-test: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
 @fluentui/circulars-test: [XX:XX:XX XM] x Command not defined: ts
@@ -2454,9 +2362,9 @@ Standard error:
 @fluentui/cra-template: [XX:XX:XX XM] x Command not defined: ts
 @fluentui/cra-template: [XX:XX:XX XM] x Error previously detected. See above for error messages.
 @fluentui/cra-template: error Command failed with exit code 1.
-@fluentui/react-cards: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-cards: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-cards: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-cards: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-cards/tsconfig.json"
+@fluentui/react-cards: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-cards/tsconfig.json"
 @fluentui/react-cards:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-cards:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-cards:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -2521,11 +2429,11 @@ Standard error:
 @fluentui/react-cards:      2  ../utilities/lib/styled.d.ts:17
 @fluentui/react-cards: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-cards: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-cards: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-cards: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-cards: error Command failed with exit code 1.
-@fluentui/react-date-time: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-date-time: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-date-time: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-date-time: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-date-time/tsconfig.json"
+@fluentui/react-date-time: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-date-time/tsconfig.json"
 @fluentui/react-date-time:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-date-time:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-date-time:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -2590,11 +2498,11 @@ Standard error:
 @fluentui/react-date-time:      2  ../utilities/lib/styled.d.ts:17
 @fluentui/react-date-time: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-date-time: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-date-time: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-date-time: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-date-time: error Command failed with exit code 1.
-@fluentui/react-experiments: [XX:XX:XX XM] x Error detected while running 'ts:esm'
+@fluentui/react-experiments: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
 @fluentui/react-experiments: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-experiments: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-experiments/tsconfig.json"
+@fluentui/react-experiments: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-experiments/tsconfig.json"
 @fluentui/react-experiments:     at ChildProcess.exithandler (child_process.js:308:12)
 @fluentui/react-experiments:     at ChildProcess.emit (events.js:314:20)
 @fluentui/react-experiments:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
@@ -2768,881 +2676,5 @@ Standard error:
 @fluentui/react-experiments:      1  src/utilities/scrolling/ScrollContainer.tsx:76
 @fluentui/react-experiments: [XX:XX:XX XM] x ------------------------------------
 @fluentui/react-experiments: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-experiments: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
+@fluentui/react-experiments: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
 @fluentui/react-experiments: error Command failed with exit code 1.
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/react-monaco-editor/tsconfig.json"
-@fluentui/react-monaco-editor:     at ChildProcess.exithandler (child_process.js:308:12)
-@fluentui/react-monaco-editor:     at ChildProcess.emit (events.js:314:20)
-@fluentui/react-monaco-editor:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
-@fluentui/react-monaco-editor:     at maybeClose (internal/child_process.js:1022:16)
-@fluentui/react-monaco-editor:     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
-@fluentui/react-monaco-editor:     at Process.callbackTrampoline (internal/async_hooks.js:126:14)
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x stdout:
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x ../merge-styles/lib/mergeStyleSets.d.ts:64:145 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/react-monaco-editor:   Type 'TStyleSet' is not assignable to type '{ [P in keyof Omit<TStyleSet, "subComponentStyles">]: IStyle; }'.
-@fluentui/react-monaco-editor: 64 export declare function mergeCssSets<TStyleSet>(styleSets: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/react-monaco-editor:                                                                                                                                                    ~~~~~~~~~
-@fluentui/react-monaco-editor:   ../merge-styles/lib/mergeStyleSets.d.ts:64:38
-@fluentui/react-monaco-editor:     64 export declare function mergeCssSets<TStyleSet>(styleSets: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/react-monaco-editor:                                             ~~~~~~~~~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor:   ../merge-styles/lib/mergeStyleSets.d.ts:64:38
-@fluentui/react-monaco-editor:     64 export declare function mergeCssSets<TStyleSet>(styleSets: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/react-monaco-editor:                                             ~~~~~~~~~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor: ../merge-styles/lib/mergeStyleSets.d.ts:74:198 - error TS2344: Type 'TStyleSet1 & TStyleSet2' does not satisfy the constraint 'IStyleSet<TStyleSet1 & TStyleSet2>'.
-@fluentui/react-monaco-editor:   Type 'TStyleSet1 & TStyleSet2' is not assignable to type '{ [P in keyof Omit<TStyleSet1 & TStyleSet2, "subComponentStyles">]: IStyle; }'.
-@fluentui/react-monaco-editor: 74 export declare function mergeCssSets<TStyleSet1, TStyleSet2>(styleSets: [TStyleSet1 | false | null | undefined, TStyleSet2 | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet1 & TStyleSet2>;
-@fluentui/react-monaco-editor:                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor: ../merge-styles/lib/mergeStyleSets.d.ts:88:49 - error TS2344: Type 'TStyleSet1 & TStyleSet2 & TStyleSet3' does not satisfy the constraint 'IStyleSet<TStyleSet1 & TStyleSet2 & TStyleSet3>'.
-@fluentui/react-monaco-editor:   Type 'TStyleSet1 & TStyleSet2 & TStyleSet3' is not assignable to type '{ [P in keyof Omit<TStyleSet1 & TStyleSet2 & TStyleSet3, "subComponentStyles">]: IStyle; }'.
-@fluentui/react-monaco-editor: 88 ], options?: IStyleOptions): IProcessedStyleSet<TStyleSet1 & TStyleSet2 & TStyleSet3>;
-@fluentui/react-monaco-editor:                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor: ../merge-styles/lib/mergeStyleSets.d.ts:113:144 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/react-monaco-editor:   Type 'TStyleSet' is not assignable to type '{ [P in keyof Omit<TStyleSet, "subComponentStyles">]: IStyle; }'.
-@fluentui/react-monaco-editor: 113 export declare function mergeCssSets<TStyleSet>(styleSet: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/react-monaco-editor:                                                                                                                                                    ~~~~~~~~~
-@fluentui/react-monaco-editor:   ../merge-styles/lib/mergeStyleSets.d.ts:113:38
-@fluentui/react-monaco-editor:     113 export declare function mergeCssSets<TStyleSet>(styleSet: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/react-monaco-editor:                                              ~~~~~~~~~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor:   ../merge-styles/lib/mergeStyleSets.d.ts:113:38
-@fluentui/react-monaco-editor:     113 export declare function mergeCssSets<TStyleSet>(styleSet: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/react-monaco-editor:                                              ~~~~~~~~~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor: src/components/Editor.tsx:1:25 - error TS2307: Cannot find module '@fluentui/monaco-editor' or its corresponding type declarations.
-@fluentui/react-monaco-editor: 1 import * as monaco from '@fluentui/monaco-editor';
-@fluentui/react-monaco-editor:                           ~~~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor: src/components/TsxEditor.tsx:3:25 - error TS2307: Cannot find module '@fluentui/monaco-editor' or its corresponding type declarations.
-@fluentui/react-monaco-editor: 3 import * as monaco from '@fluentui/monaco-editor';
-@fluentui/react-monaco-editor:                           ~~~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor: src/interfaces/monaco.ts:5:25 - error TS2307: Cannot find module '@fluentui/monaco-editor/esm/vs/editor/editor.api' or its corresponding type declarations.
-@fluentui/react-monaco-editor: 5 import * as monaco from '@fluentui/monaco-editor/esm/vs/editor/editor.api';
-@fluentui/react-monaco-editor:                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor: src/transpiler/transpile.ts:2:25 - error TS2307: Cannot find module '@fluentui/monaco-editor' or its corresponding type declarations.
-@fluentui/react-monaco-editor: 2 import * as monaco from '@fluentui/monaco-editor';
-@fluentui/react-monaco-editor:                           ~~~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor: src/transpiler/transpile.ts:24:11 - error TS7006: Parameter 'getWorker' implicitly has an 'any' type.
-@fluentui/react-monaco-editor: 24     .then(getWorker => getWorker(model.uri))
-@fluentui/react-monaco-editor:              ~~~~~~~~~
-@fluentui/react-monaco-editor: src/transpiler/transpile.ts:25:11 - error TS7006: Parameter 'worker' implicitly has an 'any' type.
-@fluentui/react-monaco-editor: 25     .then(worker => {
-@fluentui/react-monaco-editor:              ~~~~~~
-@fluentui/react-monaco-editor: src/transpiler/transpile.ts:26:50 - error TS7006: Parameter 'output' implicitly has an 'any' type.
-@fluentui/react-monaco-editor: 26       return worker.getEmitOutput(filename).then(output => {
-@fluentui/react-monaco-editor:                                                     ~~~~~~
-@fluentui/react-monaco-editor: src/transpiler/transpile.ts:30:62 - error TS7006: Parameter 'syntacticDiagnostics' implicitly has an 'any' type.
-@fluentui/react-monaco-editor: 30         return worker.getSyntacticDiagnostics(filename).then(syntacticDiagnostics => {
-@fluentui/react-monaco-editor:                                                                 ~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor: src/transpiler/transpile.ts:31:62 - error TS7006: Parameter 'd' implicitly has an 'any' type.
-@fluentui/react-monaco-editor: 31           syntacticDiagnostics = syntacticDiagnostics.filter(d => d.category === 1 /*error*/);
-@fluentui/react-monaco-editor:                                                                 ~
-@fluentui/react-monaco-editor: src/transpiler/transpile.ts:49:12 - error TS7006: Parameter 'ex' implicitly has an 'any' type.
-@fluentui/react-monaco-editor: 49     .catch(ex => {
-@fluentui/react-monaco-editor:               ~~
-@fluentui/react-monaco-editor: ../react/lib/components/SelectedItemsList/BaseSelectedItemsList.d.ts:29:5 - error TS2416: Property 'componentDidUpdate' in type 'BaseSelectedItemsList<T, P>' is not assignable to the same property in base type 'Component<P, IBaseSelectedItemsListState<T>, any>'.
-@fluentui/react-monaco-editor:   Type '(oldProps: P, oldState: IBaseSelectedItemsListState<IObjectWithKey>) => void' is not assignable to type '(prevProps: Readonly<P>, prevState: Readonly<IBaseSelectedItemsListState<T>>, snapshot?: any) => void'.
-@fluentui/react-monaco-editor:     Types of parameters 'oldState' and 'prevState' are incompatible.
-@fluentui/react-monaco-editor:       Type 'Readonly<IBaseSelectedItemsListState<T>>' is not assignable to type 'IBaseSelectedItemsListState<IObjectWithKey>'.
-@fluentui/react-monaco-editor:         Types of property 'items' are incompatible.
-@fluentui/react-monaco-editor:           Type 'T[]' is not assignable to type 'IObjectWithKey[]'.
-@fluentui/react-monaco-editor:             Type 'T' is not assignable to type 'IObjectWithKey'.
-@fluentui/react-monaco-editor: 29     componentDidUpdate(oldProps: P, oldState: IBaseSelectedItemsListState<IObjectWithKey>): void;
-@fluentui/react-monaco-editor:        ~~~~~~~~~~~~~~~~~~
-@fluentui/react-monaco-editor:   ../react/lib/components/SelectedItemsList/BaseSelectedItemsList.d.ts:8:44
-@fluentui/react-monaco-editor:     8 export declare class BaseSelectedItemsList<T, P extends IBaseSelectedItemsListProps<T>> extends React.Component<P, IBaseSelectedItemsListState<T>> implements IBaseSelectedItemsList<T> {
-@fluentui/react-monaco-editor:                                                  ~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor: ../utilities/lib/styled.d.ts:17:97 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/react-monaco-editor:   Type 'TStyleSet' is not assignable to type '{ [P in keyof Omit<TStyleSet, "subComponentStyles">]: IStyle; }'.
-@fluentui/react-monaco-editor: 17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/react-monaco-editor:                                                                                                    ~~~~~~~~~
-@fluentui/react-monaco-editor:   ../utilities/lib/styled.d.ts:17:48
-@fluentui/react-monaco-editor:     17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/react-monaco-editor:                                                       ~~~~~~~~~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor:   ../utilities/lib/styled.d.ts:17:48
-@fluentui/react-monaco-editor:     17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/react-monaco-editor:                                                       ~~~~~~~~~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor: ../utilities/lib/styled.d.ts:19:60 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/react-monaco-editor: 19     __cachedInputs__: (IStyleFunctionOrObject<TStyleProps, TStyleSet> | undefined)[];
-@fluentui/react-monaco-editor:                                                               ~~~~~~~~~
-@fluentui/react-monaco-editor:   ../utilities/lib/styled.d.ts:17:48
-@fluentui/react-monaco-editor:     17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/react-monaco-editor:                                                       ~~~~~~~~~
-@fluentui/react-monaco-editor:     This type parameter probably needs an `extends object` constraint.
-@fluentui/react-monaco-editor: Found 17 errors in 7 files.
-@fluentui/react-monaco-editor: Errors  Files
-@fluentui/react-monaco-editor:      4  ../merge-styles/lib/mergeStyleSets.d.ts:64
-@fluentui/react-monaco-editor:      1  src/components/Editor.tsx:1
-@fluentui/react-monaco-editor:      1  src/components/TsxEditor.tsx:3
-@fluentui/react-monaco-editor:      1  src/interfaces/monaco.ts:5
-@fluentui/react-monaco-editor:      7  src/transpiler/transpile.ts:2
-@fluentui/react-monaco-editor:      1  ../react/lib/components/SelectedItemsList/BaseSelectedItemsList.d.ts:29
-@fluentui/react-monaco-editor:      2  ../utilities/lib/styled.d.ts:17
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-monaco-editor: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
-@fluentui/react-monaco-editor: error Command failed with exit code 1.
-@fluentui/docs: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
-@fluentui/docs: [XX:XX:XX XM] x Command not defined: ts
-@fluentui/docs: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/docs: error Command failed with exit code 1.
-@fluentui/e2e: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
-@fluentui/e2e: [XX:XX:XX XM] x Command not defined: ts
-@fluentui/e2e: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/e2e: error Command failed with exit code 1.
-@fluentui/react-docsite-components: [XX:XX:XX XM] x Error detected while running 'ts:esm'
-@fluentui/react-docsite-components: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-docsite-components: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-docsite-components/tsconfig.json"
-@fluentui/react-docsite-components:     at ChildProcess.exithandler (child_process.js:308:12)
-@fluentui/react-docsite-components:     at ChildProcess.emit (events.js:314:20)
-@fluentui/react-docsite-components:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
-@fluentui/react-docsite-components:     at maybeClose (internal/child_process.js:1022:16)
-@fluentui/react-docsite-components:     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
-@fluentui/react-docsite-components:     at Process.callbackTrampoline (internal/async_hooks.js:126:14)
-@fluentui/react-docsite-components: [XX:XX:XX XM] x stdout:
-@fluentui/react-docsite-components: [XX:XX:XX XM] x src/components/Page/Page.tsx:21:25 - error TS2307: Cannot find module './Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 21 import * as styles from './Page.module.scss';
-@fluentui/react-docsite-components:                            ~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Page/sections/BestPracticesSection.tsx:7:25 - error TS2307: Cannot find module '../Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 7 import * as styles from '../Page.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Page/sections/ExamplesSection.tsx:4:25 - error TS2307: Cannot find module '../Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 4 import * as styles from '../Page.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Page/sections/FeedbackSection.tsx:5:25 - error TS2307: Cannot find module '../Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 5 import * as styles from '../Page.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Page/sections/ImplementationSection.tsx:5:25 - error TS2307: Cannot find module '../Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 5 import * as styles from '../Page.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Page/sections/MarkdownSection.tsx:7:25 - error TS2307: Cannot find module '../Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 7 import * as styles from '../Page.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Page/sections/OtherPageSection.tsx:4:25 - error TS2307: Cannot find module '../Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 4 import * as styles from '../Page.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Page/sections/OverviewSection.tsx:4:25 - error TS2307: Cannot find module '../Page.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 4 import * as styles from '../Page.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/PlatformPicker/PlatformPicker.tsx:6:25 - error TS2307: Cannot find module './PlatformPicker.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 6 import * as styles from './PlatformPicker.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Table/Table.tsx:4:25 - error TS2307: Cannot find module './Table.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 4 import * as styles from './Table.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/TopNav/TopNav.tsx:8:25 - error TS2307: Cannot find module './TopNav.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 8 import * as styles from './TopNav.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: src/components/Video/Video.tsx:4:25 - error TS2307: Cannot find module './Video.module.scss' or its corresponding type declarations.
-@fluentui/react-docsite-components: 4 import * as styles from './Video.module.scss';
-@fluentui/react-docsite-components:                           ~~~~~~~~~~~~~~~~~~~~~
-@fluentui/react-docsite-components: Found 12 errors in 12 files.
-@fluentui/react-docsite-components: Errors  Files
-@fluentui/react-docsite-components:      1  src/components/Page/Page.tsx:21
-@fluentui/react-docsite-components:      1  src/components/Page/sections/BestPracticesSection.tsx:7
-@fluentui/react-docsite-components:      1  src/components/Page/sections/ExamplesSection.tsx:4
-@fluentui/react-docsite-components:      1  src/components/Page/sections/FeedbackSection.tsx:5
-@fluentui/react-docsite-components:      1  src/components/Page/sections/ImplementationSection.tsx:5
-@fluentui/react-docsite-components:      1  src/components/Page/sections/MarkdownSection.tsx:7
-@fluentui/react-docsite-components:      1  src/components/Page/sections/OtherPageSection.tsx:4
-@fluentui/react-docsite-components:      1  src/components/Page/sections/OverviewSection.tsx:4
-@fluentui/react-docsite-components:      1  src/components/PlatformPicker/PlatformPicker.tsx:6
-@fluentui/react-docsite-components:      1  src/components/Table/Table.tsx:4
-@fluentui/react-docsite-components:      1  src/components/TopNav/TopNav.tsx:8
-@fluentui/react-docsite-components:      1  src/components/Video/Video.tsx:4
-@fluentui/react-docsite-components: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-docsite-components: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-docsite-components: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
-@fluentui/react-docsite-components: error Command failed with exit code 1.
-@fluentui/storybook: [XX:XX:XX XM] x Error detected while running '_wrapFunction'
-@fluentui/storybook: [XX:XX:XX XM] x ------------------------------------
-@fluentui/storybook: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib-commonjs --module commonjs --pretty --project "/office-ui-fabric-react/packages/storybook/tsconfig.json"
-@fluentui/storybook:     at ChildProcess.exithandler (child_process.js:308:12)
-@fluentui/storybook:     at ChildProcess.emit (events.js:314:20)
-@fluentui/storybook:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
-@fluentui/storybook:     at maybeClose (internal/child_process.js:1022:16)
-@fluentui/storybook:     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
-@fluentui/storybook:     at Process.callbackTrampoline (internal/async_hooks.js:126:14)
-@fluentui/storybook: [XX:XX:XX XM] x stdout:
-@fluentui/storybook: [XX:XX:XX XM] x ../merge-styles/lib/mergeStyleSets.d.ts:64:145 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/storybook:   Type 'TStyleSet' is not assignable to type '{ [P in keyof Omit<TStyleSet, "subComponentStyles">]: IStyle; }'.
-@fluentui/storybook: 64 export declare function mergeCssSets<TStyleSet>(styleSets: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/storybook:                                                                                                                                                    ~~~~~~~~~
-@fluentui/storybook:   ../merge-styles/lib/mergeStyleSets.d.ts:64:38
-@fluentui/storybook:     64 export declare function mergeCssSets<TStyleSet>(styleSets: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/storybook:                                             ~~~~~~~~~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook:   ../merge-styles/lib/mergeStyleSets.d.ts:64:38
-@fluentui/storybook:     64 export declare function mergeCssSets<TStyleSet>(styleSets: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/storybook:                                             ~~~~~~~~~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook: ../merge-styles/lib/mergeStyleSets.d.ts:74:198 - error TS2344: Type 'TStyleSet1 & TStyleSet2' does not satisfy the constraint 'IStyleSet<TStyleSet1 & TStyleSet2>'.
-@fluentui/storybook:   Type 'TStyleSet1 & TStyleSet2' is not assignable to type '{ [P in keyof Omit<TStyleSet1 & TStyleSet2, "subComponentStyles">]: IStyle; }'.
-@fluentui/storybook: 74 export declare function mergeCssSets<TStyleSet1, TStyleSet2>(styleSets: [TStyleSet1 | false | null | undefined, TStyleSet2 | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet1 & TStyleSet2>;
-@fluentui/storybook:                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/storybook: ../merge-styles/lib/mergeStyleSets.d.ts:88:49 - error TS2344: Type 'TStyleSet1 & TStyleSet2 & TStyleSet3' does not satisfy the constraint 'IStyleSet<TStyleSet1 & TStyleSet2 & TStyleSet3>'.
-@fluentui/storybook:   Type 'TStyleSet1 & TStyleSet2 & TStyleSet3' is not assignable to type '{ [P in keyof Omit<TStyleSet1 & TStyleSet2 & TStyleSet3, "subComponentStyles">]: IStyle; }'.
-@fluentui/storybook: 88 ], options?: IStyleOptions): IProcessedStyleSet<TStyleSet1 & TStyleSet2 & TStyleSet3>;
-@fluentui/storybook:                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@fluentui/storybook: ../merge-styles/lib/mergeStyleSets.d.ts:113:144 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/storybook:   Type 'TStyleSet' is not assignable to type '{ [P in keyof Omit<TStyleSet, "subComponentStyles">]: IStyle; }'.
-@fluentui/storybook: 113 export declare function mergeCssSets<TStyleSet>(styleSet: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/storybook:                                                                                                                                                    ~~~~~~~~~
-@fluentui/storybook:   ../merge-styles/lib/mergeStyleSets.d.ts:113:38
-@fluentui/storybook:     113 export declare function mergeCssSets<TStyleSet>(styleSet: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/storybook:                                              ~~~~~~~~~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook:   ../merge-styles/lib/mergeStyleSets.d.ts:113:38
-@fluentui/storybook:     113 export declare function mergeCssSets<TStyleSet>(styleSet: [TStyleSet | false | null | undefined], options?: IStyleOptions): IProcessedStyleSet<TStyleSet>;
-@fluentui/storybook:                                              ~~~~~~~~~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook: ../react/lib/components/SelectedItemsList/BaseSelectedItemsList.d.ts:29:5 - error TS2416: Property 'componentDidUpdate' in type 'BaseSelectedItemsList<T, P>' is not assignable to the same property in base type 'Component<P, IBaseSelectedItemsListState<T>, any>'.
-@fluentui/storybook:   Type '(oldProps: P, oldState: IBaseSelectedItemsListState<IObjectWithKey>) => void' is not assignable to type '(prevProps: Readonly<P>, prevState: Readonly<IBaseSelectedItemsListState<T>>, snapshot?: any) => void'.
-@fluentui/storybook:     Types of parameters 'oldState' and 'prevState' are incompatible.
-@fluentui/storybook:       Type 'Readonly<IBaseSelectedItemsListState<T>>' is not assignable to type 'IBaseSelectedItemsListState<IObjectWithKey>'.
-@fluentui/storybook:         Types of property 'items' are incompatible.
-@fluentui/storybook:           Type 'T[]' is not assignable to type 'IObjectWithKey[]'.
-@fluentui/storybook:             Type 'T' is not assignable to type 'IObjectWithKey'.
-@fluentui/storybook: 29     componentDidUpdate(oldProps: P, oldState: IBaseSelectedItemsListState<IObjectWithKey>): void;
-@fluentui/storybook:        ~~~~~~~~~~~~~~~~~~
-@fluentui/storybook:   ../react/lib/components/SelectedItemsList/BaseSelectedItemsList.d.ts:8:44
-@fluentui/storybook:     8 export declare class BaseSelectedItemsList<T, P extends IBaseSelectedItemsListProps<T>> extends React.Component<P, IBaseSelectedItemsListState<T>> implements IBaseSelectedItemsList<T> {
-@fluentui/storybook:                                                  ~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook: ../utilities/lib/styled.d.ts:17:97 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/storybook:   Type 'TStyleSet' is not assignable to type '{ [P in keyof Omit<TStyleSet, "subComponentStyles">]: IStyle; }'.
-@fluentui/storybook: 17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/storybook:                                                                                                    ~~~~~~~~~
-@fluentui/storybook:   ../utilities/lib/styled.d.ts:17:48
-@fluentui/storybook:     17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/storybook:                                                       ~~~~~~~~~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook:   ../utilities/lib/styled.d.ts:17:48
-@fluentui/storybook:     17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/storybook:                                                       ~~~~~~~~~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook: ../utilities/lib/styled.d.ts:19:60 - error TS2344: Type 'TStyleSet' does not satisfy the constraint 'IStyleSet<TStyleSet>'.
-@fluentui/storybook: 19     __cachedInputs__: (IStyleFunctionOrObject<TStyleProps, TStyleSet> | undefined)[];
-@fluentui/storybook:                                                               ~~~~~~~~~
-@fluentui/storybook:   ../utilities/lib/styled.d.ts:17:48
-@fluentui/storybook:     17 export declare type StyleFunction<TStyleProps, TStyleSet> = IStyleFunctionOrObject<TStyleProps, TStyleSet> & {
-@fluentui/storybook:                                                       ~~~~~~~~~
-@fluentui/storybook:     This type parameter probably needs an `extends object` constraint.
-@fluentui/storybook: Found 7 errors in 3 files.
-@fluentui/storybook: Errors  Files
-@fluentui/storybook:      4  ../merge-styles/lib/mergeStyleSets.d.ts:64
-@fluentui/storybook:      1  ../react/lib/components/SelectedItemsList/BaseSelectedItemsList.d.ts:29
-@fluentui/storybook:      2  ../utilities/lib/styled.d.ts:17
-@fluentui/storybook: [XX:XX:XX XM] x ------------------------------------
-@fluentui/storybook: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/storybook: [XX:XX:XX XM] x Other tasks that did not complete: [ts:esm]
-@fluentui/storybook: error Command failed with exit code 1.
-@fluentui/perf: [XX:XX:XX XM] x Cannot find config file "null". Please create a file called "just.config.js" in the root of the project next to "package.json".
-@fluentui/perf: [XX:XX:XX XM] x Command not defined: ts
-@fluentui/perf: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/perf: error Command failed with exit code 1.
-@fluentui/react-examples: [XX:XX:XX XM] x Error detected while running 'ts:esm'
-@fluentui/react-examples: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-examples: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/packages/react-examples/tsconfig.json"
-@fluentui/react-examples:     at ChildProcess.exithandler (child_process.js:308:12)
-@fluentui/react-examples:     at ChildProcess.emit (events.js:314:20)
-@fluentui/react-examples:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
-@fluentui/react-examples:     at maybeClose (internal/child_process.js:1022:16)
-@fluentui/react-examples:     at Socket.<anonymous> (internal/child_process.js:444:11)
-@fluentui/react-examples:     at Socket.emit (events.js:314:20)
-@fluentui/react-examples:     at Socket.EventEmitter.emit (domain.js:506:15)
-@fluentui/react-examples:     at Pipe.<anonymous> (net.js:675:12)
-@fluentui/react-examples:     at Pipe.callbackTrampoline (internal/async_hooks.js:126:14)
-@fluentui/react-examples: [XX:XX:XX XM] x stdout:
-@fluentui/react-examples: [XX:XX:XX XM] x src/react-experiments/Tile/Tile.Folder.Example.tsx:85:56 - error TS2339: Property 'tileFolder' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 85           <span className={css(TileExampleStylesModule.tileFolder)}>
-@fluentui/react-examples:                                                           ~~~~~~~~~~
-@fluentui/react-examples: src/react-experiments/Tile/Tile.Media.Example.tsx:21:50 - error TS2339: Property 'activityBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 21         <span className={TileExampleStylesModule.activityBlock}>
-@fluentui/react-examples:                                                     ~~~~~~~~~~~~~
-@fluentui/react-examples: src/react-experiments/Tile/Tile.Media.Example.tsx:41:50 - error TS2339: Property 'activityBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 41         <span className={TileExampleStylesModule.activityBlock}>
-@fluentui/react-examples:                                                     ~~~~~~~~~~~~~
-@fluentui/react-examples: src/react-experiments/Tile/Tile.Media.Example.tsx:61:50 - error TS2339: Property 'activityBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 61         <span className={TileExampleStylesModule.activityBlock}>
-@fluentui/react-examples:                                                     ~~~~~~~~~~~~~
-@fluentui/react-examples: src/react-experiments/Tile/Tile.Media.Example.tsx:81:50 - error TS2339: Property 'activityBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 81         <span className={TileExampleStylesModule.activityBlock}>
-@fluentui/react-examples:                                                     ~~~~~~~~~~~~~
-@fluentui/react-examples: src/react-experiments/VirtualizedList/VirtualizedList.Basic.Example.tsx:33:72 - error TS2339: Property 'fixedHeight' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 33         <ScrollContainer className={VirtualizedListExampleStylesModule.fixedHeight}>
-@fluentui/react-examples:                                                                           ~~~~~~~~~~~
-@fluentui/react-examples: src/react-experiments/VirtualizedList/VirtualizedList.Basic2.Example.tsx:39:98 - error TS2339: Property 'fixedHeight' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 39         <ScrollContainer scrollDebounceDelay={200} className={VirtualizedListExampleStylesModule.fixedHeight}>
-@fluentui/react-examples:                                                                                                     ~~~~~~~~~~~
-@fluentui/react-examples: src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Example.tsx:22:30 - error TS2339: Property 'wrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 22       <div className={styles.wrapper}>
-@fluentui/react-examples:                                 ~~~~~~~
-@fluentui/react-examples: src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Example.tsx:34:44 - error TS2339: Property 'button' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 34           <DefaultButton className={styles.button} onClick={this._goPrevious} text="Previous" />
-@fluentui/react-examples:                                               ~~~~~~
-@fluentui/react-examples: src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Example.tsx:35:44 - error TS2339: Property 'button' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 35           <DefaultButton className={styles.button} onClick={this._goNext} text="Next" />
-@fluentui/react-examples:                                               ~~~~~~
-@fluentui/react-examples: src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Expandable.Example.tsx:27:30 - error TS2339: Property 'wrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 27       <div className={styles.wrapper}>
-@fluentui/react-examples:                                 ~~~~~~~
-@fluentui/react-examples: src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Expandable.Example.tsx:34:31 - error TS2339: Property 'button' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 34             className={styles.button}
-@fluentui/react-examples:                                  ~~~~~~
-@fluentui/react-examples: src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Expandable.Example.tsx:49:44 - error TS2339: Property 'button' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 49           <DefaultButton className={styles.button} onClick={this._goPrevious} text="Previous" />
-@fluentui/react-examples:                                               ~~~~~~
-@fluentui/react-examples: src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Expandable.Example.tsx:50:44 - error TS2339: Property 'button' does not exist on type 'typeof import("*.scss")'.
-@fluentui/react-examples: 50           <DefaultButton className={styles.button} onClick={this._goNext} text="Next" />
-@fluentui/react-examples:                                               ~~~~~~
-@fluentui/react-examples: Found 14 errors in 6 files.
-@fluentui/react-examples: Errors  Files
-@fluentui/react-examples:      1  src/react-experiments/Tile/Tile.Folder.Example.tsx:85
-@fluentui/react-examples:      4  src/react-experiments/Tile/Tile.Media.Example.tsx:21
-@fluentui/react-examples:      1  src/react-experiments/VirtualizedList/VirtualizedList.Basic.Example.tsx:33
-@fluentui/react-examples:      1  src/react-experiments/VirtualizedList/VirtualizedList.Basic2.Example.tsx:39
-@fluentui/react-examples:      3  src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Example.tsx:22
-@fluentui/react-examples:      4  src/react/WeeklyDayPicker/WeeklyDayPicker.Inline.Expandable.Example.tsx:27
-@fluentui/react-examples: [XX:XX:XX XM] x ------------------------------------
-@fluentui/react-examples: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/react-examples: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
-@fluentui/react-examples: error Command failed with exit code 1.
-@fluentui/public-docsite: [XX:XX:XX XM] x Error detected while running 'ts:esm'
-@fluentui/public-docsite: [XX:XX:XX XM] x ------------------------------------
-@fluentui/public-docsite: [XX:XX:XX XM] x Error: Command failed: /usr/local/bin/node "/office-ui-fabric-react/node_modules/typescript/lib/tsc.js" --outDir lib --module esnext --pretty --project "/office-ui-fabric-react/apps/public-docsite/tsconfig.json"
-@fluentui/public-docsite:     at ChildProcess.exithandler (child_process.js:308:12)
-@fluentui/public-docsite:     at ChildProcess.emit (events.js:314:20)
-@fluentui/public-docsite:     at ChildProcess.EventEmitter.emit (domain.js:506:15)
-@fluentui/public-docsite:     at maybeClose (internal/child_process.js:1022:16)
-@fluentui/public-docsite:     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
-@fluentui/public-docsite:     at Process.callbackTrampoline (internal/async_hooks.js:126:14)
-@fluentui/public-docsite: [XX:XX:XX XM] x stdout:
-@fluentui/public-docsite: [XX:XX:XX XM] x src/components/Nav/Nav.tsx:90:30 - error TS2339: Property 'navWrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 90       <div className={styles.navWrapper}>
-@fluentui/public-docsite:                                 ~~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:93:34 - error TS2339: Property 'nav' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 93           <nav className={styles.nav} role="navigation">
-@fluentui/public-docsite:                                     ~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:122:31 - error TS2339: Property 'links' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 122         className={css(styles.links, isSubMenu && styles.isSubMenu)}
-@fluentui/public-docsite:                                   ~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:122:58 - error TS2339: Property 'isSubMenu' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 122         className={css(styles.links, isSubMenu && styles.isSubMenu)}
-@fluentui/public-docsite:                                                              ~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:143:56 - error TS2339: Property 'matchesFilter' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 143         const highlightMatch = <span className={styles.matchesFilter}>{match}</span>;
-@fluentui/public-docsite:                                                            ~~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:157:18 - error TS2339: Property 'link' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 157           styles.link,
-@fluentui/public-docsite:                      ~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:158:44 - error TS2339: Property 'isActive' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 158           isPageActive(page.url) && styles.isActive,
-@fluentui/public-docsite:                                                ~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:159:42 - error TS2339: Property 'hasActiveChild' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 159           hasActiveChild(page) && styles.hasActiveChild,
-@fluentui/public-docsite:                                              ~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:160:37 - error TS2339: Property 'isHomePage' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 160           page.isHomePage && styles.isHomePage,
-@fluentui/public-docsite:                                         ~~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:168:73 - error TS2339: Property 'externalIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 168               <Icon iconName="NavigateExternalInline" className={styles.externalIcon} aria-label="(external)" />
-@fluentui/public-docsite:                                                                             ~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:191:45 - error TS2339: Property 'section' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 191         <li key={key} className={css(styles.section, hasActiveChild(page) && styles.hasActiveChild)}>
-@fluentui/public-docsite:                                                 ~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:191:85 - error TS2339: Property 'hasActiveChild' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 191         <li key={key} className={css(styles.section, hasActiveChild(page) && styles.hasActiveChild)}>
-@fluentui/public-docsite:                                                                                         ~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:228:30 - error TS2339: Property 'searchBoxWrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 228       <div className={styles.searchBoxWrapper}>
-@fluentui/public-docsite:                                  ~~~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:230:29 - error TS2339: Property 'searchBox' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 230           className={styles.searchBox}
-@fluentui/public-docsite:                                 ~~~~~~~~~
-@fluentui/public-docsite: src/components/Nav/Nav.tsx:240:29 - error TS2339: Property 'filterButton' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 240           className={styles.filterButton}
-@fluentui/public-docsite:                                 ~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Site/Site.tsx:160:41 - error TS2339: Property 'siteRoot' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 160       <div key="site" className={styles.siteRoot}>
-@fluentui/public-docsite:                                             ~~~~~~~~
-@fluentui/public-docsite: src/components/Site/Site.tsx:163:36 - error TS2339: Property 'siteWrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 163         <div className={css(styles.siteWrapper, isContentFullBleed && styles.fullWidth)}>
-@fluentui/public-docsite:                                        ~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Site/Site.tsx:163:78 - error TS2339: Property 'fullWidth' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 163         <div className={css(styles.siteWrapper, isContentFullBleed && styles.fullWidth)}>
-@fluentui/public-docsite:                                                                                  ~~~~~~~~~
-@fluentui/public-docsite: src/components/Site/Site.tsx:166:31 - error TS2339: Property 'siteContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 166             className={styles.siteContent}
-@fluentui/public-docsite:                                   ~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Site/Site.tsx:283:32 - error TS2339: Property 'siteNavScrollWrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 283         <div className={styles.siteNavScrollWrapper}>
-@fluentui/public-docsite:                                    ~~~~~~~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Site/Site.tsx:285:36 - error TS2339: Property 'siteNavWrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 285             <div className={styles.siteNavWrapper}>
-@fluentui/public-docsite:                                        ~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/components/Site/Site.tsx:286:38 - error TS2339: Property 'siteNavHeader' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 286               <div className={styles.siteNavHeader}>{this._renderPlatformPicker()}</div>
-@fluentui/public-docsite:                                          ~~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/ControlsPage/ControlsPage.tsx:44:41 - error TS2339: Property 'uListFlex' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 44               <ul className={PageStyles.uListFlex}>
-@fluentui/public-docsite:                                            ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/ControlsPage/ControlsPage.tsx:50:61 - error TS2339: Property 'uThird' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 50                     <li key={url} className={css(PageStyles.uThird)}>
-@fluentui/public-docsite:                                                                ~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:23:39 - error TS2339: Property 'cardWrapper' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 23       sectionWrapperClassName={styles.cardWrapper}
-@fluentui/public-docsite:                                          ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:33:29 - error TS2339: Property 'card' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 33           className: styles.card,
-@fluentui/public-docsite:                                ~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:35:73 - error TS2339: Property 'cardLink' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 35             <Link href="#/styles/web/colors/products" className={styles.cardLink}>
-@fluentui/public-docsite:                                                                            ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:36:38 - error TS2339: Property 'cardContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 36               <div className={styles.cardContent}>
-@fluentui/public-docsite:                                         ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:37:71 - error TS2339: Property 'cardTitle' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 37                 <MarkdownHeader as="h2" id="colors" className={styles.cardTitle}>
-@fluentui/public-docsite:                                                                          ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:40:58 - error TS2339: Property 'cardIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 40                 <Icon iconName="Color" className={styles.cardIcon} />
-@fluentui/public-docsite:                                                             ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:46:29 - error TS2339: Property 'card' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 46           className: styles.card,
-@fluentui/public-docsite:                                ~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:48:67 - error TS2339: Property 'cardLink' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 48             <Link href="#/styles/web/elevation" className={styles.cardLink}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:49:38 - error TS2339: Property 'cardContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 49               <div className={styles.cardContent}>
-@fluentui/public-docsite:                                         ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:50:74 - error TS2339: Property 'cardTitle' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 50                 <MarkdownHeader as="h2" id="elevation" className={styles.cardTitle}>
-@fluentui/public-docsite:                                                                             ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:53:72 - error TS2339: Property 'cardIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 53                 <Icon iconName="ArrangeSendBackward" className={styles.cardIcon} />
-@fluentui/public-docsite:                                                                           ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:59:29 - error TS2339: Property 'card' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 59           className: styles.card,
-@fluentui/public-docsite:                                ~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:61:63 - error TS2339: Property 'cardLink' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 61             <Link href="#/styles/web/icons" className={styles.cardLink}>
-@fluentui/public-docsite:                                                                  ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:62:38 - error TS2339: Property 'cardContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 62               <div className={styles.cardContent}>
-@fluentui/public-docsite:                                         ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:63:76 - error TS2339: Property 'cardTitle' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 63                 <MarkdownHeader as="h2" id="iconography" className={styles.cardTitle}>
-@fluentui/public-docsite:                                                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:66:68 - error TS2339: Property 'cardIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 66                 <Icon iconName="EmojiTabSymbols" className={styles.cardIcon} />
-@fluentui/public-docsite:                                                                       ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:72:29 - error TS2339: Property 'card' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 72           className: styles.card,
-@fluentui/public-docsite:                                ~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:74:64 - error TS2339: Property 'cardLink' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 74             <Link href="#/styles/web/layout" className={styles.cardLink}>
-@fluentui/public-docsite:                                                                   ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:75:38 - error TS2339: Property 'cardContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 75               <div className={styles.cardContent}>
-@fluentui/public-docsite:                                         ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:76:71 - error TS2339: Property 'cardTitle' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 76                 <MarkdownHeader as="h2" id="layout" className={styles.cardTitle}>
-@fluentui/public-docsite:                                                                          ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:79:58 - error TS2339: Property 'cardIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 79                 <Icon iconName="Tiles" className={styles.cardIcon} />
-@fluentui/public-docsite:                                                             ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:85:29 - error TS2339: Property 'card' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 85           className: styles.card,
-@fluentui/public-docsite:                                ~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:87:64 - error TS2339: Property 'cardLink' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 87             <Link href="#/styles/web/motion" className={styles.cardLink}>
-@fluentui/public-docsite:                                                                   ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:88:38 - error TS2339: Property 'cardContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 88               <div className={styles.cardContent}>
-@fluentui/public-docsite:                                         ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:89:71 - error TS2339: Property 'cardTitle' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 89                 <MarkdownHeader as="h2" id="motion" className={styles.cardTitle}>
-@fluentui/public-docsite:                                                                          ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:92:63 - error TS2339: Property 'cardIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 92                 <Icon iconName="MiniExpand" className={styles.cardIcon} />
-@fluentui/public-docsite:                                                                  ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:98:29 - error TS2339: Property 'card' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 98           className: styles.card,
-@fluentui/public-docsite:                                ~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:100:68 - error TS2339: Property 'cardLink' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 100             <Link href="#/styles/web/typography" className={styles.cardLink}>
-@fluentui/public-docsite:                                                                        ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:101:38 - error TS2339: Property 'cardContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 101               <div className={styles.cardContent}>
-@fluentui/public-docsite:                                          ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:102:75 - error TS2339: Property 'cardTitle' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 102                 <MarkdownHeader as="h2" id="typography" className={styles.cardTitle}>
-@fluentui/public-docsite:                                                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:105:61 - error TS2339: Property 'cardIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 105                 <Icon iconName="FontSize" className={styles.cardIcon} />
-@fluentui/public-docsite:                                                                 ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:111:29 - error TS2339: Property 'card' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 111           className: styles.card,
-@fluentui/public-docsite:                                 ~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:113:70 - error TS2339: Property 'cardLink' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 113             <Link href="#/styles/web/localization" className={styles.cardLink}>
-@fluentui/public-docsite:                                                                          ~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:114:38 - error TS2339: Property 'cardContent' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 114               <div className={styles.cardContent}>
-@fluentui/public-docsite:                                          ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:115:77 - error TS2339: Property 'cardTitle' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 115                 <MarkdownHeader as="h2" id="localization" className={styles.cardTitle}>
-@fluentui/public-docsite:                                                                                 ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Overviews/StylesPage/StylesPage.tsx:118:58 - error TS2339: Property 'cardIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 118                 <Icon iconName="World" className={styles.cardIcon} />
-@fluentui/public-docsite:                                                              ~~~~~~~~
-@fluentui/public-docsite: src/pages/PageTemplates/TemplatePage/TemplatePage.tsx:107:33 - error TS2339: Property 'customSection' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 107           className: css(styles.customSection, 'customGlobalClassName', platform === 'web' && 'falseyGlobalClassName'),
-@fluentui/public-docsite:                                     ~~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/ElevationPage/ElevationPage.tsx:112:37 - error TS2339: Property 'usageList' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 112               <ul className={styles.usageList}>
-@fluentui/public-docsite:                                         ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/ElevationPage/ElevationPage.tsx:114:53 - error TS2339: Property 'usageListItem' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 114                   <li key={index} className={styles.usageListItem}>
-@fluentui/public-docsite:                                                         ~~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/ElevationPage/ElevationPage.tsx:122:42 - error TS2339: Property 'example' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 122               <div className={css(styles.example, styles.compact, `ms-depth-${row.level}`)}>
-@fluentui/public-docsite:                                              ~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/ElevationPage/ElevationPage.tsx:122:58 - error TS2339: Property 'compact' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 122               <div className={css(styles.example, styles.compact, `ms-depth-${row.level}`)}>
-@fluentui/public-docsite:                                                              ~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/ElevationPage/ElevationPage.tsx:123:41 - error TS2339: Property 'caption' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 123                 <span className={styles.caption}>Depth {row.level}</span>
-@fluentui/public-docsite:                                             ~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FabricIconsPage/FabricIconsPage.tsx:58:101 - error TS2339: Property 'iconGrid' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 58               <PivotItem headerText="Fluent UI React (font)" itemKey="react-font" className={styles.iconGrid}>
-@fluentui/public-docsite:                                                                                                        ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FabricIconsPage/FabricIconsPage.tsx:61:89 - error TS2339: Property 'iconGrid' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 61               <PivotItem headerText="Fabric Core" itemKey="core-font" className={styles.iconGrid}>
-@fluentui/public-docsite:                                                                                            ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FabricIconsPage/FabricIconsPage.tsx:64:81 - error TS2339: Property 'iconGrid' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 64               <PivotItem headerText="SVG icons" itemKey="svg" className={styles.iconGrid}>
-@fluentui/public-docsite:                                                                                    ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FabricIconsPage/FabricIconsPage.tsx:72:99 - error TS2339: Property 'iconGrid' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 72               <PivotItem headerText="SVG icons (branded)" itemKey="svg-branded" className={styles.iconGrid}>
-@fluentui/public-docsite:                                                                                                      ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:67:43 - error TS2339: Property 'exampleIcons' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 67                     <ul className={styles.exampleIcons}>
-@fluentui/public-docsite:                                              ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:71:45 - error TS2339: Property 'productIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 71                           className={styles.productIcon}
-@fluentui/public-docsite:                                                ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:78:45 - error TS2339: Property 'productIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 78                           className={styles.productIcon}
-@fluentui/public-docsite:                                                ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:85:45 - error TS2339: Property 'productIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 85                           className={styles.productIcon}
-@fluentui/public-docsite:                                                ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:110:41 - error TS2339: Property 'exampleIcons' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 110                   <ul className={styles.exampleIcons}>
-@fluentui/public-docsite:                                             ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:149:37 - error TS2339: Property 'iconList' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 149               <ul className={styles.iconList}>
-@fluentui/public-docsite:                                         ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:154:41 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 154                       className={styles.icon}
-@fluentui/public-docsite:                                             ~~~~
-@fluentui/public-docsite: src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:157:45 - error TS2339: Property 'iconName' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 157                     <span className={styles.iconName}>{icon.name}</span>
-@fluentui/public-docsite:                                                 ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:64:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 64                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:65:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 65                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:67:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 67                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:68:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 68                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:70:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 70                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:71:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 71                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:73:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 73                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:74:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 74                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:76:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 76                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:77:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 77                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:79:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 79                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:80:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 80                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:82:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 82                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:83:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 83                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:85:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 85                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:86:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 86                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:88:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 88                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:89:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 89                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:91:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 91                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:92:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 92                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:94:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 94                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:95:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 95                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:97:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 97                   <div className={'ms-Grid-col ms-sm1 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                     ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:98:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 98                     <div className={styles.demoBlock}>1</div>
-@fluentui/public-docsite:                                               ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:102:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 102                   <div className={'ms-Grid-col ms-sm2 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:103:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 103                     <div className={styles.demoBlock}>2</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:105:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 105                   <div className={'ms-Grid-col ms-sm2 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:106:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 106                     <div className={styles.demoBlock}>2</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:108:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 108                   <div className={'ms-Grid-col ms-sm2 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:109:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 109                     <div className={styles.demoBlock}>2</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:111:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 111                   <div className={'ms-Grid-col ms-sm2 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:112:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 112                     <div className={styles.demoBlock}>2</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:114:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 114                   <div className={'ms-Grid-col ms-sm2 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:115:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 115                     <div className={styles.demoBlock}>2</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:117:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 117                   <div className={'ms-Grid-col ms-sm2 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:118:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 118                     <div className={styles.demoBlock}>2</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:122:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 122                   <div className={'ms-Grid-col ms-sm3 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:123:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 123                     <div className={styles.demoBlock}>3</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:125:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 125                   <div className={'ms-Grid-col ms-sm3 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:126:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 126                     <div className={styles.demoBlock}>3</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:128:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 128                   <div className={'ms-Grid-col ms-sm3 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:129:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 129                     <div className={styles.demoBlock}>3</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:131:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 131                   <div className={'ms-Grid-col ms-sm3 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:132:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 132                     <div className={styles.demoBlock}>3</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:136:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 136                   <div className={'ms-Grid-col ms-sm4 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:137:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 137                     <div className={styles.demoBlock}>4</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:139:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 139                   <div className={'ms-Grid-col ms-sm4 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:140:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 140                     <div className={styles.demoBlock}>4</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:142:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 142                   <div className={'ms-Grid-col ms-sm4 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:143:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 143                     <div className={styles.demoBlock}>4</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:147:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 147                   <div className={'ms-Grid-col ms-sm6 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:148:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 148                     <div className={styles.demoBlock}>6</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:150:66 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 150                   <div className={'ms-Grid-col ms-sm6 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                      ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:151:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 151                     <div className={styles.demoBlock}>6</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:155:67 - error TS2339: Property 'demoBlockCol' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 155                   <div className={'ms-Grid-col ms-sm12 ' + styles.demoBlockCol}>
-@fluentui/public-docsite:                                                                       ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:156:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 156                     <div className={styles.demoBlock}>12</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:188:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 188                     <div className={styles.demoBlock}>Visible on smaller screens</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LayoutPage/LayoutPage.tsx:191:44 - error TS2339: Property 'demoBlock' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 191                     <div className={styles.demoBlock}>Visible on larger screens</div>
-@fluentui/public-docsite:                                                ~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LocalizationPage/LocalizationPage.tsx:48:37 - error TS2339: Property 'directionalIcons' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 48               <ul className={styles.directionalIcons}>
-@fluentui/public-docsite:                                        ~~~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LocalizationPage/LocalizationPage.tsx:50:41 - error TS2339: Property 'directionalIconPair' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 50                   <li className={styles.directionalIconPair} key={pairIndex}>
-@fluentui/public-docsite:                                            ~~~~~~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LocalizationPage/LocalizationPage.tsx:51:44 - error TS2339: Property 'directionalIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 51                     <div className={styles.directionalIcon}>
-@fluentui/public-docsite:                                               ~~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/LocalizationPage/LocalizationPage.tsx:55:44 - error TS2339: Property 'directionalIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 55                     <div className={styles.directionalIcon}>
-@fluentui/public-docsite:                                               ~~~~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:68:43 - error TS2339: Property 'exampleIcons' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 68                     <ul className={styles.exampleIcons}>
-@fluentui/public-docsite:                                              ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:72:45 - error TS2339: Property 'productIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 72                           className={styles.productIcon}
-@fluentui/public-docsite:                                                ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:79:45 - error TS2339: Property 'productIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 79                           className={styles.productIcon}
-@fluentui/public-docsite:                                                ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:86:45 - error TS2339: Property 'productIcon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 86                           className={styles.productIcon}
-@fluentui/public-docsite:                                                ~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:111:41 - error TS2339: Property 'exampleIcons' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 111                   <ul className={styles.exampleIcons}>
-@fluentui/public-docsite:                                             ~~~~~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:181:37 - error TS2339: Property 'iconList' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 181               <ul className={styles.iconList}>
-@fluentui/public-docsite:                                         ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:189:41 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 189                       className={styles.icon}
-@fluentui/public-docsite:                                             ~~~~
-@fluentui/public-docsite: src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:191:45 - error TS2339: Property 'iconName' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 191                     <span className={styles.iconName}>{icon.name}</span>
-@fluentui/public-docsite:                                                 ~~~~~~~~
-@fluentui/public-docsite: src/pages/Styles/TypographyPage/TypographyPage.tsx:137:42 - error TS2339: Property 'example' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 137               <div className={css(styles.example, `ms-fontSize-${row.size}`)}>
-@fluentui/public-docsite:                                              ~~~~~~~
-@fluentui/public-docsite: src/root.tsx:19:39 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 19       className: platformPickerStyles.icon,
-@fluentui/public-docsite:                                          ~~~~
-@fluentui/public-docsite: src/root.tsx:22:39 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 22       className: platformPickerStyles.icon,
-@fluentui/public-docsite:                                          ~~~~
-@fluentui/public-docsite: src/root.tsx:25:39 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 25       className: platformPickerStyles.icon,
-@fluentui/public-docsite:                                          ~~~~
-@fluentui/public-docsite: src/root.tsx:28:39 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 28       className: platformPickerStyles.icon,
-@fluentui/public-docsite:                                          ~~~~
-@fluentui/public-docsite: src/root.tsx:31:39 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 31       className: platformPickerStyles.icon,
-@fluentui/public-docsite:                                          ~~~~
-@fluentui/public-docsite: src/root.tsx:34:39 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 34       className: platformPickerStyles.icon,
-@fluentui/public-docsite:                                          ~~~~
-@fluentui/public-docsite: src/utilities/svgIcons.tsx:16:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 16   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                 ~~~~
-@fluentui/public-docsite: src/utilities/svgIcons.tsx:49:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 49   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                 ~~~~
-@fluentui/public-docsite: src/utilities/svgIcons.tsx:67:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 67   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                 ~~~~
-@fluentui/public-docsite: src/utilities/svgIcons.tsx:91:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 91   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                 ~~~~
-@fluentui/public-docsite: src/utilities/svgIcons.tsx:126:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 126   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                  ~~~~
-@fluentui/public-docsite: src/utilities/svgIcons.tsx:158:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 158   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                  ~~~~
-@fluentui/public-docsite: src/utilities/svgIconsColor.tsx:9:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 9   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                ~~~~
-@fluentui/public-docsite: src/utilities/svgIconsColor.tsx:81:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 81   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                 ~~~~
-@fluentui/public-docsite: src/utilities/svgIconsColor.tsx:126:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 126   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                  ~~~~
-@fluentui/public-docsite: src/utilities/svgIconsColor.tsx:202:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 202   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                  ~~~~
-@fluentui/public-docsite: src/utilities/svgIconsColor.tsx:285:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 285   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                  ~~~~
-@fluentui/public-docsite: src/utilities/svgIconsColor.tsx:348:30 - error TS2339: Property 'icon' does not exist on type 'typeof import("*.scss")'.
-@fluentui/public-docsite: 348   const { className = styles.icon, iconColor, iconWidth, iconHeight, iconSize } = props;
-@fluentui/public-docsite:                                  ~~~~
-@fluentui/public-docsite: Found 167 errors in 15 files.
-@fluentui/public-docsite: Errors  Files
-@fluentui/public-docsite:     15  src/components/Nav/Nav.tsx:90
-@fluentui/public-docsite:      7  src/components/Site/Site.tsx:160
-@fluentui/public-docsite:      2  src/pages/Overviews/ControlsPage/ControlsPage.tsx:44
-@fluentui/public-docsite:     36  src/pages/Overviews/StylesPage/StylesPage.tsx:23
-@fluentui/public-docsite:      1  src/pages/PageTemplates/TemplatePage/TemplatePage.tsx:107
-@fluentui/public-docsite:      5  src/pages/Styles/ElevationPage/ElevationPage.tsx:112
-@fluentui/public-docsite:      4  src/pages/Styles/FabricIconsPage/FabricIconsPage.tsx:58
-@fluentui/public-docsite:      8  src/pages/Styles/FileTypeIconsPage/FileTypeIconsPage.tsx:67
-@fluentui/public-docsite:     58  src/pages/Styles/LayoutPage/LayoutPage.tsx:64
-@fluentui/public-docsite:      4  src/pages/Styles/LocalizationPage/LocalizationPage.tsx:48
-@fluentui/public-docsite:      8  src/pages/Styles/OfficeBrandIconsPage/OfficeBrandIconsPage.tsx:68
-@fluentui/public-docsite:      1  src/pages/Styles/TypographyPage/TypographyPage.tsx:137
-@fluentui/public-docsite:      6  src/root.tsx:19
-@fluentui/public-docsite:      6  src/utilities/svgIcons.tsx:16
-@fluentui/public-docsite:      6  src/utilities/svgIconsColor.tsx:9
-@fluentui/public-docsite: [XX:XX:XX XM] x ------------------------------------
-@fluentui/public-docsite: [XX:XX:XX XM] x Error previously detected. See above for error messages.
-@fluentui/public-docsite: [XX:XX:XX XM] x Other tasks that did not complete: [ts:commonjs]
-@fluentui/public-docsite: error Command failed with exit code 1.
-lerna ERR! Received non-zero exit code 1 during execution
