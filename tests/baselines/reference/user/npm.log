@@ -83,29 +83,26 @@ lib/commands/dist-tag.js(170,11): error TS2339: Property 'error' does not exist 
 lib/commands/dist-tag.js(178,24): error TS2532: Object is possibly 'undefined'.
 lib/commands/docs.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Docs'.
 lib/commands/docs.js(37,9): error TS2339: Property 'silly' does not exist on type '{}'.
-lib/commands/doctor.js(41,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Doctor'.
-lib/commands/doctor.js(46,9): error TS2339: Property 'info' does not exist on type '{}'.
-lib/commands/doctor.js(98,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
-lib/commands/doctor.js(98,36): error TS2538: Type 'any[]' cannot be used as an index type.
-lib/commands/doctor.js(100,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
-lib/commands/doctor.js(112,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
-  Type 'string' is not assignable to type 'boolean'.
-lib/commands/doctor.js(118,11): error TS2322: Type 'string | false | any[]' is not assignable to type 'boolean'.
-lib/commands/doctor.js(141,25): error TS2339: Property 'newItem' does not exist on type '{}'.
-lib/commands/doctor.js(147,27): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(148,15): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(148,40): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(150,15): error TS2571: Object is of type 'unknown'.
-lib/commands/doctor.js(158,25): error TS2339: Property 'newItem' does not exist on type '{}'.
-lib/commands/doctor.js(177,25): error TS2339: Property 'newItem' does not exist on type '{}'.
-lib/commands/doctor.js(207,25): error TS2339: Property 'newItem' does not exist on type '{}'.
-lib/commands/doctor.js(272,25): error TS2339: Property 'newItem' does not exist on type '{}'.
-lib/commands/doctor.js(285,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(40,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Doctor'.
+lib/commands/doctor.js(45,9): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/doctor.js(97,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
+lib/commands/doctor.js(97,36): error TS2538: Type 'any[]' cannot be used as an index type.
+lib/commands/doctor.js(99,19): error TS2345: Argument of type 'boolean' is not assignable to parameter of type 'string | any[]'.
+lib/commands/doctor.js(131,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(137,27): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(138,15): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(138,40): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(140,15): error TS2571: Object is of type 'unknown'.
+lib/commands/doctor.js(148,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(167,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(197,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(262,25): error TS2339: Property 'newItem' does not exist on type '{}'.
+lib/commands/doctor.js(275,25): error TS2339: Property 'newItem' does not exist on type '{}'.
 lib/commands/edit.js(34,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Edit'.
 lib/commands/exec.js(40,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Exec'.
 lib/commands/exec.js(51,24): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
 lib/commands/exec.js(51,37): error TS2525: Initializer provides no value for this binding element and the binding element has no default value.
-lib/commands/exec.js(94,24): error TS2532: Object is possibly 'undefined'.
+lib/commands/exec.js(97,24): error TS2532: Object is possibly 'undefined'.
 lib/commands/explain.js(12,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Explain'.
 lib/commands/explain.js(24,33): error TS2554: Expected 0-1 arguments, but got 2.
 lib/commands/explore.js(13,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Explore'.
@@ -163,12 +160,14 @@ lib/commands/outdated.js(261,9): error TS2571: Object is of type 'unknown'.
 lib/commands/outdated.js(262,9): error TS2571: Object is of type 'unknown'.
 lib/commands/outdated.js(263,9): error TS2571: Object is of type 'unknown'.
 lib/commands/owner.js(21,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Owner'.
-lib/commands/owner.js(99,11): error TS2339: Property 'error' does not exist on type '{}'.
-lib/commands/owner.js(125,9): error TS2339: Property 'verbose' does not exist on type '{}'.
-lib/commands/owner.js(134,11): error TS2339: Property 'error' does not exist on type '{}'.
-lib/commands/owner.js(152,13): error TS2339: Property 'info' does not exist on type '{}'.
-lib/commands/owner.js(166,13): error TS2339: Property 'info' does not exist on type '{}'.
-lib/commands/owner.js(202,65): error TS2571: Object is of type 'unknown'.
+lib/commands/owner.js(91,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/owner.js(96,26): error TS2532: Object is possibly 'undefined'.
+lib/commands/owner.js(122,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/owner.js(148,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/owner.js(157,11): error TS2339: Property 'error' does not exist on type '{}'.
+lib/commands/owner.js(175,13): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/owner.js(189,13): error TS2339: Property 'info' does not exist on type '{}'.
+lib/commands/owner.js(225,65): error TS2571: Object is of type 'unknown'.
 lib/commands/pack.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Pack'.
 lib/commands/pack.js(70,11): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/pack.js(75,26): error TS2488: Type 'any[] | undefined' must have a '[Symbol.iterator]()' method that returns an iterator.
@@ -191,13 +190,13 @@ lib/commands/profile.js(331,9): error TS2339: Property 'info' does not exist on 
 lib/commands/profile.js(361,9): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/profile.js(395,9): error TS2339: Property 'info' does not exist on type '{}'.
 lib/commands/prune.js(8,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Prune'.
-lib/commands/publish.js(30,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Publish'.
-lib/commands/publish.js(52,9): error TS2339: Property 'verbose' does not exist on type '{}'.
-lib/commands/publish.js(106,13): error TS2339: Property 'warn' does not exist on type '{}'.
-lib/commands/publish.js(112,9): error TS2339: Property 'notice' does not exist on type '{}'.
-lib/commands/publish.js(158,37): error TS2532: Object is possibly 'undefined'.
-lib/commands/publish.js(163,13): error TS2571: Object is of type 'unknown'.
-lib/commands/publish.js(164,15): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/publish.js(29,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Publish'.
+lib/commands/publish.js(51,9): error TS2339: Property 'verbose' does not exist on type '{}'.
+lib/commands/publish.js(105,13): error TS2339: Property 'warn' does not exist on type '{}'.
+lib/commands/publish.js(111,9): error TS2339: Property 'notice' does not exist on type '{}'.
+lib/commands/publish.js(155,37): error TS2532: Object is possibly 'undefined'.
+lib/commands/publish.js(160,13): error TS2571: Object is of type 'unknown'.
+lib/commands/publish.js(161,15): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/commands/rebuild.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Rebuild'.
 lib/commands/rebuild.js(24,33): error TS2554: Expected 0-1 arguments, but got 2.
 lib/commands/repo.js(10,10): error TS2699: Static property 'name' conflicts with built-in property 'Function.name' of constructor function 'Repo'.
@@ -300,12 +299,13 @@ lib/npm.js(271,47): error TS2345: Argument of type '{ (value: any, replacer?: ((
   Types of parameters 'replacer' and 'index' are incompatible.
     Type 'number' is not assignable to type '(this: any, key: string, value: any) => any'.
 lib/npm.js(293,11): error TS2339: Property 'verbose' does not exist on type '{}'.
-lib/npm.js(434,7): error TS2322: Type 'string' is not assignable to type 'null'.
-lib/npm.js(436,44): error TS2345: Argument of type 'null' is not assignable to parameter of type 'string'.
-lib/npm.js(441,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
-lib/npm.js(444,9): error TS2339: Property 'showProgress' does not exist on type '{}'.
-lib/npm.js(448,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
-lib/npm.js(451,9): error TS2339: Property 'showProgress' does not exist on type '{}'.
+lib/npm.js(331,7): error TS2322: Type 'Chalk' is not assignable to type 'null'.
+lib/npm.js(445,7): error TS2322: Type 'string' is not assignable to type 'null'.
+lib/npm.js(447,44): error TS2345: Argument of type 'null' is not assignable to parameter of type 'string'.
+lib/npm.js(452,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
+lib/npm.js(455,9): error TS2339: Property 'showProgress' does not exist on type '{}'.
+lib/npm.js(459,9): error TS2339: Property 'clearProgress' does not exist on type '{}'.
+lib/npm.js(462,9): error TS2339: Property 'showProgress' does not exist on type '{}'.
 lib/search/format-package-stream.js(41,19): error TS2339: Property 'emit' does not exist on type 'JSONOutputStream'.
 lib/utils/audit-error.js(20,7): error TS2339: Property 'warn' does not exist on type '{}'.
 lib/utils/config/definition.js(43,52): error TS2339: Property 'default' does not exist on type 'Definition'.
