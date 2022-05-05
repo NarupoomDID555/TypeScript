@@ -1,6 +1,6 @@
 Exit Code: null
 Standard output:
-../../../../built/local/lib.es5.d.ts(1529,11): error TS2300: Duplicate identifier 'ArrayLike'.
+../../../../built/local/lib.es5.d.ts(1523,11): error TS2300: Duplicate identifier 'ArrayLike'.
 ../../../../node_modules/@types/node/globals.d.ts(34,13): error TS2403: Subsequent variable declarations must have the same type.  Variable 'module' must be of type '{}', but here has type 'NodeModule'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(43,8): error TS2339: Property '_importScriptPathPrefix' does not exist on type 'Window & typeof globalThis'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(77,16): error TS7014: Function type, which lacks return-type annotation, implicitly has an 'any' return type.
@@ -11,7 +11,7 @@ node_modules/chrome-devtools-frontend/front_end/Runtime.js(270,9): error TS2322:
   Type 'void' is not assignable to type 'undefined'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(280,5): error TS2322: Type 'Promise<void>' is not assignable to type 'Promise<undefined>'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(525,9): error TS2322: Type 'Window' is not assignable to type 'Window & typeof globalThis'.
-  Type 'Window' is missing the following properties from type 'typeof globalThis': globalThis, eval, parseInt, parseFloat, and 889 more.
+  Type 'Window' is missing the following properties from type 'typeof globalThis': globalThis, eval, parseInt, parseFloat, and 873 more.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(527,55): error TS2352: Conversion of type 'Window & typeof globalThis' to type 'new () => any' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
   Type 'Window & typeof globalThis' provides no match for the signature 'new (): any'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(539,24): error TS2351: This expression is not constructable.
@@ -22,7 +22,7 @@ node_modules/chrome-devtools-frontend/front_end/Runtime.js(705,5): error TS2322:
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(715,7): error TS2322: Type 'Promise<void>' is not assignable to type 'Promise<undefined>'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(729,7): error TS2322: Type 'Promise<void>' is not assignable to type 'Promise<undefined>'.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(746,5): error TS2322: Type 'Window | {}' is not assignable to type 'Window'.
-  Type '{}' is missing the following properties from type 'Window': clientInformation, closed, customElements, devicePixelRatio, and 193 more.
+  Type '{}' is missing the following properties from type 'Window': clientInformation, closed, customElements, devicePixelRatio, and 192 more.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(1083,15): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
 node_modules/chrome-devtools-frontend/front_end/Runtime.js(1088,15): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
 node_modules/chrome-devtools-frontend/front_end/Tests.js(107,5): error TS2322: Type 'Timeout' is not assignable to type 'number'.
@@ -267,6 +267,7 @@ node_modules/chrome-devtools-frontend/front_end/animation/AnimationModel.js(778,
 node_modules/chrome-devtools-frontend/front_end/animation/AnimationModel.js(811,11): error TS2339: Property 'AnimationModel' does not exist on type '{ new (effect?: AnimationEffect, timeline?: AnimationTimeline): Animation; prototype: Animation; }'.
 node_modules/chrome-devtools-frontend/front_end/animation/AnimationScreenshotPopover.js(7,11): error TS2339: Property 'AnimationScreenshotPopover' does not exist on type '{ new (effect?: AnimationEffect, timeline?: AnimationTimeline): Animation; prototype: Animation; }'.
 node_modules/chrome-devtools-frontend/front_end/animation/AnimationScreenshotPopover.js(18,39): error TS2345: Argument of type 'new (width?: number, height?: number) => HTMLImageElement' is not assignable to parameter of type 'Node'.
+  Type 'new (width?: number, height?: number) => HTMLImageElement' is missing the following properties from type 'Node': baseURI, childNodes, firstChild, isConnected, and 46 more.
 node_modules/chrome-devtools-frontend/front_end/animation/AnimationScreenshotPopover.js(19,13): error TS2339: Property 'style' does not exist on type 'new (width?: number, height?: number) => HTMLImageElement'.
 node_modules/chrome-devtools-frontend/front_end/animation/AnimationScreenshotPopover.js(22,21): error TS2339: Property 'style' does not exist on type 'new (width?: number, height?: number) => HTMLImageElement'.
 node_modules/chrome-devtools-frontend/front_end/animation/AnimationScreenshotPopover.js(23,45): error TS2339: Property 'createChild' does not exist on type 'Element'.
@@ -3442,8 +3443,6 @@ node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighth
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(68410,39): error TS2339: Property 'height' does not exist on type 'constructor'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(69037,13): error TS2339: Property 'displayName' does not exist on type '(image: any, quality: any) => any'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(69550,21): error TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.
-node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(70231,38): error TS2339: Property 'version' does not exist on type 'SemVer | {}'.
-  Property 'version' does not exist on type '{}'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(70747,4): error TS2531: Object is possibly 'null'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(70747,26): error TS2531: Object is possibly 'null'.
 node_modules/chrome-devtools-frontend/front_end/audits2_worker/lighthouse/lighthouse-background.js(70753,6): error TS2531: Object is possibly 'null'.
@@ -6130,6 +6129,9 @@ node_modules/chrome-devtools-frontend/front_end/emulation/MediaQueryInspector.js
 node_modules/chrome-devtools-frontend/front_end/emulation/MediaQueryInspector.js(266,32): error TS2339: Property 'createChild' does not exist on type 'Element'.
 node_modules/chrome-devtools-frontend/front_end/emulation/MediaQueryInspector.js(271,14): error TS2339: Property 'createChild' does not exist on type 'Element'.
 node_modules/chrome-devtools-frontend/front_end/emulation/MediaQueryInspector.js(272,33): error TS2339: Property 'createChild' does not exist on type 'Element'.
+node_modules/chrome-devtools-frontend/front_end/emulation/MediaQueryInspector.js(277,14): error TS2339: Property 'createChild' does not exist on type 'Element'.
+node_modules/chrome-devtools-frontend/front_end/emulation/MediaQueryInspector.js(281,32): error TS2339: Property 'createChild' does not exist on type 'Element'.
+node_modules/chrome-devtools-frontend/front_end/emulation/MediaQueryInspector.js(285,14): error TS2339: Property 'createChild' does not exist on type 'Element'.
 
 
 

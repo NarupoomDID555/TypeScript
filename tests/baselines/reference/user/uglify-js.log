@@ -55,7 +55,7 @@ node_modules/uglify-js/lib/compress.js(2298,42): error TS2532: Object is possibl
 node_modules/uglify-js/lib/compress.js(2298,54): error TS2365: Operator '+' cannot be applied to types 'number' and 'boolean'.
 node_modules/uglify-js/lib/compress.js(2311,25): error TS2322: Type 'boolean' is not assignable to type 'number'.
 node_modules/uglify-js/lib/compress.js(2315,25): error TS2322: Type 'boolean' is not assignable to type 'never'.
-node_modules/uglify-js/lib/compress.js(2316,35): error TS2339: Property 'single_use' does not exist on type 'never'.
+node_modules/uglify-js/lib/compress.js(2316,25): error TS2322: Type 'boolean' is not assignable to type 'never'.
 node_modules/uglify-js/lib/compress.js(2560,65): error TS2339: Property 'find_parent' does not exist on type 'TreeWalker'.
 node_modules/uglify-js/lib/compress.js(2563,45): error TS2554: Expected 0 arguments, but got 1.
 node_modules/uglify-js/lib/compress.js(2742,38): error TS2339: Property 'parent' does not exist on type 'TreeTransformer'.
