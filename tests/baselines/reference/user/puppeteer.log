@@ -1,0 +1,14 @@
+Exit Code: 2
+Standard output:
+src/node/NodeWebSocketTransport.ts(18,30): error TS2307: Cannot find module '../generated/version.js' or its corresponding type declarations.
+src/types.ts(74,15): error TS2307: Cannot find module './generated/injected.js' or its corresponding type declarations.
+src/types.ts(75,15): error TS2307: Cannot find module './generated/version.js' or its corresponding type declarations.
+vendor/mitt/src/index.ts(57,21): error TS2532: Object is possibly 'undefined'.
+vendor/mitt/src/index.ts(60,5): error TS2532: Object is possibly 'undefined'.
+vendor/mitt/src/index.ts(71,21): error TS2532: Object is possibly 'undefined'.
+vendor/mitt/src/index.ts(88,6): error TS2532: Object is possibly 'undefined'.
+vendor/mitt/src/index.ts(89,6): error TS2532: Object is possibly 'undefined'.
+
+
+
+Standard error:

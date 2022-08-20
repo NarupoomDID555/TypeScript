@@ -25,24 +25,24 @@ lib/grunt/file.js(239,74): error TS2571: Object is of type 'unknown'.
 lib/grunt/file.js(263,74): error TS2571: Object is of type 'unknown'.
 lib/grunt/file.js(270,23): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/file.js(288,86): error TS2571: Object is of type 'unknown'.
-lib/grunt/file.js(341,7): error TS2367: This condition will always return 'false' since the types 'string | Buffer' and 'boolean' have no overlap.
-lib/grunt/file.js(352,23): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
-lib/grunt/file.js(354,29): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
-lib/grunt/file.js(369,13): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
-lib/grunt/file.js(373,13): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
-lib/grunt/file.js(387,75): error TS2571: Object is of type 'unknown'.
-lib/grunt/file.js(393,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
-lib/grunt/file.js(399,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
-lib/grunt/file.js(403,9): error TS2571: Object is of type 'unknown'.
-lib/grunt/file.js(407,85): error TS2571: Object is of type 'unknown'.
-lib/grunt/file.js(413,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
-lib/grunt/file.js(419,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
-lib/grunt/file.js(425,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
-lib/grunt/file.js(452,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
-lib/grunt/file.js(463,14): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
-lib/grunt/file.js(467,20): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
-lib/grunt/file.js(472,44): error TS2345: Argument of type 'string' is not assignable to parameter of type 'Type | null | undefined'.
-lib/grunt/file.js(477,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(336,7): error TS2367: This condition will always return 'false' since the types 'string | Buffer' and 'boolean' have no overlap.
+lib/grunt/file.js(347,23): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/file.js(349,29): error TS2339: Property 'option' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/file.js(364,13): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/file.js(368,13): error TS2339: Property 'fail' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/file.js(382,75): error TS2571: Object is of type 'unknown'.
+lib/grunt/file.js(388,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(394,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(398,9): error TS2571: Object is of type 'unknown'.
+lib/grunt/file.js(402,85): error TS2571: Object is of type 'unknown'.
+lib/grunt/file.js(408,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(414,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(420,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(447,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
+lib/grunt/file.js(458,14): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/file.js(462,20): error TS2339: Property 'file' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
+lib/grunt/file.js(467,44): error TS2345: Argument of type 'string' is not assignable to parameter of type 'Type | null | undefined'.
+lib/grunt/file.js(472,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type 'string[]'.
 lib/grunt/help.js(58,40): error TS2339: Property 'cli' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/help.js(59,19): error TS2339: Property 'cli' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'.
 lib/grunt/help.js(81,9): error TS2551: Property 'task' does not exist on type 'typeof import("/grunt/grunt/lib/grunt")'. Did you mean 'tasks'?

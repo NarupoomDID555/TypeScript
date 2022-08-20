@@ -58,7 +58,7 @@ node_modules/bluebird/js/release/promise.js(44,5): error TS2322: Type '() => { d
     Type '{ domain: any; async: AsyncResource; }' is not assignable to type 'null'.
 node_modules/bluebird/js/release/promise.js(86,15): error TS2350: Only a void function can be called with the 'new' keyword.
 node_modules/bluebird/js/release/promise.js(89,15): error TS2350: Only a void function can be called with the 'new' keyword.
-node_modules/bluebird/js/release/promise.js(104,10): error TS2339: Property '_promiseCreated' does not exist on type 'Promise'.
+node_modules/bluebird/js/release/promise.js(104,10): error TS2551: Property '_promiseCreated' does not exist on type 'Promise'. Did you mean '_promiseAt'?
 node_modules/bluebird/js/release/promise.js(105,10): error TS2339: Property '_fireEvent' does not exist on type 'Promise'.
 node_modules/bluebird/js/release/promise.js(130,19): error TS2350: Only a void function can be called with the 'new' keyword.
 node_modules/bluebird/js/release/promise.js(152,14): error TS2339: Property '_warn' does not exist on type 'Promise'.
@@ -128,7 +128,7 @@ node_modules/bluebird/js/release/reduce.js(29,10): error TS2551: Property '_init
 node_modules/bluebird/js/release/reduce.js(43,9): error TS2532: Object is possibly 'undefined'.
 node_modules/bluebird/js/release/reduce.js(60,10): error TS2339: Property '_promise' does not exist on type 'ReductionPromiseArray'.
 node_modules/bluebird/js/release/reduce.js(65,52): error TS2339: Property '_cancel' does not exist on type 'ReductionPromiseArray'.
-node_modules/bluebird/js/release/reduce.js(66,14): error TS2339: Property '_isResolved' does not exist on type 'ReductionPromiseArray'.
+node_modules/bluebird/js/release/reduce.js(66,14): error TS2551: Property '_isResolved' does not exist on type 'ReductionPromiseArray'. Did you mean '_resolve'?
 node_modules/bluebird/js/release/reduce.js(67,10): error TS2551: Property '_resultCancelled$' does not exist on type 'ReductionPromiseArray'. Did you mean '_resultCancelled'?
 node_modules/bluebird/js/release/reduce.js(144,18): error TS2339: Property 'promise' does not exist on type 'ReductionPromiseArray'.
 node_modules/bluebird/js/release/reduce.js(149,10): error TS2339: Property 'array' does not exist on type 'gotAccum'.

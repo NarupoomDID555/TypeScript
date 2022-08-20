@@ -1,0 +1,8 @@
+Exit Code: 2
+Standard output:
+node_modules/rc-tree/lib/NodeList.d.ts(15,23): error TS2344: Type 'TreeDataType' does not satisfy the constraint 'BasicDataNode'.
+node_modules/rc-tree/lib/NodeList.d.ts(18,29): error TS2344: Type 'TreeDataType' does not satisfy the constraint 'BasicDataNode'.
+
+
+
+Standard error:

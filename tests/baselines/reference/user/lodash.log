@@ -162,7 +162,7 @@ node_modules/lodash/_hasPath.js(35,50): error TS2454: Variable 'key' is used bef
 node_modules/lodash/_hashDelete.js(7,20): error TS8024: JSDoc '@param' tag has name 'hash', but there is no parameter with that name.
 node_modules/lodash/_initCloneArray.js(16,20): error TS2351: This expression is not constructable.
   Type 'Function' has no construct signatures.
-node_modules/lodash/_initCloneArray.js(20,26): error TS2339: Property 'index' does not exist on type 'any[]'.
+node_modules/lodash/_initCloneArray.js(20,26): error TS2551: Property 'index' does not exist on type 'any[]'. Did you mean 'indexOf'?
 node_modules/lodash/_initCloneArray.js(21,26): error TS2339: Property 'input' does not exist on type 'any[]'.
 node_modules/lodash/_insertWrapDetails.js(10,5): error TS1223: 'returns' tag already specified.
 node_modules/lodash/_insertWrapDetails.js(15,5): error TS2322: Type 'string' is not assignable to type 'any[]'.

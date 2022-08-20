@@ -421,7 +421,6 @@ node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1284,19): error TS2339: Prop
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1239,94): error TS1313: The body of an 'if' statement cannot be the empty statement.
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1150,7): error TS2322: Type 'false' is not assignable to type 'undefined'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1146,7): error TS2322: Type 'true' is not assignable to type 'undefined'.
-node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(1084,34): error TS2339: Property 'invalidTemplate' does not exist on type '{ num: TokenType; regexp: TokenType; string: TokenType; name: TokenType; eof: TokenType; bracketL: TokenType; bracketR: TokenType; ... 65 more ...; _delete: TokenType; }'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(635,15): error TS2339: Property 'finishNode' does not exist on type 'parseFunction'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(632,8): error TS2339: Property 'toks' does not exist on type 'parseFunction'.
 node_modules/acorn/acorn-loose/dist/acorn-loose.mjs(631,20): error TS2339: Property 'parseBlock' does not exist on type 'parseFunction'.
